@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="01Top_Up" time="173" tests="3" failures="0" errors="0">
+   <testsuite name="01Top_Up" tests="3" failures="0" errors="0" time="173" timestamp="2019-07-31 11:14:45" hostname="ustore - 192.168.0.120" id="Test Suites/result/Reksadana/Portolio/01Top_Up">
+      <properties>
+         <property name="deviceName" value="emulator-5554 (Android SDK built for x86 - Android 8.0.0)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/ustore/Katalon Studio/Android v1.2/Reports/result/Reksadana/Portolio/01Top_Up/20190731_111430"/>
+         <property name="logFiles" value="/Users/ustore/Katalon Studio/Android v1.2/Reports/result/Reksadana/Portolio/01Top_Up/20190731_111430/execution0.log, /Users/ustore/Katalon Studio/Android v1.2/Reports/result/Reksadana/Portolio/01Top_Up/20190731_111430/appium.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ustore - 192.168.0.120"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="4.1.0.2"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.8.1"/>
+         <property name="deviceModel" value="Android SDK built for x86"/>
+         <property name="hostAddress" value="192.168.0.120"/>
+         <property name="deviceManufacturer" value="Google"/>
+         <property name="deviceId" value="emulator-5554"/>
+         <property name="deviceName" value="emulator-5554 (Android SDK built for x86 - Android 8.0.0)"/>
+         <property name="deviceOSVersion" value="8.0.0"/>
+      </properties>
+      <testcase name="Test Cases/Login/LoginTrue" classname="Test Cases/Login/LoginTrue" status="PASSED">
+         <system-out><![CDATA[2019-07-31 11:14:46 - [TEST_CASE][PASSED] - Test Cases/Login/LoginTrue: Test Cases/Login/LoginTrue
+
+2019-07-31 11:14:47 - [TEST_STEP][PASSED] - startApplication: Started app at: '/Users/ustore/Downloads/mobile-debug (10).apk'
+
+2019-07-31 11:15:17 - [MESSAGE][PASSED] - Started app at: '/Users/ustore/Downloads/mobile-debug (10).apk'
+
+2019-07-31 11:15:17 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/LoginTrue/Mulailah berinvestasi untuk meraih mimpimu' are matched.
+
+2019-07-31 11:15:22 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/LoginTrue/Mulailah berinvestasi untuk meraih mimpimu' are matched.
+
+2019-07-31 11:15:22 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/LoginTrue/DP_Rumah'
+
+2019-07-31 11:15:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-07-31 11:15:23 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/LoginTrue/DP_Rumah'
+
+2019-07-31 11:15:23 - [TEST_STEP][PASSED] - Statement - For ([i = 0, i < 4, (i++)]): Swiped from 800,1,000 to 10,800
+
+2019-07-31 11:15:23 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/LoginTrue/screen_swipe'
+
+2019-07-31 11:15:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-07-31 11:15:24 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/LoginTrue/screen_swipe'
+
+2019-07-31 11:15:24 - [TEST_STEP][PASSED] - swipe: Swiped from 800,1,000 to 10,800
+
+2019-07-31 11:15:26 - [MESSAGE][PASSED] - Swiped from 800,1,000 to 10,800
+
+2019-07-31 11:15:26 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/LoginTrue/screen_swipe'
+
+2019-07-31 11:15:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-07-31 11:15:28 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/LoginTrue/screen_swipe'
+
+2019-07-31 11:15:28 - [TEST_STEP][PASSED] - swipe: Swiped from 800,1,000 to 10,800
+
+2019-07-31 11:15:30 - [MESSAGE][PASSED] - Swiped from 800,1,000 to 10,800
+
+2019-07-31 11:15:30 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/LoginTrue/screen_swipe'
+
+2019-07-31 11:15:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-07-31 11:15:31 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/LoginTrue/screen_swipe'
+
+2019-07-31 11:15:31 - [TEST_STEP][PASSED] - swipe: Swiped from 800,1,000 to 10,800
+
+2019-07-31 11:15:34 - [MESSAGE][PASSED] - Swiped from 800,1,000 to 10,800
+
+2019-07-31 11:15:34 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/LoginTrue/screen_swipe'
+
+2019-07-31 11:15:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-07-31 11:15:36 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/LoginTrue/screen_swipe'
+
+2019-07-31 11:15:36 - [TEST_STEP][PASSED] - swipe: Swiped from 800,1,000 to 10,800
+
+2019-07-31 11:15:38 - [MESSAGE][PASSED] - Swiped from 800,1,000 to 10,800
+
+2019-07-31 11:15:38 - [TEST_STEP][PASSED] - setText: Text '081265699666' has been set to element 'Object Repository/LoginTrue/field_no_phone'
+
+2019-07-31 11:15:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-07-31 11:15:40 - [MESSAGE][PASSED] - Text '081265699666' has been set to element 'Object Repository/LoginTrue/field_no_phone'
+
+2019-07-31 11:15:40 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/LoginTrue/button_masuk'
+
+2019-07-31 11:15:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-07-31 11:15:42 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/LoginTrue/button_masuk'
+
+2019-07-31 11:15:42 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2019-07-31 11:15:45 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-31 11:15:45 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/ObjectOTP/TextView - Verifikasi Nomor HP' are matched.
+
+2019-07-31 11:15:46 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/ObjectOTP/TextView - Verifikasi Nomor HP' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/OTP/LoginOTP" classname="Test Cases/OTP/LoginOTP" status="PASSED">
+         <system-out><![CDATA[2019-07-31 11:15:46 - [TEST_CASE][PASSED] - Test Cases/OTP/LoginOTP: Test Cases/OTP/LoginOTP
+
+2019-07-31 11:15:46 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2019-07-31 11:15:49 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-31 11:15:49 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/ObjectOTP/Field_OTP'
+
+2019-07-31 11:15:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-07-31 11:15:51 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/ObjectOTP/Field_OTP'
+
+2019-07-31 11:15:51 - [TEST_STEP][PASSED] - setText: Text '8888' has been set to element 'Object Repository/ObjectOTP/Field_OTP'
+
+2019-07-31 11:15:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-07-31 11:15:52 - [MESSAGE][PASSED] - Text '8888' has been set to element 'Object Repository/ObjectOTP/Field_OTP'
+
+2019-07-31 11:15:52 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/ObjectOTP/Button_Verifikasi_Sekarang'
+
+2019-07-31 11:15:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-07-31 11:15:54 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/ObjectOTP/Button_Verifikasi_Sekarang']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Home/Portfolio/TopUP" classname="Test Cases/Home/Portfolio/TopUP" status="PASSED">
+         <system-out><![CDATA[2019-07-31 11:15:54 - [TEST_CASE][PASSED] - Test Cases/Home/Portfolio/TopUP: Test Cases/Home/Portfolio/TopUP
+
+2019-07-31 11:15:55 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2019-07-31 11:16:00 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-07-31 11:16:00 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Home/Portfolio/TopUP/android.widget.TextView11 - Portofolio'
+
+2019-07-31 11:16:01 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Home/Portfolio/TopUP/android.widget.TextView11 - Portofolio'
+
+2019-07-31 11:16:01 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2019-07-31 11:16:11 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-07-31 11:16:11 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Home/Portfolio/TopUP/CardReksa2'
+
+2019-07-31 11:16:12 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Home/Portfolio/TopUP/CardReksa2'
+
+2019-07-31 11:16:12 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2019-07-31 11:16:17 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-07-31 11:16:17 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Home/Portfolio/TopUP/Button_TopUp'
+
+2019-07-31 11:16:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-07-31 11:16:19 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Home/Portfolio/TopUP/Button_TopUp'
+
+2019-07-31 11:16:19 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2019-07-31 11:16:22 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-31 11:16:22 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Home/Portfolio/TopUP/Btn_Lanjutkan1'
+
+2019-07-31 11:16:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-07-31 11:16:25 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Home/Portfolio/TopUP/Btn_Lanjutkan1'
+
+2019-07-31 11:16:25 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2019-07-31 11:16:30 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-07-31 11:16:30 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Home/Portfolio/TopUP/Field_Checkbox'
+
+2019-07-31 11:16:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-07-31 11:16:31 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Home/Portfolio/TopUP/Field_Checkbox'
+
+2019-07-31 11:16:31 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2019-07-31 11:16:34 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-31 11:16:34 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Home/Portfolio/TopUP/Btn_Lanjutkan1'
+
+2019-07-31 11:16:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-07-31 11:16:36 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Home/Portfolio/TopUP/Btn_Lanjutkan1'
+
+2019-07-31 11:16:36 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2019-07-31 11:16:41 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-07-31 11:16:41 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Home/Portfolio/TopUP/Btn_TopUp1'
+
+2019-07-31 11:16:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-07-31 11:16:42 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Home/Portfolio/TopUP/Btn_TopUp1'
+
+2019-07-31 11:16:42 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2019-07-31 11:16:45 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-31 11:16:45 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Home/Portfolio/TopUP/Rp200'
+
+2019-07-31 11:16:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-07-31 11:16:46 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Home/Portfolio/TopUP/Rp200'
+
+2019-07-31 11:16:46 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Home/Portfolio/TopUP/Btn_TopUp1'
+
+2019-07-31 11:16:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-07-31 11:16:48 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Home/Portfolio/TopUP/Btn_TopUp1'
+
+2019-07-31 11:16:48 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2019-07-31 11:16:54 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-07-31 11:16:54 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Home/Portfolio/TopUP/Button_SemuaPromo'
+
+2019-07-31 11:16:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-07-31 11:16:55 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Home/Portfolio/TopUP/Button_SemuaPromo'
+
+2019-07-31 11:16:55 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2019-07-31 11:17:00 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-07-31 11:17:00 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Home/Portfolio/TopUP/Button_Salin'
+
+2019-07-31 11:17:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-07-31 11:17:03 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Home/Portfolio/TopUP/Button_Salin'
+
+2019-07-31 11:17:03 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-07-31 11:17:05 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-31 11:17:05 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Home/Portfolio/TopUP/android.widget.ImageButton0'
+
+2019-07-31 11:17:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-07-31 11:17:09 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Home/Portfolio/TopUP/android.widget.ImageButton0'
+
+2019-07-31 11:17:09 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2019-07-31 11:17:12 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-31 11:17:12 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Home/Portfolio/TopUP/android.widget.Button0 - Gunakan'
+
+2019-07-31 11:17:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-07-31 11:17:13 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Home/Portfolio/TopUP/android.widget.Button0 - Gunakan'
+
+2019-07-31 11:17:13 - [TEST_STEP][PASSED] - setText: Text 'Invest100' has been set to element 'Object Repository/Home/Portfolio/TopUP/android.widget.EditText0 - Kode Promo'
+
+2019-07-31 11:17:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-07-31 11:17:15 - [MESSAGE][PASSED] - Text 'Invest100' has been set to element 'Object Repository/Home/Portfolio/TopUP/android.widget.EditText0 - Kode Promo'
+
+2019-07-31 11:17:15 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2019-07-31 11:17:18 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-31 11:17:18 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2019-07-31 11:17:21 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-31 11:17:21 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Home/Portfolio/TopUP/Linear'
+
+2019-07-31 11:17:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-07-31 11:17:24 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Home/Portfolio/TopUP/Linear'
+
+2019-07-31 11:17:24 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2019-07-31 11:17:27 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-31 11:17:27 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Home/Portfolio/TopUP/Dropdown_Detail2'
+
+2019-07-31 11:17:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-07-31 11:17:28 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Home/Portfolio/TopUP/Dropdown_Detail2'
+
+2019-07-31 11:17:28 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-07-31 11:17:30 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-31 11:17:30 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Home/Portfolio/TopUP/Button_VA2'
+
+2019-07-31 11:17:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-07-31 11:17:31 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Home/Portfolio/TopUP/Button_VA2'
+
+2019-07-31 11:17:31 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2019-07-31 11:17:36 - [MESSAGE][PASSED] - Delayed 5 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-07-31 11:14:45 - [TEST_SUITE][PASSED] - 01Top_Up: Test Cases/Home/Portfolio/TopUP]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

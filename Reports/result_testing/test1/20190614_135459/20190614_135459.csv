@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+test1,,,2019-06-14 13:55:03,2019-06-14 13:55:50,47.220s,FAILED
+,,,,,,
+Test Cases/Login/LoginTrue,,,2019-06-14 13:55:04,2019-06-14 13:55:49,45.668s,FAILED
+startApplication,,,2019-06-14 13:55:04,2019-06-14 13:55:26,21.558s,PASSED
+verifyElementText,,,2019-06-14 13:55:26,2019-06-14 13:55:30,4.423s,PASSED
+tap,,,2019-06-14 13:55:30,2019-06-14 13:55:33,2.779s,PASSED
+"Statement - For ([i = 0, i < 4, (i++)])",,,2019-06-14 13:55:33,2019-06-14 13:55:49,16.360s,FAILED
+,,,,,,
+Test Cases/OTP/Login/OtpLogin,,,2019-06-14 13:55:49,2019-06-14 13:55:50,0.504s,ERROR
+verifyElementText,,,2019-06-14 13:55:50,2019-06-14 13:55:50,0.007s,PASSED

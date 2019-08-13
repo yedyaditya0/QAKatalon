@@ -1,0 +1,25 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+01_Filter,,,2019-07-04 16:20:56,2019-07-04 16:22:19,1m - 23.423s,ERROR
+,,,,,,
+Test Cases/Login/LoginTrue,,,2019-07-04 16:20:56,2019-07-04 16:21:50,53.572s,PASSED
+startApplication,,,2019-07-04 16:20:57,2019-07-04 16:21:18,20.866s,PASSED
+verifyElementText,,,2019-07-04 16:21:18,2019-07-04 16:21:24,6.441s,PASSED
+tap,,,2019-07-04 16:21:24,2019-07-04 16:21:26,1.286s,PASSED
+"Statement - For ([i = 0, i < 4, (i++)])",,,2019-07-04 16:21:26,2019-07-04 16:21:43,17.374s,PASSED
+setText,,,2019-07-04 16:21:43,2019-07-04 16:21:45,2.182s,PASSED
+tap,,,2019-07-04 16:21:45,2019-07-04 16:21:47,1.521s,PASSED
+delay,,,2019-07-04 16:21:47,2019-07-04 16:21:50,3.040s,PASSED
+verifyElementText,,,2019-07-04 16:21:50,2019-07-04 16:21:50,0.275s,PASSED
+,,,,,,
+Test Cases/OTP/LoginOTP,,,2019-07-04 16:21:50,2019-07-04 16:21:58,7.905s,PASSED
+delay,,,2019-07-04 16:21:50,2019-07-04 16:21:53,3.008s,PASSED
+tap,,,2019-07-04 16:21:53,2019-07-04 16:21:55,1.581s,PASSED
+setText,,,2019-07-04 16:21:55,2019-07-04 16:21:56,1.121s,PASSED
+tap,,,2019-07-04 16:21:56,2019-07-04 16:21:58,2.020s,PASSED
+,,,,,,
+Test Cases/Home/Reksadana/Filter/Filter,,,2019-07-04 16:21:58,2019-07-04 16:22:17,19.538s,ERROR
+tap,,,2019-07-04 16:21:58,2019-07-04 16:22:04,5.312s,PASSED
+delay,,,2019-07-04 16:22:04,2019-07-04 16:22:07,3.005s,PASSED
+tap,,,2019-07-04 16:22:07,2019-07-04 16:22:14,7.770s,PASSED
+delay,,,2019-07-04 16:22:14,2019-07-04 16:22:17,3.003s,PASSED
+"Statement - If (com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Home/Reksadana/Filter/Text-Filter), ""Filter"", 0))",,,2019-07-04 16:22:17,2019-07-04 16:22:17,0.012s,PASSED

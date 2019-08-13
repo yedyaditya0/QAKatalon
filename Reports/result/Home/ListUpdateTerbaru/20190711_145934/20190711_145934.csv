@@ -1,0 +1,29 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+ListUpdateTerbaru,,,2019-07-11 14:59:47,2019-07-11 15:01:00,1m - 12.953s,PASSED
+,,,,,,
+Test Cases/Login/LoginTrue,,,2019-07-11 14:59:48,2019-07-11 15:00:38,50.132s,PASSED
+startApplication,,,2019-07-11 14:59:48,2019-07-11 15:00:07,18.363s,PASSED
+verifyElementText,,,2019-07-11 15:00:07,2019-07-11 15:00:11,4.176s,PASSED
+tap,,,2019-07-11 15:00:11,2019-07-11 15:00:13,1.692s,PASSED
+"Statement - For ([i = 0, i < 4, (i++)])",,,2019-07-11 15:00:13,2019-07-11 15:00:31,18.602s,PASSED
+setText,,,2019-07-11 15:00:31,2019-07-11 15:00:33,1.841s,PASSED
+tap,,,2019-07-11 15:00:33,2019-07-11 15:00:35,1.560s,PASSED
+delay,,,2019-07-11 15:00:35,2019-07-11 15:00:38,3.035s,PASSED
+verifyElementText,,,2019-07-11 15:00:38,2019-07-11 15:00:38,0.195s,PASSED
+,,,,,,
+Test Cases/OTP/LoginOTP,,,2019-07-11 15:00:38,2019-07-11 15:00:46,7.898s,PASSED
+delay,,,2019-07-11 15:00:38,2019-07-11 15:00:41,3.009s,PASSED
+tap,,,2019-07-11 15:00:41,2019-07-11 15:00:43,1.507s,PASSED
+setText,,,2019-07-11 15:00:43,2019-07-11 15:00:44,1.059s,PASSED
+tap,,,2019-07-11 15:00:44,2019-07-11 15:00:46,2.067s,PASSED
+,,,,,,
+Test Cases/Home/UpdateTerbaru,,,2019-07-11 15:00:46,2019-07-11 15:00:58,12.394s,PASSED
+delay,,,2019-07-11 15:00:46,2019-07-11 15:00:51,5.007s,PASSED
+tap,,'Tap on Views',2019-07-11 15:00:51,2019-07-11 15:00:54,3.517s,PASSED
+Statement - device_Height = com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.getDeviceHeight(),,Get Device Height and Store in device_height variable,2019-07-11 15:00:54,2019-07-11 15:00:55,0.691s,PASSED
+Statement - device_Width = com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.getDeviceWidth(),,Get Width Height and Store in device_Width variable,2019-07-11 15:00:55,2019-07-11 15:00:56,0.544s,PASSED
+Statement - startX = device_Width / 2,,Storing the startX value by dividing device width by 2. Because x coordinates are constant for Vertical Swiping,2019-07-11 15:00:56,2019-07-11 15:00:56,0.003s,PASSED
+Statement - endX = startX,,Here startX and endX values are equal for vertical Swiping for that assigning startX value to endX,2019-07-11 15:00:56,2019-07-11 15:00:56,0.000s,PASSED
+Statement - startY = device_Height * 0.30,,Storing the startY value,2019-07-11 15:00:56,2019-07-11 15:00:56,0.002s,PASSED
+Statement - endY = device_Height * 0.70,,Storing the endY value,2019-07-11 15:00:56,2019-07-11 15:00:56,0.001s,PASSED
+swipe,,Swipe Vertical from top to bottom,2019-07-11 15:00:56,2019-07-11 15:00:58,2.399s,PASSED

@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="02_DeleteCart" time="163" tests="4" failures="0" errors="0">
+   <testsuite name="02_DeleteCart" tests="4" failures="0" errors="0" time="163" timestamp="2019-07-05 15:47:13" hostname="ustore - 192.168.0.120" id="Test Suites/result/Reksadana/AddToCart/02_DeleteCart">
+      <properties>
+         <property name="deviceName" value="emulator-5554 (Android SDK built for x86 - Android 9)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/ustore/Katalon Studio/Android v1.2/Reports/result/Reksadana/AddToCart/02_DeleteCart/20190705_154700"/>
+         <property name="logFiles" value="/Users/ustore/Katalon Studio/Android v1.2/Reports/result/Reksadana/AddToCart/02_DeleteCart/20190705_154700/execution0.log, /Users/ustore/Katalon Studio/Android v1.2/Reports/result/Reksadana/AddToCart/02_DeleteCart/20190705_154700/appium.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ustore - 192.168.0.120"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="4.1.0.2"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.8.1"/>
+         <property name="deviceModel" value="Android SDK built for x86"/>
+         <property name="hostAddress" value="192.168.0.120"/>
+         <property name="deviceManufacturer" value="Google"/>
+         <property name="deviceId" value="emulator-5554"/>
+         <property name="deviceName" value="emulator-5554 (Android SDK built for x86 - Android 9)"/>
+         <property name="deviceOSVersion" value="9"/>
+      </properties>
+      <testcase name="Test Cases/Login/LoginTrue" classname="Test Cases/Login/LoginTrue" status="PASSED">
+         <system-out><![CDATA[2019-07-05 15:47:14 - [TEST_CASE][PASSED] - Test Cases/Login/LoginTrue: Test Cases/Login/LoginTrue
+
+2019-07-05 15:47:15 - [TEST_STEP][PASSED] - startApplication: Started app at: '/Users/ustore/Downloads/Development.apk'
+
+2019-07-05 15:47:37 - [MESSAGE][PASSED] - Started app at: '/Users/ustore/Downloads/Development.apk'
+
+2019-07-05 15:47:37 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/LoginTrue/Mulailah berinvestasi untuk meraih mimpimu' are matched.
+
+2019-07-05 15:47:44 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/LoginTrue/Mulailah berinvestasi untuk meraih mimpimu' are matched.
+
+2019-07-05 15:47:44 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/LoginTrue/DP_Rumah'
+
+2019-07-05 15:47:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-07-05 15:47:45 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/LoginTrue/DP_Rumah'
+
+2019-07-05 15:47:45 - [TEST_STEP][PASSED] - Statement - For ([i = 0, i < 4, (i++)]): Swiped from 800,1,000 to 10,800
+
+2019-07-05 15:47:45 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/LoginTrue/screen_swipe'
+
+2019-07-05 15:47:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-07-05 15:47:46 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/LoginTrue/screen_swipe'
+
+2019-07-05 15:47:46 - [TEST_STEP][PASSED] - swipe: Swiped from 800,1,000 to 10,800
+
+2019-07-05 15:47:48 - [MESSAGE][PASSED] - Swiped from 800,1,000 to 10,800
+
+2019-07-05 15:47:48 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/LoginTrue/screen_swipe'
+
+2019-07-05 15:47:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-07-05 15:47:50 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/LoginTrue/screen_swipe'
+
+2019-07-05 15:47:50 - [TEST_STEP][PASSED] - swipe: Swiped from 800,1,000 to 10,800
+
+2019-07-05 15:47:52 - [MESSAGE][PASSED] - Swiped from 800,1,000 to 10,800
+
+2019-07-05 15:47:52 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/LoginTrue/screen_swipe'
+
+2019-07-05 15:47:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-07-05 15:47:53 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/LoginTrue/screen_swipe'
+
+2019-07-05 15:47:53 - [TEST_STEP][PASSED] - swipe: Swiped from 800,1,000 to 10,800
+
+2019-07-05 15:47:55 - [MESSAGE][PASSED] - Swiped from 800,1,000 to 10,800
+
+2019-07-05 15:47:56 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/LoginTrue/screen_swipe'
+
+2019-07-05 15:47:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-07-05 15:48:00 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/LoginTrue/screen_swipe'
+
+2019-07-05 15:48:00 - [TEST_STEP][PASSED] - swipe: Swiped from 800,1,000 to 10,800
+
+2019-07-05 15:48:02 - [MESSAGE][PASSED] - Swiped from 800,1,000 to 10,800
+
+2019-07-05 15:48:02 - [TEST_STEP][PASSED] - setText: Text '081215161452' has been set to element 'Object Repository/LoginTrue/field_no_phone'
+
+2019-07-05 15:48:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-07-05 15:48:04 - [MESSAGE][PASSED] - Text '081215161452' has been set to element 'Object Repository/LoginTrue/field_no_phone'
+
+2019-07-05 15:48:04 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/LoginTrue/button_masuk'
+
+2019-07-05 15:48:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-07-05 15:48:05 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/LoginTrue/button_masuk'
+
+2019-07-05 15:48:05 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2019-07-05 15:48:08 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-05 15:48:08 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/ObjectOTP/TextView - Verifikasi Nomor HP' are matched.
+
+2019-07-05 15:48:09 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/ObjectOTP/TextView - Verifikasi Nomor HP' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/OTP/LoginOTP" classname="Test Cases/OTP/LoginOTP" status="PASSED">
+         <system-out><![CDATA[2019-07-05 15:48:09 - [TEST_CASE][PASSED] - Test Cases/OTP/LoginOTP: Test Cases/OTP/LoginOTP
+
+2019-07-05 15:48:09 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2019-07-05 15:48:12 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-05 15:48:12 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/ObjectOTP/Field_OTP'
+
+2019-07-05 15:48:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-07-05 15:48:13 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/ObjectOTP/Field_OTP'
+
+2019-07-05 15:48:13 - [TEST_STEP][PASSED] - setText: Text '8888' has been set to element 'Object Repository/ObjectOTP/Field_OTP'
+
+2019-07-05 15:48:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-07-05 15:48:14 - [MESSAGE][PASSED] - Text '8888' has been set to element 'Object Repository/ObjectOTP/Field_OTP'
+
+2019-07-05 15:48:14 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/ObjectOTP/Button_Verifikasi_Sekarang'
+
+2019-07-05 15:48:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-07-05 15:48:16 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/ObjectOTP/Button_Verifikasi_Sekarang']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Home/Reksadana/AddToCart/AddToCart" classname="Test Cases/Home/Reksadana/AddToCart/AddToCart" status="PASSED">
+         <system-out><![CDATA[2019-07-05 15:48:16 - [TEST_CASE][PASSED] - Test Cases/Home/Reksadana/AddToCart/AddToCart: Test Cases/Home/Reksadana/AddToCart/AddToCart
+
+2019-07-05 15:48:17 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2019-07-05 15:48:20 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-05 15:48:20 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Home/Reksadana/Subscribe/MenuReksadana'
+
+2019-07-05 15:48:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-07-05 15:48:24 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Home/Reksadana/Subscribe/MenuReksadana'
+
+2019-07-05 15:48:24 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2019-07-05 15:48:27 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-05 15:48:27 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Home/Reksadana/Subscribe/CardReksadana'
+
+2019-07-05 15:48:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-07-05 15:48:30 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Home/Reksadana/Subscribe/CardReksadana'
+
+2019-07-05 15:48:30 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2019-07-05 15:48:33 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-05 15:48:33 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Home/Reksadana/Button_Cart'
+
+2019-07-05 15:48:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-07-05 15:48:37 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Home/Reksadana/Button_Cart'
+
+2019-07-05 15:48:37 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Home/Reksadana/Button_Lanjutkan'
+
+2019-07-05 15:48:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-07-05 15:48:40 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Home/Reksadana/Button_Lanjutkan'
+
+2019-07-05 15:48:40 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2019-07-05 15:48:43 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-05 15:48:43 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Home/Reksadana/Checkbox_Cart'
+
+2019-07-05 15:48:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-07-05 15:48:45 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Home/Reksadana/Checkbox_Cart'
+
+2019-07-05 15:48:45 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Home/Reksadana/Button_Lanjutkan'
+
+2019-07-05 15:48:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-07-05 15:48:48 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Home/Reksadana/Button_Lanjutkan'
+
+2019-07-05 15:48:48 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2019-07-05 15:48:51 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-05 15:48:51 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Home/Reksadana/Rp100'
+
+2019-07-05 15:48:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-07-05 15:48:53 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Home/Reksadana/Rp100'
+
+2019-07-05 15:48:53 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2019-07-05 15:48:56 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-05 15:48:56 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Home/Reksadana/Button_Tambah_Keranjang'
+
+2019-07-05 15:48:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-07-05 15:49:01 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Home/Reksadana/Button_Tambah_Keranjang'
+
+2019-07-05 15:49:01 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2019-07-05 15:49:06 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-07-05 15:49:06 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Home/Reksadana/Cart/Button_Cart_Top'
+
+2019-07-05 15:49:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-07-05 15:49:10 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Home/Reksadana/Cart/Button_Cart_Top'
+
+2019-07-05 15:49:10 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-07-05 15:49:12 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-05 15:49:12 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Home/Reksadana/Cart/Text-Keranjang' are matched.
+
+2019-07-05 15:49:13 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Home/Reksadana/Cart/Text-Keranjang' are matched.
+
+2019-07-05 15:49:13 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2019-07-05 15:49:18 - [MESSAGE][PASSED] - Delayed 5 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Home/Reksadana/AddToCart/DeleteCart" classname="Test Cases/Home/Reksadana/AddToCart/DeleteCart" status="PASSED">
+         <system-out><![CDATA[2019-07-05 15:49:18 - [TEST_CASE][PASSED] - Test Cases/Home/Reksadana/AddToCart/DeleteCart: Test Cases/Home/Reksadana/AddToCart/DeleteCart
+
+2019-07-05 15:49:19 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2019-07-05 15:49:24 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-07-05 15:49:24 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Home/Reksadana/Cart/Button_Delete'
+
+2019-07-05 15:49:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-07-05 15:49:28 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Home/Reksadana/Cart/Button_Delete'
+
+2019-07-05 15:49:28 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-07-05 15:49:30 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-05 15:49:30 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Home/Reksadana/Cart/Button_Batal'
+
+2019-07-05 15:49:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-07-05 15:49:34 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Home/Reksadana/Cart/Button_Batal'
+
+2019-07-05 15:49:34 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-07-05 15:49:36 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-05 15:49:36 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Home/Reksadana/Cart/Button_Delete'
+
+2019-07-05 15:49:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-07-05 15:49:40 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Home/Reksadana/Cart/Button_Delete'
+
+2019-07-05 15:49:40 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Home/Reksadana/Cart/Button_Hapus'
+
+2019-07-05 15:49:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-07-05 15:49:43 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Home/Reksadana/Cart/Button_Hapus'
+
+2019-07-05 15:49:43 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2019-07-05 15:49:46 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-05 15:49:46 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Home/Reksadana/Cart/Text-Keranjang' are matched.
+
+2019-07-05 15:49:47 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Home/Reksadana/Cart/Text-Keranjang' are matched.
+
+2019-07-05 15:49:47 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2019-07-05 15:49:52 - [MESSAGE][PASSED] - Delayed 5 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-07-05 15:47:13 - [TEST_SUITE][PASSED] - 02_DeleteCart: Test Cases/Home/Reksadana/AddToCart/DeleteCart]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

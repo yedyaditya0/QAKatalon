@@ -1,0 +1,16 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+01_SubscribeTrue,,,2019-07-22 18:03:44,2019-07-22 18:04:29,44.562s,FAILED
+,,,,,,
+Test Cases/Login/LoginTrue,,,2019-07-22 18:03:45,2019-07-22 18:04:15,29.893s,FAILED
+startApplication,,,2019-07-22 18:03:45,2019-07-22 18:04:03,17.899s,PASSED
+verifyElementText,,,2019-07-22 18:04:03,2019-07-22 18:04:09,5.502s,PASSED
+tap,,,2019-07-22 18:04:09,2019-07-22 18:04:10,1.184s,PASSED
+"Statement - For ([i = 0, i < 4, (i++)])",,,2019-07-22 18:04:10,2019-07-22 18:04:15,4.796s,FAILED
+,,,,,,
+Test Cases/OTP/LoginOTP,,,2019-07-22 18:04:15,2019-07-22 18:04:18,3.434s,FAILED
+delay,,,2019-07-22 18:04:15,2019-07-22 18:04:18,3.027s,PASSED
+tap,,,2019-07-22 18:04:18,2019-07-22 18:04:18,0.182s,FAILED
+,,,,,,
+Test Cases/Home/Reksadana/Subscribe/Subscribe,,,2019-07-22 18:04:18,2019-07-22 18:04:28,10.442s,FAILED
+delay,,,2019-07-22 18:04:18,2019-07-22 18:04:28,10.008s,PASSED
+tap,,,2019-07-22 18:04:28,2019-07-22 18:04:28,0.165s,FAILED

@@ -1,0 +1,26 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+test1,,,2019-06-19 15:30:52,2019-06-19 15:32:36,1m - 43.820s,FAILED
+,,,,,,
+Test Cases/Login/LoginTrue,,,2019-06-19 15:30:53,2019-06-19 15:31:53,59.317s,PASSED
+startApplication,,,2019-06-19 15:30:54,2019-06-19 15:31:23,28.670s,PASSED
+verifyElementText,,,2019-06-19 15:31:23,2019-06-19 15:31:30,7.503s,PASSED
+tap,,,2019-06-19 15:31:30,2019-06-19 15:31:32,1.498s,PASSED
+"Statement - For ([i = 0, i < 4, (i++)])",,,2019-06-19 15:31:32,2019-06-19 15:31:46,14.248s,PASSED
+setText,,,2019-06-19 15:31:46,2019-06-19 15:31:48,2.007s,PASSED
+tap,,,2019-06-19 15:31:48,2019-06-19 15:31:49,1.440s,PASSED
+delay,,,2019-06-19 15:31:49,2019-06-19 15:31:52,3.040s,PASSED
+verifyElementText,,,2019-06-19 15:31:52,2019-06-19 15:31:53,0.213s,PASSED
+,,,,,,
+Test Cases/OTP/Login/OtpLogin,,,2019-06-19 15:31:53,2019-06-19 15:32:02,8.986s,PASSED
+delay,,"Wait for 3 seconds
+",2019-06-19 15:31:53,2019-06-19 15:31:56,3.041s,PASSED
+setText,,,2019-06-19 15:31:56,2019-06-19 15:31:57,0.840s,PASSED
+tap,,,2019-06-19 15:31:57,2019-06-19 15:31:59,1.777s,PASSED
+delay,,"Wait for 3 seconds
+",2019-06-19 15:31:59,2019-06-19 15:32:02,3.010s,PASSED
+,,,,,,
+Test Cases/Home/Home,,,2019-06-19 15:32:02,2019-06-19 15:32:03,1.535s,FAILED
+verifyElementExist,,,2019-06-19 15:32:02,2019-06-19 15:32:03,1.339s,FAILED
+,,,,,,
+Test Cases/Home/TujuanFinansialUtamaKu/DapatkanRekomendasi,,,2019-06-19 15:32:03,2019-06-19 15:32:34,31.360s,FAILED
+verifyElementText,,,2019-06-19 15:32:03,2019-06-19 15:32:34,31.239s,FAILED

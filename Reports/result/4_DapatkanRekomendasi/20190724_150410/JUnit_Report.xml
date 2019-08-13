@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="4_DapatkanRekomendasi" time="87" tests="3" failures="0" errors="0">
+   <testsuite name="4_DapatkanRekomendasi" tests="3" failures="0" errors="0" time="87" timestamp="2019-07-24 15:04:23" hostname="ustore - 192.168.0.120" id="Test Suites/result/4_DapatkanRekomendasi">
+      <properties>
+         <property name="deviceName" value="emulator-5554 (Android SDK built for x86 - Android 8.1.0)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/ustore/Katalon Studio/Android v1.2/Reports/result/4_DapatkanRekomendasi/20190724_150410"/>
+         <property name="logFiles" value="/Users/ustore/Katalon Studio/Android v1.2/Reports/result/4_DapatkanRekomendasi/20190724_150410/execution0.log, /Users/ustore/Katalon Studio/Android v1.2/Reports/result/4_DapatkanRekomendasi/20190724_150410/appium.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ustore - 192.168.0.120"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="4.1.0.2"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.8.1"/>
+         <property name="deviceModel" value="Android SDK built for x86"/>
+         <property name="hostAddress" value="192.168.0.120"/>
+         <property name="deviceManufacturer" value="Google"/>
+         <property name="deviceId" value="emulator-5554"/>
+         <property name="deviceName" value="emulator-5554 (Android SDK built for x86 - Android 8.1.0)"/>
+         <property name="deviceOSVersion" value="8.1.0"/>
+      </properties>
+      <testcase name="Test Cases/Login/LoginTrue" classname="Test Cases/Login/LoginTrue" status="PASSED">
+         <system-out><![CDATA[2019-07-24 15:04:23 - [TEST_CASE][PASSED] - Test Cases/Login/LoginTrue: Test Cases/Login/LoginTrue
+
+2019-07-24 15:04:24 - [TEST_STEP][PASSED] - startApplication: Started app at: '/Users/ustore/Downloads/mobile-debug.apk'
+
+2019-07-24 15:04:47 - [MESSAGE][PASSED] - Started app at: '/Users/ustore/Downloads/mobile-debug.apk'
+
+2019-07-24 15:04:47 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/LoginTrue/Mulailah berinvestasi untuk meraih mimpimu' are matched.
+
+2019-07-24 15:04:52 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/LoginTrue/Mulailah berinvestasi untuk meraih mimpimu' are matched.
+
+2019-07-24 15:04:52 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/LoginTrue/DP_Rumah'
+
+2019-07-24 15:04:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-07-24 15:04:55 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/LoginTrue/DP_Rumah'
+
+2019-07-24 15:04:55 - [TEST_STEP][PASSED] - Statement - For ([i = 0, i < 4, (i++)]): Swiped from 800,1,000 to 10,800
+
+2019-07-24 15:04:55 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/LoginTrue/screen_swipe'
+
+2019-07-24 15:04:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-07-24 15:04:56 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/LoginTrue/screen_swipe'
+
+2019-07-24 15:04:56 - [TEST_STEP][PASSED] - swipe: Swiped from 800,1,000 to 10,800
+
+2019-07-24 15:04:58 - [MESSAGE][PASSED] - Swiped from 800,1,000 to 10,800
+
+2019-07-24 15:04:58 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/LoginTrue/screen_swipe'
+
+2019-07-24 15:04:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-07-24 15:05:00 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/LoginTrue/screen_swipe'
+
+2019-07-24 15:05:00 - [TEST_STEP][PASSED] - swipe: Swiped from 800,1,000 to 10,800
+
+2019-07-24 15:05:03 - [MESSAGE][PASSED] - Swiped from 800,1,000 to 10,800
+
+2019-07-24 15:05:03 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/LoginTrue/screen_swipe'
+
+2019-07-24 15:05:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-07-24 15:05:07 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/LoginTrue/screen_swipe'
+
+2019-07-24 15:05:07 - [TEST_STEP][PASSED] - swipe: Swiped from 800,1,000 to 10,800
+
+2019-07-24 15:05:11 - [MESSAGE][PASSED] - Swiped from 800,1,000 to 10,800
+
+2019-07-24 15:05:11 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/LoginTrue/screen_swipe'
+
+2019-07-24 15:05:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-07-24 15:05:13 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/LoginTrue/screen_swipe'
+
+2019-07-24 15:05:13 - [TEST_STEP][PASSED] - swipe: Swiped from 800,1,000 to 10,800
+
+2019-07-24 15:05:15 - [MESSAGE][PASSED] - Swiped from 800,1,000 to 10,800
+
+2019-07-24 15:05:15 - [TEST_STEP][PASSED] - setText: Text '081265699666' has been set to element 'Object Repository/LoginTrue/field_no_phone'
+
+2019-07-24 15:05:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-07-24 15:05:17 - [MESSAGE][PASSED] - Text '081265699666' has been set to element 'Object Repository/LoginTrue/field_no_phone'
+
+2019-07-24 15:05:17 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/LoginTrue/button_masuk'
+
+2019-07-24 15:05:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-07-24 15:05:19 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/LoginTrue/button_masuk'
+
+2019-07-24 15:05:19 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2019-07-24 15:05:22 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-24 15:05:22 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/ObjectOTP/TextView - Verifikasi Nomor HP' are matched.
+
+2019-07-24 15:05:22 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/ObjectOTP/TextView - Verifikasi Nomor HP' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/OTP/LoginOTP" classname="Test Cases/OTP/LoginOTP" status="PASSED">
+         <system-out><![CDATA[2019-07-24 15:05:22 - [TEST_CASE][PASSED] - Test Cases/OTP/LoginOTP: Test Cases/OTP/LoginOTP
+
+2019-07-24 15:05:22 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2019-07-24 15:05:25 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-24 15:05:25 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/ObjectOTP/Field_OTP'
+
+2019-07-24 15:05:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-07-24 15:05:27 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/ObjectOTP/Field_OTP'
+
+2019-07-24 15:05:27 - [TEST_STEP][PASSED] - setText: Text '8888' has been set to element 'Object Repository/ObjectOTP/Field_OTP'
+
+2019-07-24 15:05:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-07-24 15:05:28 - [MESSAGE][PASSED] - Text '8888' has been set to element 'Object Repository/ObjectOTP/Field_OTP'
+
+2019-07-24 15:05:28 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/ObjectOTP/Button_Verifikasi_Sekarang'
+
+2019-07-24 15:05:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-07-24 15:05:30 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/ObjectOTP/Button_Verifikasi_Sekarang']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Home/TujuanFinansialUtamaKu/DapatkanRekomendasi" classname="Test Cases/Home/TujuanFinansialUtamaKu/DapatkanRekomendasi" status="PASSED">
+         <system-out><![CDATA[2019-07-24 15:05:31 - [TEST_CASE][PASSED] - Test Cases/Home/TujuanFinansialUtamaKu/DapatkanRekomendasi: Test Cases/Home/TujuanFinansialUtamaKu/DapatkanRekomendasi
+
+2019-07-24 15:05:31 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2019-07-24 15:05:34 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-24 15:05:34 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Home/DapatkanRekomendasi/android.widget.LinearLayout12'
+
+2019-07-24 15:05:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-07-24 15:05:35 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Home/DapatkanRekomendasi/android.widget.LinearLayout12'
+
+2019-07-24 15:05:35 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2019-07-24 15:05:38 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-24 15:05:38 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Home/DapatkanRekomendasi/android.widget.TextView8 - Dapatkan Rekomendasi'
+
+2019-07-24 15:05:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-07-24 15:05:39 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Home/DapatkanRekomendasi/android.widget.TextView8 - Dapatkan Rekomendasi'
+
+2019-07-24 15:05:39 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2019-07-24 15:05:42 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-24 15:05:42 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Home/DapatkanRekomendasi/android.widget.Button0 - UPDATE (1)'
+
+2019-07-24 15:05:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-07-24 15:05:43 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Home/DapatkanRekomendasi/android.widget.Button0 - UPDATE (1)'
+
+2019-07-24 15:05:43 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2019-07-24 15:05:48 - [MESSAGE][PASSED] - Delayed 5 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-07-24 15:04:23 - [TEST_SUITE][PASSED] - 4_DapatkanRekomendasi: Test Cases/Home/TujuanFinansialUtamaKu/DapatkanRekomendasi]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

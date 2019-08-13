@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="01_AddToCart" time="148" tests="3" failures="0" errors="0">
+   <testsuite name="01_AddToCart" tests="3" failures="0" errors="0" time="148" timestamp="2019-07-24 15:37:45" hostname="ustore - 192.168.0.120" id="Test Suites/result/Reksadana/AddToCart/01_AddToCart">
+      <properties>
+         <property name="deviceName" value="emulator-5554 (Android SDK built for x86 - Android 8.1.0)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/ustore/Katalon Studio/Android v1.2/Reports/result/Reksadana/AddToCart/01_AddToCart/20190724_153730"/>
+         <property name="logFiles" value="/Users/ustore/Katalon Studio/Android v1.2/Reports/result/Reksadana/AddToCart/01_AddToCart/20190724_153730/execution0.log, /Users/ustore/Katalon Studio/Android v1.2/Reports/result/Reksadana/AddToCart/01_AddToCart/20190724_153730/appium.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ustore - 192.168.0.120"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="4.1.0.2"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.8.1"/>
+         <property name="deviceModel" value="Android SDK built for x86"/>
+         <property name="hostAddress" value="192.168.0.120"/>
+         <property name="deviceManufacturer" value="Google"/>
+         <property name="deviceId" value="emulator-5554"/>
+         <property name="deviceName" value="emulator-5554 (Android SDK built for x86 - Android 8.1.0)"/>
+         <property name="deviceOSVersion" value="8.1.0"/>
+      </properties>
+      <testcase name="Test Cases/Login/LoginTrue" classname="Test Cases/Login/LoginTrue" status="PASSED">
+         <system-out><![CDATA[2019-07-24 15:37:46 - [TEST_CASE][PASSED] - Test Cases/Login/LoginTrue: Test Cases/Login/LoginTrue
+
+2019-07-24 15:37:46 - [TEST_STEP][PASSED] - startApplication: Started app at: '/Users/ustore/Downloads/mobile-debug.apk'
+
+2019-07-24 15:38:11 - [MESSAGE][PASSED] - Started app at: '/Users/ustore/Downloads/mobile-debug.apk'
+
+2019-07-24 15:38:11 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/LoginTrue/Mulailah berinvestasi untuk meraih mimpimu' are matched.
+
+2019-07-24 15:38:18 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/LoginTrue/Mulailah berinvestasi untuk meraih mimpimu' are matched.
+
+2019-07-24 15:38:18 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/LoginTrue/DP_Rumah'
+
+2019-07-24 15:38:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-07-24 15:38:19 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/LoginTrue/DP_Rumah'
+
+2019-07-24 15:38:19 - [TEST_STEP][PASSED] - Statement - For ([i = 0, i < 4, (i++)]): Swiped from 800,1,000 to 10,800
+
+2019-07-24 15:38:19 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/LoginTrue/screen_swipe'
+
+2019-07-24 15:38:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-07-24 15:38:20 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/LoginTrue/screen_swipe'
+
+2019-07-24 15:38:20 - [TEST_STEP][PASSED] - swipe: Swiped from 800,1,000 to 10,800
+
+2019-07-24 15:38:23 - [MESSAGE][PASSED] - Swiped from 800,1,000 to 10,800
+
+2019-07-24 15:38:23 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/LoginTrue/screen_swipe'
+
+2019-07-24 15:38:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-07-24 15:38:24 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/LoginTrue/screen_swipe'
+
+2019-07-24 15:38:24 - [TEST_STEP][PASSED] - swipe: Swiped from 800,1,000 to 10,800
+
+2019-07-24 15:38:26 - [MESSAGE][PASSED] - Swiped from 800,1,000 to 10,800
+
+2019-07-24 15:38:26 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/LoginTrue/screen_swipe'
+
+2019-07-24 15:38:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-07-24 15:38:28 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/LoginTrue/screen_swipe'
+
+2019-07-24 15:38:28 - [TEST_STEP][PASSED] - swipe: Swiped from 800,1,000 to 10,800
+
+2019-07-24 15:38:30 - [MESSAGE][PASSED] - Swiped from 800,1,000 to 10,800
+
+2019-07-24 15:38:30 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/LoginTrue/screen_swipe'
+
+2019-07-24 15:38:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-07-24 15:38:35 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/LoginTrue/screen_swipe'
+
+2019-07-24 15:38:35 - [TEST_STEP][PASSED] - swipe: Swiped from 800,1,000 to 10,800
+
+2019-07-24 15:38:38 - [MESSAGE][PASSED] - Swiped from 800,1,000 to 10,800
+
+2019-07-24 15:38:38 - [TEST_STEP][PASSED] - setText: Text '081265699666' has been set to element 'Object Repository/LoginTrue/field_no_phone'
+
+2019-07-24 15:38:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-07-24 15:38:39 - [MESSAGE][PASSED] - Text '081265699666' has been set to element 'Object Repository/LoginTrue/field_no_phone'
+
+2019-07-24 15:38:39 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/LoginTrue/button_masuk'
+
+2019-07-24 15:38:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-07-24 15:38:41 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/LoginTrue/button_masuk'
+
+2019-07-24 15:38:41 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2019-07-24 15:38:44 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-24 15:38:44 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/ObjectOTP/TextView - Verifikasi Nomor HP' are matched.
+
+2019-07-24 15:38:44 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/ObjectOTP/TextView - Verifikasi Nomor HP' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/OTP/LoginOTP" classname="Test Cases/OTP/LoginOTP" status="PASSED">
+         <system-out><![CDATA[2019-07-24 15:38:44 - [TEST_CASE][PASSED] - Test Cases/OTP/LoginOTP: Test Cases/OTP/LoginOTP
+
+2019-07-24 15:38:45 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2019-07-24 15:38:48 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-24 15:38:48 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/ObjectOTP/Field_OTP'
+
+2019-07-24 15:38:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-07-24 15:38:49 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/ObjectOTP/Field_OTP'
+
+2019-07-24 15:38:49 - [TEST_STEP][PASSED] - setText: Text '8888' has been set to element 'Object Repository/ObjectOTP/Field_OTP'
+
+2019-07-24 15:38:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-07-24 15:38:50 - [MESSAGE][PASSED] - Text '8888' has been set to element 'Object Repository/ObjectOTP/Field_OTP'
+
+2019-07-24 15:38:50 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/ObjectOTP/Button_Verifikasi_Sekarang'
+
+2019-07-24 15:38:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-07-24 15:38:53 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/ObjectOTP/Button_Verifikasi_Sekarang']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Home/Reksadana/AddToCart/AddToCart" classname="Test Cases/Home/Reksadana/AddToCart/AddToCart" status="PASSED">
+         <system-out><![CDATA[2019-07-24 15:38:53 - [TEST_CASE][PASSED] - Test Cases/Home/Reksadana/AddToCart/AddToCart: Test Cases/Home/Reksadana/AddToCart/AddToCart
+
+2019-07-24 15:38:53 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2019-07-24 15:38:58 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-07-24 15:38:58 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Home/Reksadana/Cart/android.widget.ImageView5'
+
+2019-07-24 15:38:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-07-24 15:39:01 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Home/Reksadana/Cart/android.widget.ImageView5'
+
+2019-07-24 15:39:01 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2019-07-24 15:39:06 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-07-24 15:39:06 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Home/Reksadana/Cart/android.widget.TextView4 - Update'
+
+2019-07-24 15:39:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-07-24 15:39:10 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Home/Reksadana/Cart/android.widget.TextView4 - Update'
+
+2019-07-24 15:39:10 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2019-07-24 15:39:15 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-07-24 15:39:15 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Home/Reksadana/Cart/android.widget.RadioButton1 - Moderat'
+
+2019-07-24 15:39:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-07-24 15:39:16 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Home/Reksadana/Cart/android.widget.RadioButton1 - Moderat'
+
+2019-07-24 15:39:16 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2019-07-24 15:39:21 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-07-24 15:39:21 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Home/Reksadana/Cart/android.widget.LinearLayout6'
+
+2019-07-24 15:39:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-07-24 15:39:23 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Home/Reksadana/Cart/android.widget.LinearLayout6'
+
+2019-07-24 15:39:23 - [TEST_STEP][PASSED] - delay: Delayed 7 second(s)
+
+2019-07-24 15:39:30 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+2019-07-24 15:39:30 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Home/Reksadana/Cart/android.widget.LinearLayout17'
+
+2019-07-24 15:39:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-07-24 15:39:34 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Home/Reksadana/Cart/android.widget.LinearLayout17'
+
+2019-07-24 15:39:34 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2019-07-24 15:39:37 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-24 15:39:37 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Home/Reksadana/Cart/android.widget.CheckBox0 - Saya telah memahami dan menyetujui isi dari Ketentuan Prospektus dan Fund Sheet produk ini'
+
+2019-07-24 15:39:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-07-24 15:39:38 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Home/Reksadana/Cart/android.widget.CheckBox0 - Saya telah memahami dan menyetujui isi dari Ketentuan Prospektus dan Fund Sheet produk ini'
+
+2019-07-24 15:39:38 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2019-07-24 15:39:43 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-07-24 15:39:43 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Home/Reksadana/Cart/android.widget.LinearLayout3'
+
+2019-07-24 15:39:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-07-24 15:39:44 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Home/Reksadana/Cart/android.widget.LinearLayout3'
+
+2019-07-24 15:39:44 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2019-07-24 15:39:49 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-07-24 15:39:49 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Home/Reksadana/Cart/com.google.android.material.chip.Chip2 - Rp 300.000'
+
+2019-07-24 15:39:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-07-24 15:39:50 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Home/Reksadana/Cart/com.google.android.material.chip.Chip2 - Rp 300.000'
+
+2019-07-24 15:39:50 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2019-07-24 15:39:55 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-07-24 15:39:55 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Home/Reksadana/Cart/android.widget.LinearLayout3 (1)'
+
+2019-07-24 15:39:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-07-24 15:39:57 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Home/Reksadana/Cart/android.widget.LinearLayout3 (1)'
+
+2019-07-24 15:39:57 - [TEST_STEP][PASSED] - delay: Delayed 7 second(s)
+
+2019-07-24 15:40:04 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+2019-07-24 15:40:04 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Home/Reksadana/Cart/android.widget.FrameLayout3'
+
+2019-07-24 15:40:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-07-24 15:40:06 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Home/Reksadana/Cart/android.widget.FrameLayout3'
+
+2019-07-24 15:40:06 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2019-07-24 15:40:11 - [MESSAGE][PASSED] - Delayed 5 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-07-24 15:37:45 - [TEST_SUITE][PASSED] - 01_AddToCart: Test Cases/Home/Reksadana/AddToCart/AddToCart]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

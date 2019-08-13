@@ -1,0 +1,45 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+01_SubscribeTrue,,,2019-07-03 16:07:04,2019-07-03 16:08:54,1m - 49.760s,PASSED
+,,,,,,
+Test Cases/Login/LoginTrue,,,2019-07-03 16:07:04,2019-07-03 16:07:55,51.060s,PASSED
+startApplication,,,2019-07-03 16:07:05,2019-07-03 16:07:24,19.350s,PASSED
+verifyElementText,,,2019-07-03 16:07:24,2019-07-03 16:07:30,6.191s,PASSED
+tap,,,2019-07-03 16:07:30,2019-07-03 16:07:32,1.215s,PASSED
+"Statement - For ([i = 0, i < 4, (i++)])",,,2019-07-03 16:07:32,2019-07-03 16:07:49,17.011s,PASSED
+setText,,,2019-07-03 16:07:49,2019-07-03 16:07:51,2.014s,PASSED
+tap,,,2019-07-03 16:07:51,2019-07-03 16:07:52,1.494s,PASSED
+delay,,,2019-07-03 16:07:52,2019-07-03 16:07:55,3.042s,PASSED
+verifyElementText,,,2019-07-03 16:07:55,2019-07-03 16:07:55,0.223s,PASSED
+,,,,,,
+Test Cases/OTP/LoginOTP,,,2019-07-03 16:07:55,2019-07-03 16:08:03,7.842s,PASSED
+delay,,,2019-07-03 16:07:56,2019-07-03 16:07:59,3.014s,PASSED
+tap,,,2019-07-03 16:07:59,2019-07-03 16:08:00,1.290s,PASSED
+setText,,,2019-07-03 16:08:00,2019-07-03 16:08:02,1.512s,PASSED
+tap,,,2019-07-03 16:08:02,2019-07-03 16:08:03,1.732s,PASSED
+,,,,,,
+Test Cases/Home/Reksadana/Subscribe/Subscribe,,,2019-07-03 16:08:03,2019-07-03 16:08:51,48.023s,PASSED
+delay,,,2019-07-03 16:08:04,2019-07-03 16:08:07,3.009s,PASSED
+tap,,,2019-07-03 16:08:07,2019-07-03 16:08:11,3.918s,PASSED
+delay,,,2019-07-03 16:08:11,2019-07-03 16:08:14,3.012s,PASSED
+tap,,,2019-07-03 16:08:14,2019-07-03 16:08:16,1.995s,PASSED
+tap,,,2019-07-03 16:08:16,2019-07-03 16:08:21,5.133s,PASSED
+tap,,,2019-07-03 16:08:21,2019-07-03 16:08:22,0.931s,PASSED
+delay,,,2019-07-03 16:08:22,2019-07-03 16:08:25,3.006s,PASSED
+tap,,,2019-07-03 16:08:25,2019-07-03 16:08:28,3.340s,PASSED
+delay,,,2019-07-03 16:08:28,2019-07-03 16:08:31,3.007s,PASSED
+tap,,,2019-07-03 16:08:31,2019-07-03 16:08:32,0.951s,PASSED
+tap,,,2019-07-03 16:08:32,2019-07-03 16:08:36,3.640s,PASSED
+tap,,,2019-07-03 16:08:36,2019-07-03 16:08:37,1.004s,PASSED
+tap,,,2019-07-03 16:08:37,2019-07-03 16:08:38,1.190s,PASSED
+delay,,,2019-07-03 16:08:38,2019-07-03 16:08:41,3.006s,PASSED
+verifyElementText,,,2019-07-03 16:08:41,2019-07-03 16:08:41,0.265s,PASSED
+delay,,,2019-07-03 16:08:41,2019-07-03 16:08:44,3.005s,PASSED
+tap,,,2019-07-03 16:08:44,2019-07-03 16:08:46,1.552s,PASSED
+Statement - device_Height = com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.getDeviceHeight(),,Get Device Height and Store in device_height variable,2019-07-03 16:08:46,2019-07-03 16:08:46,0.200s,PASSED
+Statement - device_Width = com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.getDeviceWidth(),,Get Width Height and Store in device_Width variable,2019-07-03 16:08:46,2019-07-03 16:08:46,0.205s,PASSED
+Statement - startX = device_Width / 2,,Storing the startX value by dividing device width by 2. Because x coordinates are constant for Vertical Swiping,2019-07-03 16:08:46,2019-07-03 16:08:46,0.003s,PASSED
+Statement - endX = startX,,Here startX and endX values are equal for vertical Swiping for that assigning startX value to endX,2019-07-03 16:08:46,2019-07-03 16:08:46,0.001s,PASSED
+Statement - startY = device_Height * 0.50,,Storing the startY value,2019-07-03 16:08:46,2019-07-03 16:08:46,0.002s,PASSED
+Statement - endY = device_Height * 0.90,,Storing the endY value,2019-07-03 16:08:46,2019-07-03 16:08:46,0.001s,PASSED
+swipe,,Swipe Vertical from top to bottom,2019-07-03 16:08:46,2019-07-03 16:08:48,2.277s,PASSED
+delay,,,2019-07-03 16:08:48,2019-07-03 16:08:51,3.005s,PASSED

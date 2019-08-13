@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="ListUpdateTerbaru" time="74" tests="3" failures="0" errors="0">
+   <testsuite name="ListUpdateTerbaru" tests="3" failures="0" errors="0" time="74" timestamp="2019-07-11 15:07:51" hostname="ustore - 192.168.0.120" id="Test Suites/result/Home/ListUpdateTerbaru">
+      <properties>
+         <property name="deviceName" value="emulator-5554 (Android SDK built for x86 - Android 9)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/ustore/Katalon Studio/Android v1.2/Reports/result/Home/ListUpdateTerbaru/20190711_150738"/>
+         <property name="logFiles" value="/Users/ustore/Katalon Studio/Android v1.2/Reports/result/Home/ListUpdateTerbaru/20190711_150738/execution0.log, /Users/ustore/Katalon Studio/Android v1.2/Reports/result/Home/ListUpdateTerbaru/20190711_150738/appium.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ustore - 192.168.0.120"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="4.1.0.2"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.8.1"/>
+         <property name="deviceModel" value="Android SDK built for x86"/>
+         <property name="hostAddress" value="192.168.0.120"/>
+         <property name="deviceManufacturer" value="Google"/>
+         <property name="deviceId" value="emulator-5554"/>
+         <property name="deviceName" value="emulator-5554 (Android SDK built for x86 - Android 9)"/>
+         <property name="deviceOSVersion" value="9"/>
+      </properties>
+      <testcase name="Test Cases/Login/LoginTrue" classname="Test Cases/Login/LoginTrue" status="PASSED">
+         <system-out><![CDATA[2019-07-11 15:07:51 - [TEST_CASE][PASSED] - Test Cases/Login/LoginTrue: Test Cases/Login/LoginTrue
+
+2019-07-11 15:07:52 - [TEST_STEP][PASSED] - startApplication: Started app at: '/Users/ustore/Downloads/Development.apk'
+
+2019-07-11 15:08:08 - [MESSAGE][PASSED] - Started app at: '/Users/ustore/Downloads/Development.apk'
+
+2019-07-11 15:08:08 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/LoginTrue/Mulailah berinvestasi untuk meraih mimpimu' are matched.
+
+2019-07-11 15:08:14 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/LoginTrue/Mulailah berinvestasi untuk meraih mimpimu' are matched.
+
+2019-07-11 15:08:14 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/LoginTrue/DP_Rumah'
+
+2019-07-11 15:08:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-07-11 15:08:15 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/LoginTrue/DP_Rumah'
+
+2019-07-11 15:08:15 - [TEST_STEP][PASSED] - Statement - For ([i = 0, i < 4, (i++)]): Swiped from 800,1,000 to 10,800
+
+2019-07-11 15:08:15 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/LoginTrue/screen_swipe'
+
+2019-07-11 15:08:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-07-11 15:08:16 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/LoginTrue/screen_swipe'
+
+2019-07-11 15:08:16 - [TEST_STEP][PASSED] - swipe: Swiped from 800,1,000 to 10,800
+
+2019-07-11 15:08:18 - [MESSAGE][PASSED] - Swiped from 800,1,000 to 10,800
+
+2019-07-11 15:08:18 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/LoginTrue/screen_swipe'
+
+2019-07-11 15:08:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-07-11 15:08:20 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/LoginTrue/screen_swipe'
+
+2019-07-11 15:08:20 - [TEST_STEP][PASSED] - swipe: Swiped from 800,1,000 to 10,800
+
+2019-07-11 15:08:22 - [MESSAGE][PASSED] - Swiped from 800,1,000 to 10,800
+
+2019-07-11 15:08:22 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/LoginTrue/screen_swipe'
+
+2019-07-11 15:08:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-07-11 15:08:23 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/LoginTrue/screen_swipe'
+
+2019-07-11 15:08:23 - [TEST_STEP][PASSED] - swipe: Swiped from 800,1,000 to 10,800
+
+2019-07-11 15:08:26 - [MESSAGE][PASSED] - Swiped from 800,1,000 to 10,800
+
+2019-07-11 15:08:26 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/LoginTrue/screen_swipe'
+
+2019-07-11 15:08:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-07-11 15:08:30 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/LoginTrue/screen_swipe'
+
+2019-07-11 15:08:30 - [TEST_STEP][PASSED] - swipe: Swiped from 800,1,000 to 10,800
+
+2019-07-11 15:08:32 - [MESSAGE][PASSED] - Swiped from 800,1,000 to 10,800
+
+2019-07-11 15:08:32 - [TEST_STEP][PASSED] - setText: Text '081215161452' has been set to element 'Object Repository/LoginTrue/field_no_phone'
+
+2019-07-11 15:08:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-07-11 15:08:34 - [MESSAGE][PASSED] - Text '081215161452' has been set to element 'Object Repository/LoginTrue/field_no_phone'
+
+2019-07-11 15:08:34 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/LoginTrue/button_masuk'
+
+2019-07-11 15:08:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-07-11 15:08:36 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/LoginTrue/button_masuk'
+
+2019-07-11 15:08:36 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2019-07-11 15:08:39 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-11 15:08:39 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/ObjectOTP/TextView - Verifikasi Nomor HP' are matched.
+
+2019-07-11 15:08:39 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/ObjectOTP/TextView - Verifikasi Nomor HP' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/OTP/LoginOTP" classname="Test Cases/OTP/LoginOTP" status="PASSED">
+         <system-out><![CDATA[2019-07-11 15:08:39 - [TEST_CASE][PASSED] - Test Cases/OTP/LoginOTP: Test Cases/OTP/LoginOTP
+
+2019-07-11 15:08:39 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2019-07-11 15:08:42 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-11 15:08:42 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/ObjectOTP/Field_OTP'
+
+2019-07-11 15:08:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-07-11 15:08:44 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/ObjectOTP/Field_OTP'
+
+2019-07-11 15:08:44 - [TEST_STEP][PASSED] - setText: Text '8888' has been set to element 'Object Repository/ObjectOTP/Field_OTP'
+
+2019-07-11 15:08:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-07-11 15:08:45 - [MESSAGE][PASSED] - Text '8888' has been set to element 'Object Repository/ObjectOTP/Field_OTP'
+
+2019-07-11 15:08:45 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/ObjectOTP/Button_Verifikasi_Sekarang'
+
+2019-07-11 15:08:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-07-11 15:08:47 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/ObjectOTP/Button_Verifikasi_Sekarang']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Home/UpdateTerbaru" classname="Test Cases/Home/UpdateTerbaru" status="PASSED">
+         <system-out><![CDATA[2019-07-11 15:08:47 - [TEST_CASE][PASSED] - Test Cases/Home/UpdateTerbaru: Test Cases/Home/UpdateTerbaru
+
+2019-07-11 15:08:47 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2019-07-11 15:08:52 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-07-11 15:08:52 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Home/SwipeTop2'
+
+2019-07-11 15:08:56 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Home/SwipeTop2'
+
+2019-07-11 15:08:56 - [TEST_STEP][PASSED] - Statement - device_Height = com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.getDeviceHeight(): Current device physical height is 1794
+
+2019-07-11 15:08:56 - [MESSAGE][PASSED] - Current device physical height is 1794
+
+2019-07-11 15:08:56 - [TEST_STEP][PASSED] - Statement - device_Width = com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.getDeviceWidth(): Current device physical width is 1080
+
+2019-07-11 15:08:56 - [MESSAGE][PASSED] - Current device physical width is 1080
+
+2019-07-11 15:08:56 - [TEST_STEP][PASSED] - Statement - startX = device_Width / 2: null
+
+2019-07-11 15:08:56 - [TEST_STEP][PASSED] - Statement - endX = startX: null
+
+2019-07-11 15:08:56 - [TEST_STEP][PASSED] - Statement - startY = device_Height * 0.30: null
+
+2019-07-11 15:08:56 - [TEST_STEP][PASSED] - Statement - endY = device_Height * 0.70: null
+
+2019-07-11 15:08:56 - [TEST_STEP][PASSED] - swipe: Swiped from 540,1,255 to 540,538
+
+2019-07-11 15:08:59 - [MESSAGE][PASSED] - Swiped from 540,1,255 to 540,538
+
+2019-07-11 15:08:59 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2019-07-11 15:09:04 - [MESSAGE][PASSED] - Delayed 5 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-07-11 15:07:51 - [TEST_SUITE][PASSED] - ListUpdateTerbaru: Test Cases/Home/UpdateTerbaru]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
