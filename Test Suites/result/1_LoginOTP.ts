@@ -4,7 +4,6 @@
    <name>1_LoginOTP</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2019-07-02T14:01:19</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>

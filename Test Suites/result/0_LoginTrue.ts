@@ -4,7 +4,6 @@
    <name>0_LoginTrue</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2019-07-02T13:51:27</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>

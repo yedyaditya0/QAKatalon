@@ -4,7 +4,6 @@
    <name>03_EditCart</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2019-07-24T15:54:28</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>

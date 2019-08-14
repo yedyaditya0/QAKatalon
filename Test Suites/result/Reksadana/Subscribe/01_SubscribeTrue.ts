@@ -4,7 +4,6 @@
    <name>01_SubscribeTrue</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2019-07-31T10:16:28</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>

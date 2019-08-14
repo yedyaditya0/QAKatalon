@@ -37,3 +37,4 @@ Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
 // Verify element text Otp 
 Mobile.verifyElementText(findTestObject('ObjectOTP/TextView - Verifikasi Nomor HP'), 'Verifikasi Nomor HP')
 
+Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)

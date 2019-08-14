@@ -4,7 +4,6 @@
    <name>02_DeleteCart</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2019-07-24T16:10:01</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
