@@ -16,9 +16,9 @@ import internal.GlobalVariable as GlobalVariable
 Map<String, String> suiteProperties = new HashMap<String, String>();
 
 
-suiteProperties.put('id', 'Test Suites/result/1_LoginOTP')
+suiteProperties.put('id', 'Test Suites/result/Portfolio/AddToCart')
 
-suiteProperties.put('name', '1_LoginOTP')
+suiteProperties.put('name', 'AddToCart')
 
 suiteProperties.put('description', '')
  
@@ -29,8 +29,8 @@ DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.c
 
 
 
-RunConfiguration.setExecutionSettingFile("/Users/fundtastic/Documents/KatalonAndroid/Reports/result/1_LoginOTP/20190819_112644/execution.properties")
+RunConfiguration.setExecutionSettingFile("/Users/fundtastic/Documents/KatalonAndroid/Reports/result/Portfolio/AddToCart/20190819_131705/execution.properties")
 
 TestCaseMain.beforeStart()
 
-TestCaseMain.startTestSuite('Test Suites/result/1_LoginOTP', suiteProperties, [new TestCaseBinding('Test Cases/Login/LoginTrue', 'Test Cases/Login/LoginTrue',  null), new TestCaseBinding('Test Cases/OTP/LoginOTP', 'Test Cases/OTP/LoginOTP',  null)])
+TestCaseMain.startTestSuite('Test Suites/result/Portfolio/AddToCart', suiteProperties, [new TestCaseBinding('Test Cases/Login/LoginTrue', 'Test Cases/Login/LoginTrue',  null), new TestCaseBinding('Test Cases/OTP/LoginOTP', 'Test Cases/OTP/LoginOTP',  null), new TestCaseBinding('Test Cases/Home/Home', 'Test Cases/Home/Home',  null), new TestCaseBinding('Test Cases/Home/Portfolio/AddToCart/AddToCart', 'Test Cases/Home/Portfolio/AddToCart/AddToCart',  null)])

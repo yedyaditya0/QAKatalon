@@ -13,11 +13,11 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
+Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('Home/Portfolio/AddToCart/android.widget.FrameLayout10'), 0)
 
-Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
+Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('Home/Portfolio/AddToCart/android.widget.LinearLayout10'), 0)
 
