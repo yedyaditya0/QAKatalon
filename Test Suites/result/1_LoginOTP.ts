@@ -22,4 +22,10 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/OTP/LoginOTP</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>756b3fc7-9f7d-4dfe-a211-10f7eb91edde</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Home/Home</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>

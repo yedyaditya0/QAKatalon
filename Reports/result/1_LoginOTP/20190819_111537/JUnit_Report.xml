@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="1_LoginOTP" time="50" tests="1" failures="1" errors="0">
+   <testsuite name="1_LoginOTP" tests="1" failures="1" errors="0" time="50" timestamp="2019-08-19 11:15:49" hostname="fundtastic - 192.168.0.110" id="Test Suites/result/1_LoginOTP">
+      <properties>
+         <property name="deviceName" value="emulator-5554 (Android SDK built for x86 - Android 9)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/fundtastic/Documents/KatalonAndroid/Reports/result/1_LoginOTP/20190819_111537"/>
+         <property name="logFiles" value="/Users/fundtastic/Documents/KatalonAndroid/Reports/result/1_LoginOTP/20190819_111537/execution0.log, /Users/fundtastic/Documents/KatalonAndroid/Reports/result/1_LoginOTP/20190819_111537/appium.log"/>
+         <property name="attachments" value="/Users/fundtastic/Documents/KatalonAndroid/Reports/result/1_LoginOTP/20190819_111537/1566188198424.png, /Users/fundtastic/Documents/KatalonAndroid/Reports/result/1_LoginOTP/20190819_111537/1566188198886.png"/>
+         <property name="hostName" value="fundtastic - 192.168.0.110"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="5.10.1.1"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.8.1"/>
+         <property name="deviceModel" value="Android SDK built for x86"/>
+         <property name="hostAddress" value="192.168.0.110"/>
+         <property name="deviceManufacturer" value="Google"/>
+         <property name="deviceId" value="emulator-5554"/>
+         <property name="deviceName" value="emulator-5554 (Android SDK built for x86 - Android 9)"/>
+         <property name="deviceOSVersion" value="9"/>
+      </properties>
+      <testcase name="Test Cases/Login/LoginTrue" classname="Test Cases/Login/LoginTrue" status="PASSED">
+         <system-out><![CDATA[2019-08-19 11:15:50 - [TEST_CASE][PASSED] - Test Cases/Login/LoginTrue: Test Cases/Login/LoginTrue
+
+2019-08-19 11:15:50 - [TEST_STEP][PASSED] - startApplication("/Users/fundtastic/Downloads/mobile-debug (dev).apk", true): Started app at: '/Users/fundtastic/Downloads/mobile-debug (dev).apk'
+
+2019-08-19 11:15:52 - [MESSAGE][INFO] - Appium server started on port 51,567
+
+2019-08-19 11:16:04 - [MESSAGE][PASSED] - Started app at: '/Users/fundtastic/Downloads/mobile-debug (dev).apk'
+
+2019-08-19 11:16:04 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("LoginTrue/Mulailah berinvestasi untuk meraih mimpimu"), "Mulailah berinvestasi untuk meraih mimpimu"): Actual text and expected text of test object 'Object Repository/LoginTrue/Mulailah berinvestasi untuk meraih mimpimu' are matched.
+
+2019-08-19 11:16:09 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/LoginTrue/Mulailah berinvestasi untuk meraih mimpimu' are matched.
+
+2019-08-19 11:16:09 - [TEST_STEP][PASSED] - tap(findTestObject("LoginTrue/DP_Rumah"), 0): Tapped on element 'Object Repository/LoginTrue/DP_Rumah'
+
+2019-08-19 11:16:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-08-19 11:16:10 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/LoginTrue/DP_Rumah'
+
+2019-08-19 11:16:10 - [TEST_STEP][PASSED] - for ([i = 0, i < 4, (i++)]): Swiped from 800,1,000 to 10,800
+
+2019-08-19 11:16:10 - [TEST_STEP][PASSED] - tap(findTestObject("LoginTrue/screen_swipe"), 0): Tapped on element 'Object Repository/LoginTrue/screen_swipe'
+
+2019-08-19 11:16:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-08-19 11:16:11 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/LoginTrue/screen_swipe'
+
+2019-08-19 11:16:11 - [TEST_STEP][PASSED] - swipe(800, 1000, 10, 800): Swiped from 800,1,000 to 10,800
+
+2019-08-19 11:16:13 - [MESSAGE][PASSED] - Swiped from 800,1,000 to 10,800
+
+2019-08-19 11:16:13 - [TEST_STEP][PASSED] - tap(findTestObject("LoginTrue/screen_swipe"), 0): Tapped on element 'Object Repository/LoginTrue/screen_swipe'
+
+2019-08-19 11:16:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-08-19 11:16:15 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/LoginTrue/screen_swipe'
+
+2019-08-19 11:16:15 - [TEST_STEP][PASSED] - swipe(800, 1000, 10, 800): Swiped from 800,1,000 to 10,800
+
+2019-08-19 11:16:17 - [MESSAGE][PASSED] - Swiped from 800,1,000 to 10,800
+
+2019-08-19 11:16:17 - [TEST_STEP][PASSED] - tap(findTestObject("LoginTrue/screen_swipe"), 0): Tapped on element 'Object Repository/LoginTrue/screen_swipe'
+
+2019-08-19 11:16:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-08-19 11:16:18 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/LoginTrue/screen_swipe'
+
+2019-08-19 11:16:18 - [TEST_STEP][PASSED] - swipe(800, 1000, 10, 800): Swiped from 800,1,000 to 10,800
+
+2019-08-19 11:16:20 - [MESSAGE][PASSED] - Swiped from 800,1,000 to 10,800
+
+2019-08-19 11:16:20 - [TEST_STEP][PASSED] - tap(findTestObject("LoginTrue/screen_swipe"), 0): Tapped on element 'Object Repository/LoginTrue/screen_swipe'
+
+2019-08-19 11:16:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-08-19 11:16:21 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/LoginTrue/screen_swipe'
+
+2019-08-19 11:16:21 - [TEST_STEP][PASSED] - swipe(800, 1000, 10, 800): Swiped from 800,1,000 to 10,800
+
+2019-08-19 11:16:23 - [MESSAGE][PASSED] - Swiped from 800,1,000 to 10,800
+
+2019-08-19 11:16:23 - [TEST_STEP][PASSED] - setText(findTestObject("LoginTrue/field_no_phone"), "08777111777", 0): Text '08777111777' has been set to element 'Object Repository/LoginTrue/field_no_phone'
+
+2019-08-19 11:16:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-08-19 11:16:25 - [MESSAGE][PASSED] - Text '08777111777' has been set to element 'Object Repository/LoginTrue/field_no_phone'
+
+2019-08-19 11:16:25 - [TEST_STEP][PASSED] - tap(findTestObject("LoginTrue/button_masuk"), 0): Tapped on element 'Object Repository/LoginTrue/button_masuk'
+
+2019-08-19 11:16:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-08-19 11:16:26 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/LoginTrue/button_masuk'
+
+2019-08-19 11:16:26 - [TEST_STEP][PASSED] - delay(3, STOP_ON_FAILURE): Delayed 3 second(s)
+
+2019-08-19 11:16:29 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-08-19 11:16:29 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("ObjectOTP/TextView - Verifikasi Nomor HP"), "Verifikasi Nomor HP"): Actual text and expected text of test object 'Object Repository/ObjectOTP/TextView - Verifikasi Nomor HP' are matched.
+
+2019-08-19 11:16:30 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/ObjectOTP/TextView - Verifikasi Nomor HP' are matched.
+
+2019-08-19 11:16:30 - [TEST_STEP][PASSED] - delay(1, STOP_ON_FAILURE): Delayed 1 second(s)
+
+2019-08-19 11:16:31 - [MESSAGE][PASSED] - Delayed 1 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/OTP/LoginOTP" classname="Test Cases/OTP/LoginOTP" status="FAILED">
+         <failure type="FAILED" message="Test Cases/OTP/LoginOTP FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Failed to tap on element 'Object Repository/ObjectOTP/Button_Verifikasi_Sekarang' (Root cause: com.kms.katalon.core.exception.StepFailedException: Object Object Repository/ObjectOTP/Button_Verifikasi_Sekarang not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:23)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:83)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:485)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$1.call(Unknown Source)
+	at LoginOTP.run(LoginOTP:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1566188147651.run(TempTestSuite1566188147651.groovy:36)
+"/>
+         <system-out><![CDATA[2019-08-19 11:16:31 - [TEST_CASE][FAILED] - Test Cases/OTP/LoginOTP: Test Cases/OTP/LoginOTP FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Failed to tap on element 'Object Repository/ObjectOTP/Button_Verifikasi_Sekarang' (Root cause: com.kms.katalon.core.exception.StepFailedException: Object Object Repository/ObjectOTP/Button_Verifikasi_Sekarang not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:23)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:83)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:485)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$1.call(Unknown Source)
+	at LoginOTP.run(LoginOTP:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1566188147651.run(TempTestSuite1566188147651.groovy:36)
+
+
+2019-08-19 11:16:31 - [TEST_STEP][PASSED] - delay(3, STOP_ON_FAILURE): Delayed 3 second(s)
+
+2019-08-19 11:16:34 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-08-19 11:16:34 - [TEST_STEP][PASSED] - tap(findTestObject("ObjectOTP/Field_OTP"), 0): Tapped on element 'Object Repository/ObjectOTP/Field_OTP'
+
+2019-08-19 11:16:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-08-19 11:16:35 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/ObjectOTP/Field_OTP'
+
+2019-08-19 11:16:35 - [TEST_STEP][PASSED] - setText(findTestObject("ObjectOTP/Field_OTP"), "8888", 0): Text '8888' has been set to element 'Object Repository/ObjectOTP/Field_OTP'
+
+2019-08-19 11:16:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-08-19 11:16:36 - [MESSAGE][PASSED] - Text '8888' has been set to element 'Object Repository/ObjectOTP/Field_OTP'
+
+2019-08-19 11:16:36 - [TEST_STEP][FAILED] - tap(findTestObject("ObjectOTP/Button_Verifikasi_Sekarang"), 2): tap(findTestObject("ObjectOTP/Button_Verifikasi_Sekarang"), 2) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Failed to tap on element 'Object Repository/ObjectOTP/Button_Verifikasi_Sekarang' (Root cause: com.kms.katalon.core.exception.StepFailedException: Object Object Repository/ObjectOTP/Button_Verifikasi_Sekarang not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:23)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:83)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:485)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$1.call(Unknown Source)
+	at LoginOTP.run(LoginOTP:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1566188147651.run(TempTestSuite1566188147651.groovy:36)
+
+
+2019-08-19 11:16:38 - [MESSAGE][FAILED] - Object Object Repository/ObjectOTP/Button_Verifikasi_Sekarang not found
+[[ATTACHMENT|/Users/fundtastic/Documents/KatalonAndroid/Reports/result/1_LoginOTP/20190819_111537/1566188198424.png]]
+
+2019-08-19 11:16:39 - [MESSAGE][FAILED] - Failed to tap on element 'Object Repository/ObjectOTP/Button_Verifikasi_Sekarang' (Root cause: com.kms.katalon.core.exception.StepFailedException: Object Object Repository/ObjectOTP/Button_Verifikasi_Sekarang not found)
+[[ATTACHMENT|/Users/fundtastic/Documents/KatalonAndroid/Reports/result/1_LoginOTP/20190819_111537/1566188198886.png]]
+
+2019-08-19 11:16:39 - [MESSAGE][FAILED] - tap(findTestObject("ObjectOTP/Button_Verifikasi_Sekarang"), 2) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Failed to tap on element 'Object Repository/ObjectOTP/Button_Verifikasi_Sekarang' (Root cause: com.kms.katalon.core.exception.StepFailedException: Object Object Repository/ObjectOTP/Button_Verifikasi_Sekarang not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:23)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:83)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:485)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$1.call(Unknown Source)
+	at LoginOTP.run(LoginOTP:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1566188147651.run(TempTestSuite1566188147651.groovy:36)]]></system-out>
+         <system-err><![CDATA[2019-08-19 11:16:31 - [TEST_CASE][FAILED] - Test Cases/OTP/LoginOTP: Test Cases/OTP/LoginOTP FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Failed to tap on element 'Object Repository/ObjectOTP/Button_Verifikasi_Sekarang' (Root cause: com.kms.katalon.core.exception.StepFailedException: Object Object Repository/ObjectOTP/Button_Verifikasi_Sekarang not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:23)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:83)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:485)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$1.call(Unknown Source)
+	at LoginOTP.run(LoginOTP:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1566188147651.run(TempTestSuite1566188147651.groovy:36)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-08-19 11:15:49 - [TEST_SUITE][FAILED] - 1_LoginOTP: Test Cases/OTP/LoginOTP FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Failed to tap on element 'Object Repository/ObjectOTP/Button_Verifikasi_Sekarang' (Root cause: com.kms.katalon.core.exception.StepFailedException: Object Object Repository/ObjectOTP/Button_Verifikasi_Sekarang not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:23)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:83)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:485)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$1.call(Unknown Source)
+	at LoginOTP.run(LoginOTP:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1566188147651.run(TempTestSuite1566188147651.groovy:36)]]></system-out>
+      <system-err><![CDATA[2019-08-19 11:15:49 - [TEST_SUITE][FAILED] - 1_LoginOTP: Test Cases/OTP/LoginOTP FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Failed to tap on element 'Object Repository/ObjectOTP/Button_Verifikasi_Sekarang' (Root cause: com.kms.katalon.core.exception.StepFailedException: Object Object Repository/ObjectOTP/Button_Verifikasi_Sekarang not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:23)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:83)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:485)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$1.call(Unknown Source)
+	at LoginOTP.run(LoginOTP:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1566188147651.run(TempTestSuite1566188147651.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

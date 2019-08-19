@@ -22,6 +22,9 @@ Mobile.tap(findTestObject('ObjectOTP/Field_OTP'), 0)
 // Set number otp for login
 Mobile.setText(findTestObject('ObjectOTP/Field_OTP'), '8888', 0)
 
+Mobile.delay(2, FailureHandling.STOP_ON_FAILURE)
+
 // Choose button verifikasi sekarang
-Mobile.tap(findTestObject('ObjectOTP/Button_Verifikasi_Sekarang'), 2)
+Mobile.tap(findTestObject("ObjectOTP/Btn_Verifikasi1"), 0)
+
 
