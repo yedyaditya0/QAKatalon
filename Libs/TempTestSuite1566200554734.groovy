@@ -29,7 +29,7 @@ DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.c
 
 
 
-RunConfiguration.setExecutionSettingFile("/Users/fundtastic/Documents/KatalonAndroid/Reports/result/Portfolio/AddToCart/20190819_143648/execution.properties")
+RunConfiguration.setExecutionSettingFile("/Users/fundtastic/Documents/KatalonAndroid/Reports/result/Portfolio/AddToCart/20190819_144214/execution.properties")
 
 TestCaseMain.beforeStart()
 
