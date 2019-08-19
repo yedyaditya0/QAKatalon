@@ -13,7 +13,7 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-Mobile.startApplication('/Users/ustore/Downloads/mobile-debug.apk', true)
+Mobile.startApplication('/Users/fundtastic/Downloads/mobile-debug (dev).apk', true)
 
 Mobile.verifyElementText(findTestObject('LoginTrue/Mulailah berinvestasi untuk meraih mimpimu'), 'Mulailah berinvestasi untuk meraih mimpimu')
 

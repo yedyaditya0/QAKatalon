@@ -1,0 +1,9 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+BeriMasukan,,,2019-08-19 11:05:47,2019-08-19 11:05:56,8.476s,FAILED
+,,,,,,
+Test Cases/Login/LoginTrue,,,2019-08-19 11:05:48,2019-08-19 11:05:52,4.868s,FAILED
+"startApplication(""/Users/ustore/Downloads/mobile-debug.apk"", true)",,,2019-08-19 11:05:48,2019-08-19 11:05:52,4.501s,FAILED
+,,,,,,
+Test Cases/OTP/LoginOTP,,,2019-08-19 11:05:52,2019-08-19 11:05:56,3.214s,FAILED
+"delay(3, STOP_ON_FAILURE)",,,2019-08-19 11:05:53,2019-08-19 11:05:56,3.026s,PASSED
+"tap(findTestObject(""ObjectOTP/Field_OTP""), 0)",,,2019-08-19 11:05:56,2019-08-19 11:05:56,0.050s,FAILED

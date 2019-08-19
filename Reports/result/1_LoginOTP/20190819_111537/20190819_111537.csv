@@ -1,0 +1,19 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+1_LoginOTP,,,2019-08-19 11:15:49,2019-08-19 11:16:39,50.181s,FAILED
+,,,,,,
+Test Cases/Login/LoginTrue,,,2019-08-19 11:15:50,2019-08-19 11:16:31,41.481s,PASSED
+"startApplication(""/Users/fundtastic/Downloads/mobile-debug (dev).apk"", true)",,,2019-08-19 11:15:50,2019-08-19 11:16:04,14.589s,PASSED
+"verifyElementText(findTestObject(""LoginTrue/Mulailah berinvestasi untuk meraih mimpimu""), ""Mulailah berinvestasi untuk meraih mimpimu"")",,,2019-08-19 11:16:04,2019-08-19 11:16:09,4.205s,PASSED
+"tap(findTestObject(""LoginTrue/DP_Rumah""), 0)",,,2019-08-19 11:16:09,2019-08-19 11:16:10,1.574s,PASSED
+"for ([i = 0, i < 4, (i++)])",,,2019-08-19 11:16:10,2019-08-19 11:16:23,13.269s,PASSED
+"setText(findTestObject(""LoginTrue/field_no_phone""), ""08777111777"", 0)",,,2019-08-19 11:16:23,2019-08-19 11:16:25,1.405s,PASSED
+"tap(findTestObject(""LoginTrue/button_masuk""), 0)",,,2019-08-19 11:16:25,2019-08-19 11:16:26,1.357s,PASSED
+"delay(3, STOP_ON_FAILURE)",,,2019-08-19 11:16:26,2019-08-19 11:16:29,3.026s,PASSED
+"verifyElementText(findTestObject(""ObjectOTP/TextView - Verifikasi Nomor HP""), ""Verifikasi Nomor HP"")",,,2019-08-19 11:16:29,2019-08-19 11:16:30,0.745s,PASSED
+"delay(1, STOP_ON_FAILURE)",,,2019-08-19 11:16:30,2019-08-19 11:16:31,1.005s,PASSED
+,,,,,,
+Test Cases/OTP/LoginOTP,,,2019-08-19 11:16:31,2019-08-19 11:16:39,7.661s,FAILED
+"delay(3, STOP_ON_FAILURE)",,,2019-08-19 11:16:31,2019-08-19 11:16:34,3.006s,PASSED
+"tap(findTestObject(""ObjectOTP/Field_OTP""), 0)",,,2019-08-19 11:16:34,2019-08-19 11:16:35,0.769s,PASSED
+"setText(findTestObject(""ObjectOTP/Field_OTP""), ""8888"", 0)",,,2019-08-19 11:16:35,2019-08-19 11:16:36,0.985s,PASSED
+"tap(findTestObject(""ObjectOTP/Button_Verifikasi_Sekarang""), 2)",,,2019-08-19 11:16:36,2019-08-19 11:16:39,2.787s,FAILED
