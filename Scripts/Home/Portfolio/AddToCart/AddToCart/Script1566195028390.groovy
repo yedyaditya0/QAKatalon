@@ -17,9 +17,11 @@ Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('Home/Portfolio/AddToCart/android.widget.FrameLayout10'), 0)
 
-Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
+Mobile.delay(7, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('Home/Portfolio/AddToCart/android.widget.LinearLayout10'), 0)
+
+Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('Home/Portfolio/AddToCart/android.widget.LinearLayout17'), 0)
 
@@ -27,27 +29,27 @@ Mobile.tap(findTestObject('Home/Portfolio/AddToCart/android.widget.CheckBox0 - S
     0)
 
 Mobile.tap(findTestObject('Home/Portfolio/AddToCart/android.widget.LinearLayout4'), 0)
-
-Mobile.tap(findTestObject('Home/Portfolio/AddToCart/android.widget.ImageView0'), 0)
 
 Mobile.tap(findTestObject('Home/Portfolio/AddToCart/com.google.android.material.chip.Chip2 - Rp 300.000'), 0)
 
 Mobile.tap(findTestObject('Home/Portfolio/AddToCart/android.widget.ImageView0'), 0)
 
-Mobile.tap(findTestObject('Home/Portfolio/AddToCart/android.widget.LinearLayout17'), 0)
+Mobile.startApplication('/Users/fundtastic/Downloads/mobile-debug (dev).apk', true)
 
-Mobile.tap(findTestObject('Home/Portfolio/AddToCart/android.widget.CheckBox0 - Saya telah memahami dan menyetujui isi dari Ketentuan Prospektus dan Fund Sheet produk ini'), 
+Mobile.tap(findTestObject('Home/Portfolio/AddToCart/android.widget.FrameLayout10 (1)'), 0)
+
+Mobile.tap(findTestObject('Home/Portfolio/AddToCart/android.widget.LinearLayout10 (1)'), 0)
+
+Mobile.tap(findTestObject('Home/Portfolio/AddToCart/android.widget.LinearLayout17 (1)'), 0)
+
+Mobile.tap(findTestObject('Home/Portfolio/AddToCart/android.widget.CheckBox0 - Saya telah memahami dan menyetujui isi dari Ketentuan Prospektus dan Fund Sheet produk ini (1)'), 
     0)
 
-Mobile.tap(findTestObject('Home/Portfolio/AddToCart/android.widget.LinearLayout4'), 0)
+Mobile.tap(findTestObject('Home/Portfolio/AddToCart/android.widget.LinearLayout4 (1)'), 0)
 
-Mobile.tap(findTestObject('Home/Portfolio/AddToCart/com.google.android.material.chip.Chip0 - Rp 100.000'), 0)
-
-Mobile.tap(findTestObject('Home/Portfolio/AddToCart/android.widget.ImageView0'), 0)
+Mobile.tap(findTestObject('Home/Portfolio/AddToCart/com.google.android.material.chip.Chip2 - Rp 300.000 (1)'), 0)
 
 Mobile.tap(findTestObject('Home/Portfolio/AddToCart/android.widget.ImageView0 (1)'), 0)
-
-Mobile.tap(findTestObject('Home/Portfolio/AddToCart/android.widget.FrameLayout11'), 0)
 
 Mobile.closeApplication()
 

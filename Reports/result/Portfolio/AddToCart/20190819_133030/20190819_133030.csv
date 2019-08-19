@@ -1,0 +1,31 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+AddToCart,,,2019-08-19 13:30:42,2019-08-19 13:32:31,1m - 48.858s,FAILED
+,,,,,,
+Test Cases/Login/LoginTrue,,,2019-08-19 13:30:42,2019-08-19 13:31:24,41.757s,PASSED
+"startApplication(""/Users/fundtastic/Downloads/mobile-debug (dev).apk"", true)",,,2019-08-19 13:30:42,2019-08-19 13:30:56,13.650s,PASSED
+"verifyElementText(findTestObject(""LoginTrue/Mulailah berinvestasi untuk meraih mimpimu""), ""Mulailah berinvestasi untuk meraih mimpimu"")",,,2019-08-19 13:30:56,2019-08-19 13:31:02,5.625s,PASSED
+"tap(findTestObject(""LoginTrue/DP_Rumah""), 0)",,,2019-08-19 13:31:02,2019-08-19 13:31:03,1.258s,PASSED
+"for ([i = 0, i < 4, (i++)])",,,2019-08-19 13:31:03,2019-08-19 13:31:16,13.318s,PASSED
+"setText(findTestObject(""LoginTrue/field_no_phone""), ""08777111777"", 0)",,,2019-08-19 13:31:16,2019-08-19 13:31:18,1.483s,PASSED
+"tap(findTestObject(""LoginTrue/button_masuk""), 0)",,,2019-08-19 13:31:18,2019-08-19 13:31:20,2.005s,PASSED
+"delay(3, STOP_ON_FAILURE)",,,2019-08-19 13:31:20,2019-08-19 13:31:23,3.022s,PASSED
+"verifyElementText(findTestObject(""ObjectOTP/TextView - Verifikasi Nomor HP""), ""Verifikasi Nomor HP"")",,,2019-08-19 13:31:23,2019-08-19 13:31:23,0.155s,PASSED
+"delay(1, STOP_ON_FAILURE)",,,2019-08-19 13:31:23,2019-08-19 13:31:24,1.005s,PASSED
+,,,,,,
+Test Cases/OTP/LoginOTP,,,2019-08-19 13:31:24,2019-08-19 13:31:33,9.086s,PASSED
+"delay(3, STOP_ON_FAILURE)",,,2019-08-19 13:31:24,2019-08-19 13:31:27,3.005s,PASSED
+"tap(findTestObject(""ObjectOTP/Field_OTP""), 0)",,,2019-08-19 13:31:27,2019-08-19 13:31:28,1.543s,PASSED
+"setText(findTestObject(""ObjectOTP/Field_OTP""), ""8888"", 0)",,,2019-08-19 13:31:28,2019-08-19 13:31:30,1.057s,PASSED
+"delay(2, STOP_ON_FAILURE)",,,2019-08-19 13:31:30,2019-08-19 13:31:32,2.004s,PASSED
+"tap(findTestObject(""ObjectOTP/Btn_Verifikasi1""), 0)",,,2019-08-19 13:31:32,2019-08-19 13:31:33,1.377s,PASSED
+,,,,,,
+Test Cases/Home/Home,,,2019-08-19 13:31:33,2019-08-19 13:31:40,7.100s,PASSED
+"delay(7, STOP_ON_FAILURE)",,,2019-08-19 13:31:33,2019-08-19 13:31:40,7.005s,PASSED
+,,,,,,
+Test Cases/Home/Portfolio/AddToCart/AddToCart,,,2019-08-19 13:31:40,2019-08-19 13:32:30,49.970s,FAILED
+"delay(5, STOP_ON_FAILURE)",,,2019-08-19 13:31:40,2019-08-19 13:31:45,5.002s,PASSED
+"tap(findTestObject(""Home/Portfolio/AddToCart/android.widget.FrameLayout10""), 0)",,,2019-08-19 13:31:45,2019-08-19 13:31:47,1.586s,PASSED
+"delay(5, STOP_ON_FAILURE)",,,2019-08-19 13:31:47,2019-08-19 13:31:52,5.002s,PASSED
+"tap(findTestObject(""Home/Portfolio/AddToCart/CardReksa1""), 0)",,,2019-08-19 13:31:52,2019-08-19 13:31:55,3.448s,PASSED
+"tap(findTestObject(""Home/Portfolio/AddToCart/CardReksa1""), 0)",,,2019-08-19 13:31:55,2019-08-19 13:31:59,3.439s,PASSED
+"tap(findTestObject(""Home/Portfolio/AddToCart/android.widget.CheckBox0 - Saya telah memahami dan menyetujui isi dari Ketentuan Prospektus dan Fund Sheet produk ini""), 0)",,,2019-08-19 13:31:59,2019-08-19 13:32:30,31.402s,FAILED

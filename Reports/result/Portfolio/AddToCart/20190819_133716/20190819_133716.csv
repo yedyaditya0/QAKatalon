@@ -1,0 +1,15 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+AddToCart,,,2019-08-19 13:37:27,2019-08-19 13:38:06,38.536s,FAILED
+,,,,,,
+Test Cases/Login/LoginTrue,,,2019-08-19 13:37:28,2019-08-19 13:37:55,27.832s,FAILED
+"startApplication(""/Users/fundtastic/Downloads/mobile-debug (dev).apk"", true)",,,2019-08-19 13:37:28,2019-08-19 13:37:55,27.597s,FAILED
+,,,,,,
+Test Cases/OTP/LoginOTP,,,2019-08-19 13:37:55,2019-08-19 13:37:59,3.263s,FAILED
+"delay(3, STOP_ON_FAILURE)",,,2019-08-19 13:37:56,2019-08-19 13:37:59,3.031s,PASSED
+"tap(findTestObject(""ObjectOTP/Field_OTP""), 0)",,,2019-08-19 13:37:59,2019-08-19 13:37:59,0.045s,FAILED
+,,,,,,
+Test Cases/Home/Home,,,2019-08-19 13:37:59,2019-08-19 13:38:06,7.095s,PASSED
+"delay(7, STOP_ON_FAILURE)",,,2019-08-19 13:37:59,2019-08-19 13:38:06,7.002s,PASSED
+,,,,,,
+Test Cases/Home/Portfolio/AddToCart/AddToCart,,,2019-08-19 13:38:06,2019-08-19 13:38:06,0.114s,FAILED
+"tap(findTestObject(""Home/Portfolio/AddToCart/android.widget.FrameLayout10""), 0)",,,2019-08-19 13:38:06,2019-08-19 13:38:06,0.016s,FAILED
