@@ -28,15 +28,11 @@ Mobile.tap(findTestObject('Home/Portfolio/Reedem/android.widget.TextView11 - JUA
 
 Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('Home/Portfolio/Reedem/android.widget.TextView9 - Jual Sekarang'), 0)
+Mobile.tap(findTestObject('Home/Portfolio/Reedem/JualSekarang1'), 0)
 
 Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('Home/Portfolio/Reedem/android.widget.ImageView1'), 0)
-
-Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
-
-Mobile.tap(findTestObject('Home/Portfolio/Reedem/android.widget.TextView10 - Konfirmasi'), 0)
 
 Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
 

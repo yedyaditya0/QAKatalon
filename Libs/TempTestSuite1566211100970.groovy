@@ -16,9 +16,9 @@ import internal.GlobalVariable as GlobalVariable
 Map<String, String> suiteProperties = new HashMap<String, String>();
 
 
-suiteProperties.put('id', 'Test Suites/result/Portfolio/AddToCart')
+suiteProperties.put('id', 'Test Suites/result/Portfolio/Reedem')
 
-suiteProperties.put('name', 'AddToCart')
+suiteProperties.put('name', 'Reedem')
 
 suiteProperties.put('description', '')
  
@@ -29,8 +29,8 @@ DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.c
 
 
 
-RunConfiguration.setExecutionSettingFile("/Users/fundtastic/Documents/KatalonAndroid/Reports/result/Portfolio/AddToCart/20190819_151915/execution.properties")
+RunConfiguration.setExecutionSettingFile("/Users/fundtastic/Documents/KatalonAndroid/Reports/result/Portfolio/Reedem/20190819_173810/execution.properties")
 
 TestCaseMain.beforeStart()
 
-TestCaseMain.startTestSuite('Test Suites/result/Portfolio/AddToCart', suiteProperties, [new TestCaseBinding('Test Cases/Login/LoginTrue', 'Test Cases/Login/LoginTrue',  null), new TestCaseBinding('Test Cases/OTP/LoginOTP', 'Test Cases/OTP/LoginOTP',  null), new TestCaseBinding('Test Cases/Home/Portfolio/AddToCart/AddToCart', 'Test Cases/Home/Portfolio/AddToCart/AddToCart',  null)])
+TestCaseMain.startTestSuite('Test Suites/result/Portfolio/Reedem', suiteProperties, [new TestCaseBinding('Test Cases/Login/LoginTrue', 'Test Cases/Login/LoginTrue',  null), new TestCaseBinding('Test Cases/OTP/LoginOTP', 'Test Cases/OTP/LoginOTP',  null), new TestCaseBinding('Test Cases/Home/Home', 'Test Cases/Home/Home',  null), new TestCaseBinding('Test Cases/Home/Portfolio/Reedem', 'Test Cases/Home/Portfolio/Reedem',  null), new TestCaseBinding('Test Cases/Home/Portfolio/ReedemConfirmation', 'Test Cases/Home/Portfolio/ReedemConfirmation',  null)])

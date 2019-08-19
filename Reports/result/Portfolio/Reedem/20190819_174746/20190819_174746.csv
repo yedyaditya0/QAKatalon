@@ -1,0 +1,41 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Reedem,,,2019-08-19 17:47:58,2019-08-19 17:50:09,2m - 10.951s,FAILED
+,,,,,,
+Test Cases/Login/LoginTrue,,,2019-08-19 17:47:58,2019-08-19 17:48:38,39.732s,PASSED
+"startApplication(""/Users/fundtastic/Downloads/mobile-debug (dev).apk"", true)",,,2019-08-19 17:47:58,2019-08-19 17:48:12,13.879s,PASSED
+"verifyElementText(findTestObject(""LoginTrue/Mulailah berinvestasi untuk meraih mimpimu""), ""Mulailah berinvestasi untuk meraih mimpimu"")",,,2019-08-19 17:48:12,2019-08-19 17:48:17,4.524s,PASSED
+"tap(findTestObject(""LoginTrue/DP_Rumah""), 0)",,,2019-08-19 17:48:17,2019-08-19 17:48:18,0.947s,PASSED
+"for ([i = 0, i < 4, (i++)])",,,2019-08-19 17:48:18,2019-08-19 17:48:31,13.294s,PASSED
+"setText(findTestObject(""LoginTrue/field_no_phone""), ""08777111777"", 0)",,,2019-08-19 17:48:31,2019-08-19 17:48:32,1.321s,PASSED
+"tap(findTestObject(""LoginTrue/button_masuk""), 0)",,,2019-08-19 17:48:32,2019-08-19 17:48:34,1.365s,PASSED
+"delay(3, STOP_ON_FAILURE)",,,2019-08-19 17:48:34,2019-08-19 17:48:37,3.022s,PASSED
+"verifyElementText(findTestObject(""ObjectOTP/TextView - Verifikasi Nomor HP""), ""Verifikasi Nomor HP"")",,,2019-08-19 17:48:37,2019-08-19 17:48:37,0.142s,PASSED
+"delay(1, STOP_ON_FAILURE)",,,2019-08-19 17:48:37,2019-08-19 17:48:38,1.001s,PASSED
+,,,,,,
+Test Cases/OTP/LoginOTP,,,2019-08-19 17:48:38,2019-08-19 17:48:46,8.216s,PASSED
+"delay(3, STOP_ON_FAILURE)",,,2019-08-19 17:48:38,2019-08-19 17:48:41,3.005s,PASSED
+"tap(findTestObject(""ObjectOTP/Field_OTP""), 0)",,,2019-08-19 17:48:41,2019-08-19 17:48:42,0.780s,PASSED
+"setText(findTestObject(""ObjectOTP/Field_OTP""), ""8888"", 0)",,,2019-08-19 17:48:42,2019-08-19 17:48:43,1.048s,PASSED
+"delay(2, STOP_ON_FAILURE)",,,2019-08-19 17:48:43,2019-08-19 17:48:45,2.004s,PASSED
+"tap(findTestObject(""ObjectOTP/Btn_Verifikasi1""), 0)",,,2019-08-19 17:48:45,2019-08-19 17:48:46,1.280s,PASSED
+,,,,,,
+Test Cases/Home/Home,,,2019-08-19 17:48:46,2019-08-19 17:48:53,7.087s,PASSED
+"delay(7, STOP_ON_FAILURE)",,,2019-08-19 17:48:46,2019-08-19 17:48:53,7.002s,PASSED
+,,,,,,
+Test Cases/Home/Portfolio/Reedem,,,2019-08-19 17:48:53,2019-08-19 17:49:33,39.362s,FAILED
+"delay(5, STOP_ON_FAILURE)",,,2019-08-19 17:48:53,2019-08-19 17:48:58,5.003s,PASSED
+"tap(findTestObject(""Home/Portfolio/Reedem/android.widget.FrameLayout11""), 0)",,,2019-08-19 17:48:58,2019-08-19 17:49:00,1.326s,PASSED
+"delay(7, STOP_ON_FAILURE)",,,2019-08-19 17:49:00,2019-08-19 17:49:07,7.002s,PASSED
+"tap(findTestObject(""Home/Portfolio/TopUP/CardReksa2""), 5)",,,2019-08-19 17:49:07,2019-08-19 17:49:09,2.196s,PASSED
+"delay(5, STOP_ON_FAILURE)",,,2019-08-19 17:49:09,2019-08-19 17:49:14,5.005s,PASSED
+"tap(findTestObject(""Home/Portfolio/Reedem/android.widget.TextView11 - JUAL (1)""), 0)",,,2019-08-19 17:49:14,2019-08-19 17:49:15,1.240s,PASSED
+"delay(5, STOP_ON_FAILURE)",,,2019-08-19 17:49:15,2019-08-19 17:49:20,5.005s,PASSED
+"tap(findTestObject(""Home/Portfolio/Reedem/JualSekarang1""), 0)",,,2019-08-19 17:49:20,2019-08-19 17:49:21,1.316s,PASSED
+"delay(5, STOP_ON_FAILURE)",,,2019-08-19 17:49:21,2019-08-19 17:49:26,5.002s,PASSED
+"tap(findTestObject(""Home/Portfolio/Reedem/android.widget.ImageView1""), 0)",,,2019-08-19 17:49:26,2019-08-19 17:49:27,0.852s,PASSED
+"delay(5, STOP_ON_FAILURE)",,,2019-08-19 17:49:27,2019-08-19 17:49:32,5.006s,PASSED
+"tap(findTestObject(""Home/Portfolio/Reedem/ReedemConfirmation - Konfirmasi""), 0)",,,2019-08-19 17:49:32,2019-08-19 17:49:33,0.326s,FAILED
+,,,,,,
+Test Cases/Home/Portfolio/ReedemConfirmation,,,2019-08-19 17:49:33,2019-08-19 17:50:08,35.644s,FAILED
+"delay(5, STOP_ON_FAILURE)",,,2019-08-19 17:49:33,2019-08-19 17:49:38,5.004s,PASSED
+"verifyElementText(findTestObject(""Home/Portfolio/Reedem/ReedemConfirmation/Button_KonfirmasiJual""), ""Konfirmasi"")",,,2019-08-19 17:49:38,2019-08-19 17:50:08,30.558s,FAILED

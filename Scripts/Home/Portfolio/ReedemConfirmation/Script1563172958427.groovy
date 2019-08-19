@@ -15,14 +15,7 @@ import internal.GlobalVariable as GlobalVariable
 
 Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.verifyElementText(findTestObject("Home/Portfolio/Reedem/ReedemConfirmation/Button_KonfirmasiJual"), 'Konfirmasi')
-
-Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
-
-//Mobile.verifyElementText(findTestObject("Home/Portfolio/Reedem/ReedemConfirmation/Text-TransferPenjualan"), 'Transfer Penjualan ke : ')
-
-//Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
-
-Mobile.tap(findTestObject("Home/Portfolio/Reedem/ReedemConfirmation/Button_KonfirmasiJual"), 0)
+//Mobile.tap(findTestObject('Home/Portfolio/Reedem/android.widget.TextView10 - Konfirmasi'), 0)
+Mobile.tap(findTestObject('Home/Portfolio/Reedem/ReedemConfirmation/BtnKonfirmasi'), 0)
 
 Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
