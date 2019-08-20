@@ -1,0 +1,27 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+AddToCart,,,2019-08-20 13:55:36,2019-08-20 13:57:12,1m - 36.671s,FAILED
+,,,,,,
+Test Cases/Login/LoginTrue,,,2019-08-20 13:55:36,2019-08-20 13:56:22,45.873s,PASSED
+"startApplication(""/Users/fundtastic/Downloads/mobile-debug (dev).apk"", true)",,,2019-08-20 13:55:36,2019-08-20 13:55:52,15.655s,PASSED
+"verifyElementText(findTestObject(""LoginTrue/Mulailah berinvestasi untuk meraih mimpimu""), ""Mulailah berinvestasi untuk meraih mimpimu"")",,,2019-08-20 13:55:52,2019-08-20 13:55:56,4.000s,PASSED
+"for ([i = 0, i < 4, (i++)])",,,2019-08-20 13:55:56,2019-08-20 13:56:14,18.367s,PASSED
+"setText(findTestObject(""LoginTrue/field_no_phone""), ""08777111777"", 0)",,,2019-08-20 13:56:14,2019-08-20 13:56:16,1.420s,PASSED
+"tap(findTestObject(""LoginTrue/button_masuk""), 0)",,,2019-08-20 13:56:16,2019-08-20 13:56:18,1.899s,PASSED
+"delay(3, STOP_ON_FAILURE)",,,2019-08-20 13:56:18,2019-08-20 13:56:21,3.027s,PASSED
+"verifyElementText(findTestObject(""ObjectOTP/TextView - Verifikasi Nomor HP""), ""Verifikasi Nomor HP"")",,,2019-08-20 13:56:21,2019-08-20 13:56:21,0.153s,PASSED
+"delay(1, STOP_ON_FAILURE)",,,2019-08-20 13:56:21,2019-08-20 13:56:22,1.005s,PASSED
+,,,,,,
+Test Cases/OTP/LoginOTP,,,2019-08-20 13:56:22,2019-08-20 13:56:31,8.919s,PASSED
+"delay(3, STOP_ON_FAILURE)",,,2019-08-20 13:56:22,2019-08-20 13:56:25,3.005s,PASSED
+"tap(findTestObject(""ObjectOTP/Field_OTP""), 0)",,,2019-08-20 13:56:25,2019-08-20 13:56:27,1.527s,PASSED
+"setText(findTestObject(""ObjectOTP/Field_OTP""), ""8888"", 0)",,,2019-08-20 13:56:27,2019-08-20 13:56:28,1.043s,PASSED
+"delay(2, STOP_ON_FAILURE)",,,2019-08-20 13:56:28,2019-08-20 13:56:30,2.006s,PASSED
+"tap(findTestObject(""ObjectOTP/Btn_Verifikasi1""), 0)",,,2019-08-20 13:56:30,2019-08-20 13:56:31,1.207s,PASSED
+,,,,,,
+Test Cases/Home/Home,,,2019-08-20 13:56:31,2019-08-20 13:56:38,7.210s,PASSED
+"delay(7, STOP_ON_FAILURE)",,,2019-08-20 13:56:31,2019-08-20 13:56:38,7.012s,PASSED
+,,,,,,
+Test Cases/Home/Gold/addToCart,,,2019-08-20 13:56:38,2019-08-20 13:57:12,33.585s,FAILED
+"tap(findTestObject(""Home/Gold/AddToCart/android.widget.LinearLayout15""), 0)",,,2019-08-20 13:56:38,2019-08-20 13:56:39,1.308s,PASSED
+"tap(findTestObject(""Home/Gold/AddToCart/android.widget.LinearLayout20""), 0)",,,2019-08-20 13:56:39,2019-08-20 13:56:41,1.316s,PASSED
+"tap(findTestObject(""Home/Gold/AddToCart/android.widget.LinearLayout6""), 0)",,,2019-08-20 13:56:41,2019-08-20 13:57:12,30.853s,FAILED
