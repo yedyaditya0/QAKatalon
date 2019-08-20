@@ -15,31 +15,33 @@ import internal.GlobalVariable as GlobalVariable
 
 Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
 
+
+//memilih icon profil
 Mobile.tap(findTestObject('Profile/android.widget.FrameLayout14 (1)'), 0)
 
 Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
 
-
+//memilih button beri masukan
 Mobile.tap(findTestObject('Profile/android.widget.LinearLayout8'), 0)
 
 Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
 
-
+//mengisi kolom nama lengkap
 Mobile.setText(findTestObject('Profile/android.widget.EditText0 - Nama Lengkap (1)'), 'Aji Kurnia Putra', 0)
 
 Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
 
-
+//mengisi kolom email
 Mobile.setText(findTestObject('Profile/android.widget.EditText1 - Email (1)'), 'ajikurniaputra84@gmail.com', 0)
 
 Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
 
-
+//mengisi kolom pesan
 Mobile.setText(findTestObject('Profile/android.widget.EditText2 - Masukan Pesan Anda (1)'), 'tes ', 0)
 
 Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
 
-
+//memilih button kirim
 Mobile.tap(findTestObject('Profile/android.widget.Button0 - KIRIM (1)'), 0)
 
 Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
