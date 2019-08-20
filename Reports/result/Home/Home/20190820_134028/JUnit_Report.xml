@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Home" time="84" tests="3" failures="0" errors="0">
+   <testsuite name="Home" tests="3" failures="0" errors="0" time="84" timestamp="2019-08-20 13:40:42" hostname="ustore - 192.168.0.120" id="Test Suites/result/Home/Home">
+      <properties>
+         <property name="deviceName" value="emulator-5554 (Android SDK built for x86 - Android 8.1.0)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/ustore/Documents/katalon/QAKatalon/Reports/result/Home/Home/20190820_134028"/>
+         <property name="logFiles" value="/Users/ustore/Documents/katalon/QAKatalon/Reports/result/Home/Home/20190820_134028/execution0.log, /Users/ustore/Documents/katalon/QAKatalon/Reports/result/Home/Home/20190820_134028/appium.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ustore - 192.168.0.120"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="4.1.0.2"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.8.1"/>
+         <property name="deviceModel" value="Android SDK built for x86"/>
+         <property name="hostAddress" value="192.168.0.120"/>
+         <property name="deviceManufacturer" value="Google"/>
+         <property name="deviceId" value="emulator-5554"/>
+         <property name="deviceName" value="emulator-5554 (Android SDK built for x86 - Android 8.1.0)"/>
+         <property name="deviceOSVersion" value="8.1.0"/>
+      </properties>
+      <testcase name="Test Cases/Login/LoginTrue" classname="Test Cases/Login/LoginTrue" status="PASSED">
+         <system-out><![CDATA[2019-08-20 13:40:43 - [TEST_CASE][PASSED] - Test Cases/Login/LoginTrue: Test Cases/Login/LoginTrue
+
+2019-08-20 13:40:43 - [TEST_STEP][PASSED] - startApplication: Started app at: '/Users/ustore/Downloads/mobile-debug (2).apk'
+
+2019-08-20 13:41:16 - [MESSAGE][PASSED] - Started app at: '/Users/ustore/Downloads/mobile-debug (2).apk'
+
+2019-08-20 13:41:16 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/LoginTrue/Mulailah berinvestasi untuk meraih mimpimu' are matched.
+
+2019-08-20 13:41:21 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/LoginTrue/Mulailah berinvestasi untuk meraih mimpimu' are matched.
+
+2019-08-20 13:41:21 - [TEST_STEP][PASSED] - Statement - For ([i = 0, i < 4, (i++)]): Swiped from 800,1,000 to 10,800
+
+2019-08-20 13:41:21 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/LoginTrue/screen_swipe'
+
+2019-08-20 13:41:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-08-20 13:41:26 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/LoginTrue/screen_swipe'
+
+2019-08-20 13:41:26 - [TEST_STEP][PASSED] - swipe: Swiped from 800,1,000 to 10,800
+
+2019-08-20 13:41:28 - [MESSAGE][PASSED] - Swiped from 800,1,000 to 10,800
+
+2019-08-20 13:41:28 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/LoginTrue/screen_swipe'
+
+2019-08-20 13:41:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-08-20 13:41:30 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/LoginTrue/screen_swipe'
+
+2019-08-20 13:41:30 - [TEST_STEP][PASSED] - swipe: Swiped from 800,1,000 to 10,800
+
+2019-08-20 13:41:32 - [MESSAGE][PASSED] - Swiped from 800,1,000 to 10,800
+
+2019-08-20 13:41:32 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/LoginTrue/screen_swipe'
+
+2019-08-20 13:41:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-08-20 13:41:33 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/LoginTrue/screen_swipe'
+
+2019-08-20 13:41:33 - [TEST_STEP][PASSED] - swipe: Swiped from 800,1,000 to 10,800
+
+2019-08-20 13:41:35 - [MESSAGE][PASSED] - Swiped from 800,1,000 to 10,800
+
+2019-08-20 13:41:35 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/LoginTrue/screen_swipe'
+
+2019-08-20 13:41:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-08-20 13:41:38 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/LoginTrue/screen_swipe'
+
+2019-08-20 13:41:38 - [TEST_STEP][PASSED] - swipe: Swiped from 800,1,000 to 10,800
+
+2019-08-20 13:41:40 - [MESSAGE][PASSED] - Swiped from 800,1,000 to 10,800
+
+2019-08-20 13:41:40 - [TEST_STEP][PASSED] - setText: Text '08777111777' has been set to element 'Object Repository/LoginTrue/field_no_phone'
+
+2019-08-20 13:41:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-08-20 13:41:42 - [MESSAGE][PASSED] - Text '08777111777' has been set to element 'Object Repository/LoginTrue/field_no_phone'
+
+2019-08-20 13:41:42 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/LoginTrue/button_masuk'
+
+2019-08-20 13:41:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-08-20 13:41:44 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/LoginTrue/button_masuk'
+
+2019-08-20 13:41:44 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2019-08-20 13:41:47 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-08-20 13:41:47 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/ObjectOTP/TextView - Verifikasi Nomor HP' are matched.
+
+2019-08-20 13:41:47 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/ObjectOTP/TextView - Verifikasi Nomor HP' are matched.
+
+2019-08-20 13:41:47 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-08-20 13:41:48 - [MESSAGE][PASSED] - Delayed 1 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/OTP/LoginOTP" classname="Test Cases/OTP/LoginOTP" status="PASSED">
+         <system-out><![CDATA[2019-08-20 13:41:48 - [TEST_CASE][PASSED] - Test Cases/OTP/LoginOTP: Test Cases/OTP/LoginOTP
+
+2019-08-20 13:41:49 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2019-08-20 13:41:52 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-08-20 13:41:52 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/ObjectOTP/Field_OTP'
+
+2019-08-20 13:41:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-08-20 13:41:53 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/ObjectOTP/Field_OTP'
+
+2019-08-20 13:41:53 - [TEST_STEP][PASSED] - setText: Text '8888' has been set to element 'Object Repository/ObjectOTP/Field_OTP'
+
+2019-08-20 13:41:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-08-20 13:41:54 - [MESSAGE][PASSED] - Text '8888' has been set to element 'Object Repository/ObjectOTP/Field_OTP'
+
+2019-08-20 13:41:54 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-08-20 13:41:56 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-20 13:41:56 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/ObjectOTP/Btn_Verifikasi1'
+
+2019-08-20 13:41:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-08-20 13:41:57 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/ObjectOTP/Btn_Verifikasi1']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Home/Home" classname="Test Cases/Home/Home" status="PASSED">
+         <system-out><![CDATA[2019-08-20 13:41:57 - [TEST_CASE][PASSED] - Test Cases/Home/Home: Test Cases/Home/Home
+
+2019-08-20 13:41:58 - [TEST_STEP][PASSED] - delay: Delayed 7 second(s)
+
+2019-08-20 13:42:05 - [MESSAGE][PASSED] - Delayed 7 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-08-20 13:40:42 - [TEST_SUITE][PASSED] - Home: Test Cases/Home/Home]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

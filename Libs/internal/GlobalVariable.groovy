@@ -19,15 +19,8 @@ public class GlobalVariable {
         allVariables.put('default', [:])
         
         String profileName = RunConfiguration.getExecutionProfile()
+        
         def selectedVariables = allVariables[profileName]
-		
-		for(object in selectedVariables){
-			String overridingGlobalVariable = RunConfiguration.getOverridingGlobalVariable(object.key)
-			if(overridingGlobalVariable != null){
-				selectedVariables.put(object.key, overridingGlobalVariable)
-			}
-		}
-
         
     }
 }

@@ -13,11 +13,11 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-Mobile.startApplication('/Users/fundtastic/Downloads/mobile-debug (dev).apk', true)
+Mobile.startApplication('/Users/ustore/Downloads/mobile-debug (2).apk', true)
 
 Mobile.verifyElementText(findTestObject('LoginTrue/Mulailah berinvestasi untuk meraih mimpimu'), 'Mulailah berinvestasi untuk meraih mimpimu')
 
-Mobile.tap(findTestObject('LoginTrue/DP_Rumah'), 0)
+//Mobile.tap(findTestObject('LoginTrue/DP_Rumah'), 0)
 
 for (int i = 0; i < 4; i++) {
     //Swipe Screen

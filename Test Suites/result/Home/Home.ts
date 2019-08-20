@@ -4,6 +4,7 @@
    <name>Home</name>
    <tag></tag>
    <isRerun>false</isRerun>
+   <lastRun>2019-08-20T13:40:28</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -11,19 +12,19 @@
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <testSuiteGuid>92b1e0cc-543b-4cf0-b9cd-8fdc841b41ed</testSuiteGuid>
    <testCaseLink>
-      <guid>7599ae4b-67be-49b6-8e28-c03b810ea76a</guid>
+      <guid>6fd6ecca-a69d-4b1f-b080-13bf01dddbd0</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Login/LoginTrue</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>750d07d1-0a6f-40ca-9b73-036379b8929c</guid>
+      <guid>067b8998-fa60-44a2-a28e-cc0bae080bb2</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/OTP/LoginOTP</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>86180dbd-3ab2-4c88-9533-0e026869783e</guid>
+      <guid>0e389051-580c-460e-a4ed-036d67f46857</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Home/Home</testCaseId>
