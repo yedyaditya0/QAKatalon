@@ -6073,3 +6073,8 @@
 [HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.LinearLayout\").resourceId(\"id.co.fundtastic.client:id/llRedeem\").instance(26)"}
 [HTTP] <-- POST /wd/hub/session/d6c4e321-680a-4fac-86b4-b80e3de9f2ca/elements 200 13 ms - 74
 [HTTP] 
+[BaseDriver] Shutting down because we waited 1800 seconds for a command
+[Appium] Closing session, cause was 'New Command Timeout of 1800 seconds expired. Try customizing the timeout using the 'newCommandTimeout' desired capability'
+[Appium] Removing session d6c4e321-680a-4fac-86b4-b80e3de9f2ca from our master session list
+[UiAutomator2] Did not get confirmation UiAutomator2 deleteSession worked; Error was: ProxyRequestError: Could not proxy command to remote server. Original error: Error: read ECONNRESET
+[ADB] id.co.fundtastic.client was not uninstalled, because it was not present on the device
