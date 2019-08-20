@@ -15,13 +15,23 @@ import internal.GlobalVariable as GlobalVariable
 
 Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
 
-//memilih icon profil pada halaman home
-Mobile.tap(findTestObject('Profile/android.widget.FrameLayout14'), 0)
+//memilih icon profil pada halaman menu
+Mobile.tap(findTestObject('Profile/android.widget.FrameLayout14 (2)'), 0)
 
 Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
 
-//memilih button nilai kami di playstore
-Mobile.tap(findTestObject('Profile/android.widget.LinearLayout6'), 0)
+//memilih button FAQ pada halaman profil
+Mobile.tap(findTestObject('Profile/android.widget.LinearLayout9'), 0)
+
+Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
+
+//memilih arrow right (menampilkan jawaban)
+Mobile.tap(findTestObject('Profile/android.widget.ImageView0'), 0)
+
+Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
+
+//memilih arrow up (menutup jawaban)
+Mobile.tap(findTestObject('Profile/android.widget.ImageView0'), 0)
 
 Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
 
