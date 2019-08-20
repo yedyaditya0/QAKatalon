@@ -1,13 +1,13 @@
 [Appium] Welcome to Appium v1.8.1
 [Appium] Non-default server args:
-[Appium]   port: 53334
+[Appium]   port: 50580
 [Appium]   loglevel: info
-[Appium]   chromeDriverPort: 53335
-[Appium]   tmpDir: /var/folders/bv/w05xlz0n7wj_gdr6vr8jz5lw0000gn/T//Katalon/Appium/Temp1566284272112
-[Appium] Appium REST http interface listener started on 0.0.0.0:53334
+[Appium]   chromeDriverPort: 50581
+[Appium]   tmpDir: /var/folders/bv/w05xlz0n7wj_gdr6vr8jz5lw0000gn/T//Katalon/Appium/Temp1566296995446
+[Appium] Appium REST http interface listener started on 0.0.0.0:50580
 [HTTP] --> GET /wd/hub/status
 [HTTP] {}
-[HTTP] <-- GET /wd/hub/status 200 19 ms - 83
+[HTTP] <-- GET /wd/hub/status 200 18 ms - 83
 [HTTP] 
 [HTTP] --> GET /wd/hub/status
 [HTTP] {}
@@ -30,7 +30,7 @@
 [Appium]   platformName: Android
 [Appium]   udid: emulator-5554
 [BaseDriver] The following capabilities were provided, but are not recognized by appium: platform.
-[BaseDriver] Session created with session id: 0bd0122e-e76d-41f6-a3df-21fdd26f5908
+[BaseDriver] Session created with session id: 640f33d2-1dc3-4a01-a756-232a9aae4117
 [BaseDriver] Using local app '/Users/fundtastic/Downloads/mobile-debug (dev).apk'
 [AndroidDriver] Java version is: 1.8.0_181
 [ADB] Checking whether adb is present
@@ -58,39 +58,89 @@
 [UiAutomator2] Waiting up to 20000ms for UiAutomator2 to be online...
 [AndroidDriver] Screen already unlocked, doing nothing
 [UiAutomator2] UiAutomator2 did not start the activity we were waiting for, 'id.co.fundtastic.client/id.co.fundtastic.client.splash.presentation.SplashActivity'. Starting it ourselves
-[Appium] New AndroidUiautomator2Driver session created successfully, session 0bd0122e-e76d-41f6-a3df-21fdd26f5908 added to master session list
-[HTTP] <-- POST /wd/hub/session 200 11414 ms - 1189
+[Appium] New AndroidUiautomator2Driver session created successfully, session 640f33d2-1dc3-4a01-a756-232a9aae4117 added to master session list
+[HTTP] <-- POST /wd/hub/session 200 10827 ms - 1189
 [HTTP] 
 [HTTP] --> GET /wd/hub/status
 [HTTP] {}
-[HTTP] <-- GET /wd/hub/status 200 16 ms - 55
+[HTTP] <-- GET /wd/hub/status 200 18 ms - 55
 [HTTP] 
-[HTTP] --> POST /wd/hub/session/0bd0122e-e76d-41f6-a3df-21fdd26f5908/timeouts
+[HTTP] --> POST /wd/hub/session/640f33d2-1dc3-4a01-a756-232a9aae4117/timeouts
 [HTTP] {"type":"implicit","ms":60000}
-[HTTP] <-- POST /wd/hub/session/0bd0122e-e76d-41f6-a3df-21fdd26f5908/timeouts 400 12 ms - 4196
+[HTTP] <-- POST /wd/hub/session/640f33d2-1dc3-4a01-a756-232a9aae4117/timeouts 400 20 ms - 4196
 [HTTP] 
-[HTTP] --> GET /wd/hub/session/0bd0122e-e76d-41f6-a3df-21fdd26f5908/source
+[HTTP] --> GET /wd/hub/session/640f33d2-1dc3-4a01-a756-232a9aae4117/source
 [HTTP] {}
 [W3C] Driver proxy active, passing request on via HTTP proxy
-[JSONWP Proxy] Replacing sessionId 12b123de-e550-4fcb-903e-e38e1334678a with 0bd0122e-e76d-41f6-a3df-21fdd26f5908
-[HTTP] <-- GET /wd/hub/session/0bd0122e-e76d-41f6-a3df-21fdd26f5908/source 200 204 ms - 3666
+[JSONWP Proxy] Replacing sessionId b8f735dd-a96a-4a3d-b772-b9d3cde53838 with 640f33d2-1dc3-4a01-a756-232a9aae4117
+[HTTP] <-- GET /wd/hub/session/640f33d2-1dc3-4a01-a756-232a9aae4117/source 200 207 ms - 3666
 [HTTP] 
-[HTTP] --> GET /wd/hub/session/0bd0122e-e76d-41f6-a3df-21fdd26f5908/screenshot
+[HTTP] --> GET /wd/hub/session/640f33d2-1dc3-4a01-a756-232a9aae4117/screenshot
 [HTTP] {}
-[HTTP] <-- GET /wd/hub/session/0bd0122e-e76d-41f6-a3df-21fdd26f5908/screenshot 200 399 ms - 45118
+[HTTP] <-- GET /wd/hub/session/640f33d2-1dc3-4a01-a756-232a9aae4117/screenshot 200 538 ms - 45118
 [HTTP] 
-[HTTP] --> GET /wd/hub/session/0bd0122e-e76d-41f6-a3df-21fdd26f5908/source
+[HTTP] --> GET /wd/hub/session/640f33d2-1dc3-4a01-a756-232a9aae4117/source
 [HTTP] {}
 [W3C] Driver proxy active, passing request on via HTTP proxy
-[JSONWP Proxy] Replacing sessionId 12b123de-e550-4fcb-903e-e38e1334678a with 0bd0122e-e76d-41f6-a3df-21fdd26f5908
-[HTTP] <-- GET /wd/hub/session/0bd0122e-e76d-41f6-a3df-21fdd26f5908/source 200 224 ms - 29991
+[JSONWP Proxy] Replacing sessionId b8f735dd-a96a-4a3d-b772-b9d3cde53838 with 640f33d2-1dc3-4a01-a756-232a9aae4117
+[HTTP] <-- GET /wd/hub/session/640f33d2-1dc3-4a01-a756-232a9aae4117/source 200 287 ms - 42481
 [HTTP] 
-[HTTP] --> GET /wd/hub/session/0bd0122e-e76d-41f6-a3df-21fdd26f5908/screenshot
+[HTTP] --> GET /wd/hub/session/640f33d2-1dc3-4a01-a756-232a9aae4117/screenshot
 [HTTP] {}
-[HTTP] <-- GET /wd/hub/session/0bd0122e-e76d-41f6-a3df-21fdd26f5908/screenshot 200 244 ms - 144990
+[HTTP] <-- GET /wd/hub/session/640f33d2-1dc3-4a01-a756-232a9aae4117/screenshot 200 209 ms - 156136
 [HTTP] 
-[HTTP] --> DELETE /wd/hub/session/0bd0122e-e76d-41f6-a3df-21fdd26f5908
+[HTTP] --> GET /wd/hub/session/640f33d2-1dc3-4a01-a756-232a9aae4117/source
 [HTTP] {}
-[Appium] Removing session 0bd0122e-e76d-41f6-a3df-21fdd26f5908 from our master session list
-[HTTP] <-- DELETE /wd/hub/session/0bd0122e-e76d-41f6-a3df-21fdd26f5908 200 146 ms - 76
+[W3C] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId b8f735dd-a96a-4a3d-b772-b9d3cde53838 with 640f33d2-1dc3-4a01-a756-232a9aae4117
+[HTTP] <-- GET /wd/hub/session/640f33d2-1dc3-4a01-a756-232a9aae4117/source 200 147 ms - 42481
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/640f33d2-1dc3-4a01-a756-232a9aae4117/screenshot
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/session/640f33d2-1dc3-4a01-a756-232a9aae4117/screenshot 200 212 ms - 156136
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/640f33d2-1dc3-4a01-a756-232a9aae4117/source
+[HTTP] {}
+[W3C] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId b8f735dd-a96a-4a3d-b772-b9d3cde53838 with 640f33d2-1dc3-4a01-a756-232a9aae4117
+[HTTP] <-- GET /wd/hub/session/640f33d2-1dc3-4a01-a756-232a9aae4117/source 200 116 ms - 42481
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/640f33d2-1dc3-4a01-a756-232a9aae4117/screenshot
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/session/640f33d2-1dc3-4a01-a756-232a9aae4117/screenshot 200 187 ms - 156136
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/640f33d2-1dc3-4a01-a756-232a9aae4117/source
+[HTTP] {}
+[W3C] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId b8f735dd-a96a-4a3d-b772-b9d3cde53838 with 640f33d2-1dc3-4a01-a756-232a9aae4117
+[HTTP] <-- GET /wd/hub/session/640f33d2-1dc3-4a01-a756-232a9aae4117/source 200 100 ms - 29824
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/640f33d2-1dc3-4a01-a756-232a9aae4117/screenshot
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/session/640f33d2-1dc3-4a01-a756-232a9aae4117/screenshot 200 556 ms - 654954
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/640f33d2-1dc3-4a01-a756-232a9aae4117/source
+[HTTP] {}
+[W3C] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId b8f735dd-a96a-4a3d-b772-b9d3cde53838 with 640f33d2-1dc3-4a01-a756-232a9aae4117
+[HTTP] <-- GET /wd/hub/session/640f33d2-1dc3-4a01-a756-232a9aae4117/source 200 118 ms - 33358
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/640f33d2-1dc3-4a01-a756-232a9aae4117/screenshot
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/session/640f33d2-1dc3-4a01-a756-232a9aae4117/screenshot 200 266 ms - 247742
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/640f33d2-1dc3-4a01-a756-232a9aae4117/source
+[HTTP] {}
+[W3C] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId b8f735dd-a96a-4a3d-b772-b9d3cde53838 with 640f33d2-1dc3-4a01-a756-232a9aae4117
+[HTTP] <-- GET /wd/hub/session/640f33d2-1dc3-4a01-a756-232a9aae4117/source 200 90 ms - 29824
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/640f33d2-1dc3-4a01-a756-232a9aae4117/screenshot
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/session/640f33d2-1dc3-4a01-a756-232a9aae4117/screenshot 200 523 ms - 655370
+[HTTP] 
+[HTTP] --> DELETE /wd/hub/session/640f33d2-1dc3-4a01-a756-232a9aae4117
+[HTTP] {}
+[Appium] Removing session 640f33d2-1dc3-4a01-a756-232a9aae4117 from our master session list
+[HTTP] <-- DELETE /wd/hub/session/640f33d2-1dc3-4a01-a756-232a9aae4117 200 168 ms - 76
 [HTTP] 
