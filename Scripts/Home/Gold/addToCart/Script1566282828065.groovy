@@ -13,28 +13,24 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-Mobile.startApplication('/Users/fundtastic/Downloads/mobile-debug (dev).apk', true)
 
-Mobile.verifyElementText(findTestObject('LoginTrue/Mulailah berinvestasi untuk meraih mimpimu'), 'Mulailah berinvestasi untuk meraih mimpimu')
+Mobile.tap(findTestObject('Home/Gold/AddToCart/android.widget.LinearLayout15'), 0)
 
-//Mobile.tap(findTestObject('LoginTrue/DP_Rumah'), 0)
+//Mobile.tap(findTestObject('Home/Gold/AddToCart/android.widget.LinearLayout20'), 0)
 
-for (int i = 0; i < 4; i++) {
-    //Swipe Screen
-    Mobile.tap(findTestObject('LoginTrue/screen_swipe'), 0)
+Mobile.tap(findTestObject('Home/Gold/AddToCart/Cart1'), 0)
 
-    Mobile.swipe(800, 1000, 10, 800)
-}
+Mobile.tap(findTestObject('Home/Gold/AddToCart/android.widget.LinearLayout6'), 0)
 
-// Field registered no phone in number phone
-Mobile.setText(findTestObject('LoginTrue/field_no_phone'), '08777111777', 0)
+Mobile.tap(findTestObject('Home/Gold/AddToCart/android.widget.CheckBox0'), 0)
 
-// Tap button Masuk
-Mobile.tap(findTestObject('LoginTrue/button_masuk'), 0)
+Mobile.tap(findTestObject('Home/Gold/AddToCart/android.widget.LinearLayout6 (1)'), 0)
 
-Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
+Mobile.tap(findTestObject('Home/Gold/AddToCart/com.google.android.material.chip.Chip1 - Rp 200.000'), 0)
 
-// Verify element text Otp 
-Mobile.verifyElementText(findTestObject('ObjectOTP/TextView - Verifikasi Nomor HP'), 'Verifikasi Nomor HP')
+Mobile.tap(findTestObject('Home/Gold/AddToCart/android.widget.RadioButton0 - 0.1 Gram'), 0)
 
-Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
+Mobile.tap(findTestObject('Home/Gold/AddToCart/android.widget.LinearLayout1'), 0)
+
+Mobile.tap(findTestObject('Home/Gold/AddToCart/android.widget.RelativeLayout1'), 0)
+
