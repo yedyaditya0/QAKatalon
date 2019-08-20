@@ -1,5 +1,22 @@
 [Appium] Welcome to Appium v1.8.1
 [Appium] Non-default server args:
+<<<<<<< aji
+[Appium]   port: 63586
+[Appium]   loglevel: info
+[Appium]   chromeDriverPort: 63587
+[Appium]   tmpDir: /var/folders/ts/p6rxgpw53_d96xw60slkng7m0000gn/T//Katalon/Appium/Temp1566283955210
+[Appium] Appium REST http interface listener started on 0.0.0.0:63586
+[HTTP] --> GET /wd/hub/status
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/status 200 16 ms - 83
+[HTTP] 
+[HTTP] --> GET /wd/hub/status
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/status 200 7 ms - 83
+[HTTP] 
+[HTTP] --> POST /wd/hub/session
+[HTTP] {"desiredCapabilities":{"app":"/Users/ustore/Downloads/mobile-debug (2).apk","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"emulator-5554 (Android SDK built for x86 - Android 8.1.0)","fullReset":false,"newCommandTimeout":1800,"noReset":true,"platform":"ANDROID","platformName":"Android","udid":"emulator-5554"},"capabilities":{"desiredCapabilities":{"app":"/Users/ustore/Downloads/mobile-debug (2).apk","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"emulator-5554 (Android SDK built for x86 - Android 8.1.0)","fullReset":false,"newCommandTimeout":1800,"noReset":true,"platform":"ANDROID","platformName":"Android","udid":"emulator-5554"},"firstMatch":[{"platformName":"android"}]}}
+=======
 [Appium]   port: 53334
 [Appium]   loglevel: info
 [Appium]   chromeDriverPort: 53335
@@ -15,14 +32,19 @@
 [HTTP] 
 [HTTP] --> POST /wd/hub/session
 [HTTP] {"desiredCapabilities":{"app":"/Users/fundtastic/Downloads/mobile-debug (dev).apk","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"emulator-5554 (Android SDK built for x86 - Android 9)","fullReset":false,"newCommandTimeout":1800,"noReset":true,"platform":"ANDROID","platformName":"Android","udid":"emulator-5554"},"capabilities":{"desiredCapabilities":{"app":"/Users/fundtastic/Downloads/mobile-debug (dev).apk","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"emulator-5554 (Android SDK built for x86 - Android 9)","fullReset":false,"newCommandTimeout":1800,"noReset":true,"platform":"ANDROID","platformName":"Android","udid":"emulator-5554"},"firstMatch":[{"platformName":"android"}]}}
+>>>>>>> master
 [Appium] Could not parse W3C capabilities: 'deviceName' can't be blank. Falling back to JSONWP protocol.
 [Appium] The following capabilities were provided in the JSONWP desired capabilities that are missing in W3C capabilities: ["app","autoGrantPermissions","automationName","deviceName","fullReset","newCommandTimeout","noReset","platform","platformName","udid"]. Falling back to JSONWP protocol.
 [Appium] Creating new AndroidUiautomator2Driver (v1.12.0) session
 [Appium] Capabilities:
-[Appium]   app: /Users/fundtastic/Downloads/mobile-debug (dev).apk
+[Appium]   app: /Users/ustore/Downloads/mobile-debug (2).apk
 [Appium]   autoGrantPermissions: true
 [Appium]   automationName: uiautomator2
+<<<<<<< aji
+[Appium]   deviceName: emulator-5554 (Android SDK built for x86 - Android 8.1.0)
+=======
 [Appium]   deviceName: emulator-5554 (Android SDK built for x86 - Android 9)
+>>>>>>> master
 [Appium]   fullReset: false
 [Appium]   newCommandTimeout: 1800
 [Appium]   noReset: true
@@ -30,41 +52,175 @@
 [Appium]   platformName: Android
 [Appium]   udid: emulator-5554
 [BaseDriver] The following capabilities were provided, but are not recognized by appium: platform.
+<<<<<<< aji
+[BaseDriver] Session created with session id: 231e6ac4-6c86-48ac-8165-894b21b88213
+[BaseDriver] Using local app '/Users/ustore/Downloads/mobile-debug (2).apk'
+=======
 [BaseDriver] Session created with session id: 0bd0122e-e76d-41f6-a3df-21fdd26f5908
 [BaseDriver] Using local app '/Users/fundtastic/Downloads/mobile-debug (dev).apk'
+>>>>>>> master
 [AndroidDriver] Java version is: 1.8.0_181
 [ADB] Checking whether adb is present
-[ADB] Found 1 'build-tools' folders under '/Users/fundtastic/.katalon/tools/android_sdk' (newest first):
-[ADB]     /Users/fundtastic/.katalon/tools/android_sdk/build-tools/28.0.3
-[ADB] Using adb from /Users/fundtastic/.katalon/tools/android_sdk/platform-tools/adb
+[ADB] Found 1 'build-tools' folders under '/Users/ustore/.katalon/tools/android_sdk' (newest first):
+[ADB]     /Users/ustore/.katalon/tools/android_sdk/build-tools/28.0.3
+[ADB] Using adb from /Users/ustore/.katalon/tools/android_sdk/platform-tools/adb
 [AndroidDriver] Retrieving device list
 [AndroidDriver] Using device: emulator-5554
-[ADB] Using the alternative activity name detection method because of: Could not find apkanalyzer in /Users/fundtastic/.katalon/tools/android_sdk/platform-tools/apkanalyzer,/Users/fundtastic/.katalon/tools/android_sdk/emulator/apkanalyzer,/Users/fundtastic/.katalon/tools/android_sdk/tools/apkanalyzer,/Users/fundtastic/.katalon/tools/android_sdk/tools/bin/apkanalyzer,/Users/fundtastic/.katalon/tools/android_sdk/build-tools/28.0.3/apkanalyzer. Do you have the Android SDK installed at '/Users/fundtastic/.katalon/tools/android_sdk'?
+[ADB] Using the alternative activity name detection method because of: Could not find apkanalyzer in /Users/ustore/.katalon/tools/android_sdk/platform-tools/apkanalyzer,/Users/ustore/.katalon/tools/android_sdk/emulator/apkanalyzer,/Users/ustore/.katalon/tools/android_sdk/tools/apkanalyzer,/Users/ustore/.katalon/tools/android_sdk/tools/bin/apkanalyzer,/Users/ustore/.katalon/tools/android_sdk/build-tools/28.0.3/apkanalyzer. Do you have the Android SDK installed at '/Users/ustore/.katalon/tools/android_sdk'?
 [ADB] Checking whether aapt is present
-[ADB] Using aapt from /Users/fundtastic/.katalon/tools/android_sdk/build-tools/28.0.3/aapt
+[ADB] Using aapt from /Users/ustore/.katalon/tools/android_sdk/build-tools/28.0.3/aapt
 [ADB] Extracting package and launch activity from manifest
 [ADB] Package name: 'id.co.fundtastic.client'
 [ADB] Main activity name: 'id.co.fundtastic.client.splash.presentation.SplashActivity'
 [ADB] Getting device platform version
-[ADB] Using apksigner from /Users/fundtastic/.katalon/tools/android_sdk/build-tools/28.0.3/apksigner
+[ADB] Using apksigner from /Users/ustore/.katalon/tools/android_sdk/build-tools/28.0.3/apksigner
 [ADB] Cannot read version codes of '/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk' and/or 'io.appium.uiautomator2.server.test'
 [ADB] Cannot read version names of '/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk' and/or 'io.appium.uiautomator2.server.test'. Assuming correct app version is already installed
 [AndroidDriver] setDeviceLanguageCountry requires language or country.
 [AndroidDriver] Got language: 'null' and country: 'null'
-[ADB] Successfully extracted 263 strings from '/Users/fundtastic/Downloads/mobile-debug (dev).apk' resources for '(default)' configuration
+[ADB] Successfully extracted 263 strings from '/Users/ustore/Downloads/mobile-debug (2).apk' resources for '(default)' configuration
 [UiAutomator2] Starting uiautomator2 server 1.12.0
 [UiAutomator2] Using UIAutomator2 server from '/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v1.12.0.apk' and test from '/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk'
 [UiAutomator2] Running command: 'adb -s emulator-5554 shell am instrument -w io.appium.uiautomator2.server.test/android.support.test.runner.AndroidJUnitRunner'
 [UiAutomator2] Waiting up to 20000ms for UiAutomator2 to be online...
 [AndroidDriver] Screen already unlocked, doing nothing
 [UiAutomator2] UiAutomator2 did not start the activity we were waiting for, 'id.co.fundtastic.client/id.co.fundtastic.client.splash.presentation.SplashActivity'. Starting it ourselves
+<<<<<<< aji
+[Appium] New AndroidUiautomator2Driver session created successfully, session 231e6ac4-6c86-48ac-8165-894b21b88213 added to master session list
+[HTTP] <-- POST /wd/hub/session 200 23289 ms - 1185
+=======
 [Appium] New AndroidUiautomator2Driver session created successfully, session 0bd0122e-e76d-41f6-a3df-21fdd26f5908 added to master session list
 [HTTP] <-- POST /wd/hub/session 200 11414 ms - 1189
+>>>>>>> master
 [HTTP] 
 [HTTP] --> GET /wd/hub/status
 [HTTP] {}
-[HTTP] <-- GET /wd/hub/status 200 16 ms - 55
+[HTTP] <-- GET /wd/hub/status 200 27 ms - 55
 [HTTP] 
+<<<<<<< aji
+[HTTP] --> POST /wd/hub/session/231e6ac4-6c86-48ac-8165-894b21b88213/timeouts
+[HTTP] {"type":"implicit","ms":60000}
+[HTTP] <-- POST /wd/hub/session/231e6ac4-6c86-48ac-8165-894b21b88213/timeouts 400 46 ms - 4196
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/231e6ac4-6c86-48ac-8165-894b21b88213/source
+[HTTP] {}
+[W3C] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId e9f2e0b8-960d-4d12-b696-b7945a81fd24 with 231e6ac4-6c86-48ac-8165-894b21b88213
+[HTTP] <-- GET /wd/hub/session/231e6ac4-6c86-48ac-8165-894b21b88213/source 200 1617 ms - 11739
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/231e6ac4-6c86-48ac-8165-894b21b88213/screenshot
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/session/231e6ac4-6c86-48ac-8165-894b21b88213/screenshot 200 576 ms - 72254
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/231e6ac4-6c86-48ac-8165-894b21b88213/source
+[HTTP] {}
+[W3C] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId e9f2e0b8-960d-4d12-b696-b7945a81fd24 with 231e6ac4-6c86-48ac-8165-894b21b88213
+[HTTP] <-- GET /wd/hub/session/231e6ac4-6c86-48ac-8165-894b21b88213/source 200 303 ms - 42480
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/231e6ac4-6c86-48ac-8165-894b21b88213/screenshot
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/session/231e6ac4-6c86-48ac-8165-894b21b88213/screenshot 200 463 ms - 398516
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/231e6ac4-6c86-48ac-8165-894b21b88213/window/current/size
+[HTTP] {}
+[W3C] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId e9f2e0b8-960d-4d12-b696-b7945a81fd24 with 231e6ac4-6c86-48ac-8165-894b21b88213
+[HTTP] <-- GET /wd/hub/session/231e6ac4-6c86-48ac-8165-894b21b88213/window/current/size 200 19 ms - 100
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/231e6ac4-6c86-48ac-8165-894b21b88213/elements
+[HTTP] {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[5]"}
+[HTTP] <-- POST /wd/hub/session/231e6ac4-6c86-48ac-8165-894b21b88213/elements 200 208 ms - 124
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/231e6ac4-6c86-48ac-8165-894b21b88213
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/session/231e6ac4-6c86-48ac-8165-894b21b88213 200 16 ms - 1185
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/231e6ac4-6c86-48ac-8165-894b21b88213
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/session/231e6ac4-6c86-48ac-8165-894b21b88213 200 13 ms - 1185
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/231e6ac4-6c86-48ac-8165-894b21b88213
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/session/231e6ac4-6c86-48ac-8165-894b21b88213 200 16 ms - 1185
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/231e6ac4-6c86-48ac-8165-894b21b88213
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/session/231e6ac4-6c86-48ac-8165-894b21b88213 200 18 ms - 1185
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/231e6ac4-6c86-48ac-8165-894b21b88213/element/f87f7b70-36bb-4073-879b-2fe486b0f85c/location
+[HTTP] {}
+[W3C] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId e9f2e0b8-960d-4d12-b696-b7945a81fd24 with 231e6ac4-6c86-48ac-8165-894b21b88213
+[HTTP] <-- GET /wd/hub/session/231e6ac4-6c86-48ac-8165-894b21b88213/element/f87f7b70-36bb-4073-879b-2fe486b0f85c/location 200 20 ms - 90
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/231e6ac4-6c86-48ac-8165-894b21b88213/touch/perform
+[HTTP] {"actions":[{"action":"tap","options":{"element":"f87f7b70-36bb-4073-879b-2fe486b0f85c","x":1,"y":1}}]}
+[UiAutomator2] calling get location: f87f7b70-36bb-4073-879b-2fe486b0f85c
+[HTTP] <-- POST /wd/hub/session/231e6ac4-6c86-48ac-8165-894b21b88213/touch/perform 200 93 ms - 76
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/231e6ac4-6c86-48ac-8165-894b21b88213/source
+[HTTP] {}
+[W3C] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId e9f2e0b8-960d-4d12-b696-b7945a81fd24 with 231e6ac4-6c86-48ac-8165-894b21b88213
+[HTTP] <-- GET /wd/hub/session/231e6ac4-6c86-48ac-8165-894b21b88213/source 200 162 ms - 31058
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/231e6ac4-6c86-48ac-8165-894b21b88213/screenshot
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/session/231e6ac4-6c86-48ac-8165-894b21b88213/screenshot 200 263 ms - 132120
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/231e6ac4-6c86-48ac-8165-894b21b88213/window/current/size
+[HTTP] {}
+[W3C] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId e9f2e0b8-960d-4d12-b696-b7945a81fd24 with 231e6ac4-6c86-48ac-8165-894b21b88213
+[HTTP] <-- GET /wd/hub/session/231e6ac4-6c86-48ac-8165-894b21b88213/window/current/size 200 26 ms - 100
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/231e6ac4-6c86-48ac-8165-894b21b88213/elements
+[HTTP] {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.RelativeLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[2]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]"}
+[HTTP] <-- POST /wd/hub/session/231e6ac4-6c86-48ac-8165-894b21b88213/elements 200 97 ms - 124
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/231e6ac4-6c86-48ac-8165-894b21b88213
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/session/231e6ac4-6c86-48ac-8165-894b21b88213 200 14 ms - 1185
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/231e6ac4-6c86-48ac-8165-894b21b88213
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/session/231e6ac4-6c86-48ac-8165-894b21b88213 200 15 ms - 1185
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/231e6ac4-6c86-48ac-8165-894b21b88213
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/session/231e6ac4-6c86-48ac-8165-894b21b88213 200 14 ms - 1185
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/231e6ac4-6c86-48ac-8165-894b21b88213
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/session/231e6ac4-6c86-48ac-8165-894b21b88213 200 13 ms - 1185
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/231e6ac4-6c86-48ac-8165-894b21b88213/element/dd548001-ffb4-4c3e-a638-8afd22f2174b/location
+[HTTP] {}
+[W3C] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId e9f2e0b8-960d-4d12-b696-b7945a81fd24 with 231e6ac4-6c86-48ac-8165-894b21b88213
+[HTTP] <-- GET /wd/hub/session/231e6ac4-6c86-48ac-8165-894b21b88213/element/dd548001-ffb4-4c3e-a638-8afd22f2174b/location 200 21 ms - 87
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/231e6ac4-6c86-48ac-8165-894b21b88213/touch/perform
+[HTTP] {"actions":[{"action":"tap","options":{"element":"dd548001-ffb4-4c3e-a638-8afd22f2174b","x":1,"y":1}}]}
+[UiAutomator2] calling get location: dd548001-ffb4-4c3e-a638-8afd22f2174b
+[HTTP] <-- POST /wd/hub/session/231e6ac4-6c86-48ac-8165-894b21b88213/touch/perform 200 49 ms - 76
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/231e6ac4-6c86-48ac-8165-894b21b88213/source
+[HTTP] {}
+[W3C] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId e9f2e0b8-960d-4d12-b696-b7945a81fd24 with 231e6ac4-6c86-48ac-8165-894b21b88213
+[HTTP] <-- GET /wd/hub/session/231e6ac4-6c86-48ac-8165-894b21b88213/source 200 1680 ms - 6831
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/231e6ac4-6c86-48ac-8165-894b21b88213/screenshot
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/session/231e6ac4-6c86-48ac-8165-894b21b88213/screenshot 200 913 ms - 109554
+[HTTP] 
+[HTTP] --> DELETE /wd/hub/session/231e6ac4-6c86-48ac-8165-894b21b88213
+[HTTP] {}
+[Appium] Removing session 231e6ac4-6c86-48ac-8165-894b21b88213 from our master session list
+[HTTP] <-- DELETE /wd/hub/session/231e6ac4-6c86-48ac-8165-894b21b88213 200 900 ms - 76
+=======
 [HTTP] --> POST /wd/hub/session/0bd0122e-e76d-41f6-a3df-21fdd26f5908/timeouts
 [HTTP] {"type":"implicit","ms":60000}
 [HTTP] <-- POST /wd/hub/session/0bd0122e-e76d-41f6-a3df-21fdd26f5908/timeouts 400 12 ms - 4196
@@ -93,4 +249,5 @@
 [HTTP] {}
 [Appium] Removing session 0bd0122e-e76d-41f6-a3df-21fdd26f5908 from our master session list
 [HTTP] <-- DELETE /wd/hub/session/0bd0122e-e76d-41f6-a3df-21fdd26f5908 200 146 ms - 76
+>>>>>>> master
 [HTTP] 

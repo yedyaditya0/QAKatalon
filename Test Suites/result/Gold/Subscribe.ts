@@ -23,12 +23,6 @@
       <testCaseId>Test Cases/OTP/LoginOTP</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>ac6187eb-322f-4ad0-aef6-654096ba8769</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Home/Home</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
       <guid>679846c2-a1a7-4be2-9404-8c42dd73a425</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
