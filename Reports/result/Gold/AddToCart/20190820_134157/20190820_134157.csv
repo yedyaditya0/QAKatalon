@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+AddToCart,,,2019-08-20 13:42:09,2019-08-20 13:44:12,2m - 3.724s,FAILED
+,,,,,,
+Test Cases/Login/LoginTrue,,,2019-08-20 13:42:09,2019-08-20 13:43:00,51.272s,FAILED
+"startApplication(""/Users/fundtastic/Downloads/mobile-debug (dev).apk"", true)",,,2019-08-20 13:42:09,2019-08-20 13:42:25,15.803s,PASSED
+"verifyElementText(findTestObject(""LoginTrue/Mulailah berinvestasi untuk meraih mimpimu""), ""Mulailah berinvestasi untuk meraih mimpimu"")",,,2019-08-20 13:42:25,2019-08-20 13:42:29,4.363s,PASSED
+"tap(findTestObject(""LoginTrue/DP_Rumah""), 0)",,,2019-08-20 13:42:29,2019-08-20 13:43:00,30.753s,FAILED
+,,,,,,
+Test Cases/OTP/LoginOTP,,,2019-08-20 13:43:00,2019-08-20 13:43:34,33.732s,FAILED
+"delay(3, STOP_ON_FAILURE)",,,2019-08-20 13:43:00,2019-08-20 13:43:03,3.020s,PASSED
+"tap(findTestObject(""ObjectOTP/Field_OTP""), 0)",,,2019-08-20 13:43:03,2019-08-20 13:43:34,30.575s,FAILED
+,,,,,,
+Test Cases/Home/Home,,,2019-08-20 13:43:34,2019-08-20 13:43:41,7.119s,PASSED
+"delay(7, STOP_ON_FAILURE)",,,2019-08-20 13:43:34,2019-08-20 13:43:41,7.005s,PASSED
+,,,,,,
+Test Cases/Home/Gold/addToCart,,,2019-08-20 13:43:41,2019-08-20 13:44:12,30.673s,FAILED
+"tap(findTestObject(""Home/Gold/AddToCart/android.widget.LinearLayout15""), 0)",,,2019-08-20 13:43:41,2019-08-20 13:44:12,30.557s,FAILED
