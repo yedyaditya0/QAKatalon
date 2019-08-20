@@ -1,5 +1,6 @@
 [Appium] Welcome to Appium v1.8.1
 [Appium] Non-default server args:
+<<<<<<< aji
 [Appium]   port: 63586
 [Appium]   loglevel: info
 [Appium]   chromeDriverPort: 63587
@@ -15,6 +16,23 @@
 [HTTP] 
 [HTTP] --> POST /wd/hub/session
 [HTTP] {"desiredCapabilities":{"app":"/Users/ustore/Downloads/mobile-debug (2).apk","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"emulator-5554 (Android SDK built for x86 - Android 8.1.0)","fullReset":false,"newCommandTimeout":1800,"noReset":true,"platform":"ANDROID","platformName":"Android","udid":"emulator-5554"},"capabilities":{"desiredCapabilities":{"app":"/Users/ustore/Downloads/mobile-debug (2).apk","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"emulator-5554 (Android SDK built for x86 - Android 8.1.0)","fullReset":false,"newCommandTimeout":1800,"noReset":true,"platform":"ANDROID","platformName":"Android","udid":"emulator-5554"},"firstMatch":[{"platformName":"android"}]}}
+=======
+[Appium]   port: 53334
+[Appium]   loglevel: info
+[Appium]   chromeDriverPort: 53335
+[Appium]   tmpDir: /var/folders/bv/w05xlz0n7wj_gdr6vr8jz5lw0000gn/T//Katalon/Appium/Temp1566284272112
+[Appium] Appium REST http interface listener started on 0.0.0.0:53334
+[HTTP] --> GET /wd/hub/status
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/status 200 19 ms - 83
+[HTTP] 
+[HTTP] --> GET /wd/hub/status
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/status 200 11 ms - 83
+[HTTP] 
+[HTTP] --> POST /wd/hub/session
+[HTTP] {"desiredCapabilities":{"app":"/Users/fundtastic/Downloads/mobile-debug (dev).apk","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"emulator-5554 (Android SDK built for x86 - Android 9)","fullReset":false,"newCommandTimeout":1800,"noReset":true,"platform":"ANDROID","platformName":"Android","udid":"emulator-5554"},"capabilities":{"desiredCapabilities":{"app":"/Users/fundtastic/Downloads/mobile-debug (dev).apk","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"emulator-5554 (Android SDK built for x86 - Android 9)","fullReset":false,"newCommandTimeout":1800,"noReset":true,"platform":"ANDROID","platformName":"Android","udid":"emulator-5554"},"firstMatch":[{"platformName":"android"}]}}
+>>>>>>> master
 [Appium] Could not parse W3C capabilities: 'deviceName' can't be blank. Falling back to JSONWP protocol.
 [Appium] The following capabilities were provided in the JSONWP desired capabilities that are missing in W3C capabilities: ["app","autoGrantPermissions","automationName","deviceName","fullReset","newCommandTimeout","noReset","platform","platformName","udid"]. Falling back to JSONWP protocol.
 [Appium] Creating new AndroidUiautomator2Driver (v1.12.0) session
@@ -22,7 +40,11 @@
 [Appium]   app: /Users/ustore/Downloads/mobile-debug (2).apk
 [Appium]   autoGrantPermissions: true
 [Appium]   automationName: uiautomator2
+<<<<<<< aji
 [Appium]   deviceName: emulator-5554 (Android SDK built for x86 - Android 8.1.0)
+=======
+[Appium]   deviceName: emulator-5554 (Android SDK built for x86 - Android 9)
+>>>>>>> master
 [Appium]   fullReset: false
 [Appium]   newCommandTimeout: 1800
 [Appium]   noReset: true
@@ -30,8 +52,13 @@
 [Appium]   platformName: Android
 [Appium]   udid: emulator-5554
 [BaseDriver] The following capabilities were provided, but are not recognized by appium: platform.
+<<<<<<< aji
 [BaseDriver] Session created with session id: 231e6ac4-6c86-48ac-8165-894b21b88213
 [BaseDriver] Using local app '/Users/ustore/Downloads/mobile-debug (2).apk'
+=======
+[BaseDriver] Session created with session id: 0bd0122e-e76d-41f6-a3df-21fdd26f5908
+[BaseDriver] Using local app '/Users/fundtastic/Downloads/mobile-debug (dev).apk'
+>>>>>>> master
 [AndroidDriver] Java version is: 1.8.0_181
 [ADB] Checking whether adb is present
 [ADB] Found 1 'build-tools' folders under '/Users/ustore/.katalon/tools/android_sdk' (newest first):
@@ -58,13 +85,19 @@
 [UiAutomator2] Waiting up to 20000ms for UiAutomator2 to be online...
 [AndroidDriver] Screen already unlocked, doing nothing
 [UiAutomator2] UiAutomator2 did not start the activity we were waiting for, 'id.co.fundtastic.client/id.co.fundtastic.client.splash.presentation.SplashActivity'. Starting it ourselves
+<<<<<<< aji
 [Appium] New AndroidUiautomator2Driver session created successfully, session 231e6ac4-6c86-48ac-8165-894b21b88213 added to master session list
 [HTTP] <-- POST /wd/hub/session 200 23289 ms - 1185
+=======
+[Appium] New AndroidUiautomator2Driver session created successfully, session 0bd0122e-e76d-41f6-a3df-21fdd26f5908 added to master session list
+[HTTP] <-- POST /wd/hub/session 200 11414 ms - 1189
+>>>>>>> master
 [HTTP] 
 [HTTP] --> GET /wd/hub/status
 [HTTP] {}
 [HTTP] <-- GET /wd/hub/status 200 27 ms - 55
 [HTTP] 
+<<<<<<< aji
 [HTTP] --> POST /wd/hub/session/231e6ac4-6c86-48ac-8165-894b21b88213/timeouts
 [HTTP] {"type":"implicit","ms":60000}
 [HTTP] <-- POST /wd/hub/session/231e6ac4-6c86-48ac-8165-894b21b88213/timeouts 400 46 ms - 4196
@@ -187,4 +220,34 @@
 [HTTP] {}
 [Appium] Removing session 231e6ac4-6c86-48ac-8165-894b21b88213 from our master session list
 [HTTP] <-- DELETE /wd/hub/session/231e6ac4-6c86-48ac-8165-894b21b88213 200 900 ms - 76
+=======
+[HTTP] --> POST /wd/hub/session/0bd0122e-e76d-41f6-a3df-21fdd26f5908/timeouts
+[HTTP] {"type":"implicit","ms":60000}
+[HTTP] <-- POST /wd/hub/session/0bd0122e-e76d-41f6-a3df-21fdd26f5908/timeouts 400 12 ms - 4196
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/0bd0122e-e76d-41f6-a3df-21fdd26f5908/source
+[HTTP] {}
+[W3C] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 12b123de-e550-4fcb-903e-e38e1334678a with 0bd0122e-e76d-41f6-a3df-21fdd26f5908
+[HTTP] <-- GET /wd/hub/session/0bd0122e-e76d-41f6-a3df-21fdd26f5908/source 200 204 ms - 3666
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/0bd0122e-e76d-41f6-a3df-21fdd26f5908/screenshot
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/session/0bd0122e-e76d-41f6-a3df-21fdd26f5908/screenshot 200 399 ms - 45118
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/0bd0122e-e76d-41f6-a3df-21fdd26f5908/source
+[HTTP] {}
+[W3C] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 12b123de-e550-4fcb-903e-e38e1334678a with 0bd0122e-e76d-41f6-a3df-21fdd26f5908
+[HTTP] <-- GET /wd/hub/session/0bd0122e-e76d-41f6-a3df-21fdd26f5908/source 200 224 ms - 29991
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/0bd0122e-e76d-41f6-a3df-21fdd26f5908/screenshot
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/session/0bd0122e-e76d-41f6-a3df-21fdd26f5908/screenshot 200 244 ms - 144990
+[HTTP] 
+[HTTP] --> DELETE /wd/hub/session/0bd0122e-e76d-41f6-a3df-21fdd26f5908
+[HTTP] {}
+[Appium] Removing session 0bd0122e-e76d-41f6-a3df-21fdd26f5908 from our master session list
+[HTTP] <-- DELETE /wd/hub/session/0bd0122e-e76d-41f6-a3df-21fdd26f5908 200 146 ms - 76
+>>>>>>> master
 [HTTP] 
