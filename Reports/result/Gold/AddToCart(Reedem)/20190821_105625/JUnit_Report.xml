@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="AddToCart(Reedem)" time="61" tests="4" failures="0" errors="0">
+   <testsuite name="AddToCart(Reedem)" tests="4" failures="0" errors="0" time="61" timestamp="2019-08-21 10:56:37" hostname="fundtastic - 192.168.0.110" id="Test Suites/result/Gold/AddToCart(Reedem)">
+      <properties>
+         <property name="deviceName" value="emulator-5554 (Android SDK built for x86 - Android 9)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/fundtastic/Documents/QA/QAKatalon/Reports/result/Gold/AddToCart(Reedem)/20190821_105625"/>
+         <property name="logFiles" value="/Users/fundtastic/Documents/QA/QAKatalon/Reports/result/Gold/AddToCart(Reedem)/20190821_105625/execution0.log, /Users/fundtastic/Documents/QA/QAKatalon/Reports/result/Gold/AddToCart(Reedem)/20190821_105625/appium.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="fundtastic - 192.168.0.110"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="5.10.1.1"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.8.1"/>
+         <property name="deviceModel" value="Android SDK built for x86"/>
+         <property name="hostAddress" value="192.168.0.110"/>
+         <property name="deviceManufacturer" value="Google"/>
+         <property name="deviceId" value="emulator-5554"/>
+         <property name="deviceName" value="emulator-5554 (Android SDK built for x86 - Android 9)"/>
+         <property name="deviceOSVersion" value="9"/>
+      </properties>
+      <testcase name="Test Cases/Login/LoginTrue" classname="Test Cases/Login/LoginTrue" status="PASSED">
+         <system-out><![CDATA[2019-08-21 10:56:37 - [TEST_CASE][PASSED] - Test Cases/Login/LoginTrue: Test Cases/Login/LoginTrue
+
+2019-08-21 10:56:38 - [TEST_STEP][PASSED] - startApplication("/Users/fundtastic/Downloads/mobile-debug (dev).apk", true): Started app at: '/Users/fundtastic/Downloads/mobile-debug (dev).apk'
+
+2019-08-21 10:56:41 - [MESSAGE][INFO] - Appium server started on port 52,191
+
+2019-08-21 10:56:55 - [MESSAGE][PASSED] - Started app at: '/Users/fundtastic/Downloads/mobile-debug (dev).apk'
+
+2019-08-21 10:56:55 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("LoginTrue/Mulailah berinvestasi untuk meraih mimpimu"), "Mulailah berinvestasi untuk meraih mimpimu"): Actual text and expected text of test object 'Object Repository/LoginTrue/Mulailah berinvestasi untuk meraih mimpimu' are matched.
+
+2019-08-21 10:57:00 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/LoginTrue/Mulailah berinvestasi untuk meraih mimpimu' are matched.
+
+2019-08-21 10:57:00 - [TEST_STEP][PASSED] - for ([i = 0, i < 4, (i++)]): Swiped from 800,1,000 to 10,800
+
+2019-08-21 10:57:00 - [TEST_STEP][PASSED] - tap(findTestObject("LoginTrue/screen_swipe"), 0): Tapped on element 'Object Repository/LoginTrue/screen_swipe'
+
+2019-08-21 10:57:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-08-21 10:57:02 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/LoginTrue/screen_swipe'
+
+2019-08-21 10:57:02 - [TEST_STEP][PASSED] - swipe(800, 1000, 10, 800): Swiped from 800,1,000 to 10,800
+
+2019-08-21 10:57:04 - [MESSAGE][PASSED] - Swiped from 800,1,000 to 10,800
+
+2019-08-21 10:57:04 - [TEST_STEP][PASSED] - tap(findTestObject("LoginTrue/screen_swipe"), 0): Tapped on element 'Object Repository/LoginTrue/screen_swipe'
+
+2019-08-21 10:57:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-08-21 10:57:06 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/LoginTrue/screen_swipe'
+
+2019-08-21 10:57:06 - [TEST_STEP][PASSED] - swipe(800, 1000, 10, 800): Swiped from 800,1,000 to 10,800
+
+2019-08-21 10:57:08 - [MESSAGE][PASSED] - Swiped from 800,1,000 to 10,800
+
+2019-08-21 10:57:08 - [TEST_STEP][PASSED] - tap(findTestObject("LoginTrue/screen_swipe"), 0): Tapped on element 'Object Repository/LoginTrue/screen_swipe'
+
+2019-08-21 10:57:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-08-21 10:57:09 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/LoginTrue/screen_swipe'
+
+2019-08-21 10:57:09 - [TEST_STEP][PASSED] - swipe(800, 1000, 10, 800): Swiped from 800,1,000 to 10,800
+
+2019-08-21 10:57:12 - [MESSAGE][PASSED] - Swiped from 800,1,000 to 10,800
+
+2019-08-21 10:57:12 - [TEST_STEP][PASSED] - tap(findTestObject("LoginTrue/screen_swipe"), 0): Tapped on element 'Object Repository/LoginTrue/screen_swipe'
+
+2019-08-21 10:57:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-08-21 10:57:13 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/LoginTrue/screen_swipe'
+
+2019-08-21 10:57:13 - [TEST_STEP][PASSED] - swipe(800, 1000, 10, 800): Swiped from 800,1,000 to 10,800
+
+2019-08-21 10:57:15 - [MESSAGE][PASSED] - Swiped from 800,1,000 to 10,800
+
+2019-08-21 10:57:15 - [TEST_STEP][PASSED] - setText(findTestObject("LoginTrue/field_no_phone"), "08777111777", 0): Text '08777111777' has been set to element 'Object Repository/LoginTrue/field_no_phone'
+
+2019-08-21 10:57:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-08-21 10:57:17 - [MESSAGE][PASSED] - Text '08777111777' has been set to element 'Object Repository/LoginTrue/field_no_phone'
+
+2019-08-21 10:57:17 - [TEST_STEP][PASSED] - tap(findTestObject("LoginTrue/button_masuk"), 0): Tapped on element 'Object Repository/LoginTrue/button_masuk'
+
+2019-08-21 10:57:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-08-21 10:57:18 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/LoginTrue/button_masuk'
+
+2019-08-21 10:57:18 - [TEST_STEP][PASSED] - delay(3, STOP_ON_FAILURE): Delayed 3 second(s)
+
+2019-08-21 10:57:21 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-08-21 10:57:21 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("ObjectOTP/TextView - Verifikasi Nomor HP"), "Verifikasi Nomor HP"): Actual text and expected text of test object 'Object Repository/ObjectOTP/TextView - Verifikasi Nomor HP' are matched.
+
+2019-08-21 10:57:22 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/ObjectOTP/TextView - Verifikasi Nomor HP' are matched.
+
+2019-08-21 10:57:22 - [TEST_STEP][PASSED] - delay(1, STOP_ON_FAILURE): Delayed 1 second(s)
+
+2019-08-21 10:57:23 - [MESSAGE][PASSED] - Delayed 1 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/OTP/LoginOTP" classname="Test Cases/OTP/LoginOTP" status="PASSED">
+         <system-out><![CDATA[2019-08-21 10:57:23 - [TEST_CASE][PASSED] - Test Cases/OTP/LoginOTP: Test Cases/OTP/LoginOTP
+
+2019-08-21 10:57:23 - [TEST_STEP][PASSED] - delay(3, STOP_ON_FAILURE): Delayed 3 second(s)
+
+2019-08-21 10:57:26 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-08-21 10:57:26 - [TEST_STEP][PASSED] - tap(findTestObject("ObjectOTP/Field_OTP"), 0): Tapped on element 'Object Repository/ObjectOTP/Field_OTP'
+
+2019-08-21 10:57:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-08-21 10:57:27 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/ObjectOTP/Field_OTP'
+
+2019-08-21 10:57:27 - [TEST_STEP][PASSED] - setText(findTestObject("ObjectOTP/Field_OTP"), "8888", 0): Text '8888' has been set to element 'Object Repository/ObjectOTP/Field_OTP'
+
+2019-08-21 10:57:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-08-21 10:57:28 - [MESSAGE][PASSED] - Text '8888' has been set to element 'Object Repository/ObjectOTP/Field_OTP'
+
+2019-08-21 10:57:28 - [TEST_STEP][PASSED] - delay(2, STOP_ON_FAILURE): Delayed 2 second(s)
+
+2019-08-21 10:57:30 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-21 10:57:30 - [TEST_STEP][PASSED] - tap(findTestObject("ObjectOTP/Btn_Verifikasi1"), 0): Tapped on element 'Object Repository/ObjectOTP/Btn_Verifikasi1'
+
+2019-08-21 10:57:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-08-21 10:57:32 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/ObjectOTP/Btn_Verifikasi1']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Home/Home" classname="Test Cases/Home/Home" status="PASSED">
+         <system-out><![CDATA[2019-08-21 10:57:32 - [TEST_CASE][PASSED] - Test Cases/Home/Home: Test Cases/Home/Home
+
+2019-08-21 10:57:32 - [TEST_STEP][PASSED] - delay(7, STOP_ON_FAILURE): Delayed 7 second(s)
+
+2019-08-21 10:57:39 - [MESSAGE][PASSED] - Delayed 7 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Home/Gold/addToCart(Reedem)" classname="Test Cases/Home/Gold/addToCart(Reedem)" status="PASSED">
+         <system-out><![CDATA[2019-08-21 10:57:39 - [TEST_CASE][PASSED] - Test Cases/Home/Gold/addToCart(Reedem): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-08-21 10:56:37 - [TEST_SUITE][INCOMPLETE] - AddToCart(Reedem): null]]></system-out>
+      <system-err><![CDATA[2019-08-21 10:56:37 - [TEST_SUITE][INCOMPLETE] - AddToCart(Reedem): null]]></system-err>
+   </testsuite>
+</testsuites>
