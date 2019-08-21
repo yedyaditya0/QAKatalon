@@ -1,0 +1,30 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+AddToCart(Reedem),,,2019-08-21 10:49:54,2019-08-21 10:51:47,1m - 53.151s,FAILED
+,,,,,,
+Test Cases/Login/LoginTrue,,,2019-08-21 10:49:54,2019-08-21 10:50:39,44.598s,PASSED
+"startApplication(""/Users/fundtastic/Downloads/mobile-debug (dev).apk"", true)",,,2019-08-21 10:49:54,2019-08-21 10:50:11,16.875s,PASSED
+"verifyElementText(findTestObject(""LoginTrue/Mulailah berinvestasi untuk meraih mimpimu""), ""Mulailah berinvestasi untuk meraih mimpimu"")",,,2019-08-21 10:50:11,2019-08-21 10:50:16,4.360s,PASSED
+"for ([i = 0, i < 4, (i++)])",,,2019-08-21 10:50:16,2019-08-21 10:50:31,15.192s,PASSED
+"setText(findTestObject(""LoginTrue/field_no_phone""), ""08777111777"", 0)",,,2019-08-21 10:50:31,2019-08-21 10:50:33,2.143s,PASSED
+"tap(findTestObject(""LoginTrue/button_masuk""), 0)",,,2019-08-21 10:50:33,2019-08-21 10:50:34,1.465s,PASSED
+"delay(3, STOP_ON_FAILURE)",,,2019-08-21 10:50:34,2019-08-21 10:50:37,3.030s,PASSED
+"verifyElementText(findTestObject(""ObjectOTP/TextView - Verifikasi Nomor HP""), ""Verifikasi Nomor HP"")",,,2019-08-21 10:50:37,2019-08-21 10:50:38,0.185s,PASSED
+"delay(1, STOP_ON_FAILURE)",,,2019-08-21 10:50:38,2019-08-21 10:50:39,1.005s,PASSED
+,,,,,,
+Test Cases/OTP/LoginOTP,,,2019-08-21 10:50:39,2019-08-21 10:50:48,9.108s,PASSED
+"delay(3, STOP_ON_FAILURE)",,,2019-08-21 10:50:39,2019-08-21 10:50:42,3.010s,PASSED
+"tap(findTestObject(""ObjectOTP/Field_OTP""), 0)",,,2019-08-21 10:50:42,2019-08-21 10:50:43,1.413s,PASSED
+"setText(findTestObject(""ObjectOTP/Field_OTP""), ""8888"", 0)",,,2019-08-21 10:50:43,2019-08-21 10:50:44,1.092s,PASSED
+"delay(2, STOP_ON_FAILURE)",,,2019-08-21 10:50:44,2019-08-21 10:50:46,2.004s,PASSED
+"tap(findTestObject(""ObjectOTP/Btn_Verifikasi1""), 0)",,,2019-08-21 10:50:46,2019-08-21 10:50:48,1.452s,PASSED
+,,,,,,
+Test Cases/Home/Home,,,2019-08-21 10:50:48,2019-08-21 10:50:55,7.155s,PASSED
+"delay(7, STOP_ON_FAILURE)",,,2019-08-21 10:50:48,2019-08-21 10:50:55,7.004s,PASSED
+,,,,,,
+Test Cases/Home/Gold/addToCart(Reedem),,,2019-08-21 10:50:55,2019-08-21 10:51:46,50.718s,FAILED
+"delay(3, STOP_ON_FAILURE)",,,2019-08-21 10:50:55,2019-08-21 10:50:58,3.006s,PASSED
+"tap(findTestObject(""Home/Gold/AddToCart/Reedem/android.widget.FrameLayout10""), 0)",,,2019-08-21 10:50:58,2019-08-21 10:51:00,2.028s,PASSED
+"delay(7, STOP_ON_FAILURE)",,,2019-08-21 10:51:00,2019-08-21 10:51:07,7.012s,PASSED
+"tap(findTestObject(""Home/Gold/AddToCart/Reedem/CardEmas1""), 0)",,,2019-08-21 10:51:07,2019-08-21 10:51:10,3.516s,PASSED
+"delay(3, STOP_ON_FAILURE)",,,2019-08-21 10:51:10,2019-08-21 10:51:13,3.005s,PASSED
+"tap(findTestObject(""Home/Gold/AddToCart/Reedem/android.widget.LinearLayout26""), 0)",,,2019-08-21 10:51:13,2019-08-21 10:51:46,32.029s,FAILED

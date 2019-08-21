@@ -1,10 +1,12 @@
 [Appium] Welcome to Appium v1.8.1
 [Appium] Non-default server args:
-[Appium]   port: 56689
+
+[Appium]   port: 64738
 [Appium]   loglevel: info
-[Appium]   chromeDriverPort: 56690
-[Appium]   tmpDir: /var/folders/bv/w05xlz0n7wj_gdr6vr8jz5lw0000gn/T//Katalon/Appium/Temp1566363103724
-[Appium] Appium REST http interface listener started on 0.0.0.0:56689
+[Appium]   chromeDriverPort: 64739
+[Appium]   tmpDir: /var/folders/bv/w05xlz0n7wj_gdr6vr8jz5lw0000gn/T//Katalon/Appium/Temp1566359137253
+[Appium] Appium REST http interface listener started on 0.0.0.0:64738
+
 [HTTP] --> GET /wd/hub/status
 [HTTP] {}
 [HTTP] <-- GET /wd/hub/status 200 19 ms - 83
@@ -30,7 +32,9 @@
 [Appium]   platformName: Android
 [Appium]   udid: emulator-5554
 [BaseDriver] The following capabilities were provided, but are not recognized by appium: platform.
-[BaseDriver] Session created with session id: 7b40c64c-a6ce-4721-9413-a1c55ce53251
+
+[BaseDriver] Session created with session id: 75eb1e53-146b-408e-a957-01b89d1d21de
+
 [BaseDriver] Using local app '/Users/fundtastic/Downloads/mobile-debug (dev).apk'
 [AndroidDriver] Java version is: 1.8.0_181
 [ADB] Checking whether adb is present
@@ -58,39 +62,53 @@
 [UiAutomator2] Waiting up to 20000ms for UiAutomator2 to be online...
 [AndroidDriver] Screen already unlocked, doing nothing
 [UiAutomator2] UiAutomator2 did not start the activity we were waiting for, 'id.co.fundtastic.client/id.co.fundtastic.client.splash.presentation.SplashActivity'. Starting it ourselves
-[Appium] New AndroidUiautomator2Driver session created successfully, session 7b40c64c-a6ce-4721-9413-a1c55ce53251 added to master session list
-[HTTP] <-- POST /wd/hub/session 200 11492 ms - 1189
+
+[Appium] New AndroidUiautomator2Driver session created successfully, session 75eb1e53-146b-408e-a957-01b89d1d21de added to master session list
+[HTTP] <-- POST /wd/hub/session 200 12881 ms - 1189
+
 [HTTP] 
 [HTTP] --> GET /wd/hub/status
 [HTTP] {}
 [HTTP] <-- GET /wd/hub/status 200 20 ms - 55
 [HTTP] 
-[HTTP] --> POST /wd/hub/session/7b40c64c-a6ce-4721-9413-a1c55ce53251/timeouts
+
+[HTTP] --> POST /wd/hub/session/75eb1e53-146b-408e-a957-01b89d1d21de/timeouts
 [HTTP] {"type":"implicit","ms":60000}
-[HTTP] <-- POST /wd/hub/session/7b40c64c-a6ce-4721-9413-a1c55ce53251/timeouts 400 19 ms - 4196
+[HTTP] <-- POST /wd/hub/session/75eb1e53-146b-408e-a957-01b89d1d21de/timeouts 400 18 ms - 4196
 [HTTP] 
-[HTTP] --> GET /wd/hub/session/7b40c64c-a6ce-4721-9413-a1c55ce53251/source
+[HTTP] --> GET /wd/hub/session/75eb1e53-146b-408e-a957-01b89d1d21de/source
 [HTTP] {}
 [W3C] Driver proxy active, passing request on via HTTP proxy
-[JSONWP Proxy] Replacing sessionId 0a5ff072-f243-4274-bfa2-07c83b64bccb with 7b40c64c-a6ce-4721-9413-a1c55ce53251
-[HTTP] <-- GET /wd/hub/session/7b40c64c-a6ce-4721-9413-a1c55ce53251/source 200 733 ms - 4103
+[JSONWP Proxy] Replacing sessionId 2fde464f-adc3-4507-a7cf-4371f80841fd with 75eb1e53-146b-408e-a957-01b89d1d21de
+[HTTP] <-- GET /wd/hub/session/75eb1e53-146b-408e-a957-01b89d1d21de/source 200 700 ms - 4103
 [HTTP] 
-[HTTP] --> GET /wd/hub/session/7b40c64c-a6ce-4721-9413-a1c55ce53251/screenshot
+[HTTP] --> GET /wd/hub/session/75eb1e53-146b-408e-a957-01b89d1d21de/screenshot
 [HTTP] {}
-[HTTP] <-- GET /wd/hub/session/7b40c64c-a6ce-4721-9413-a1c55ce53251/screenshot 200 337 ms - 45118
+[HTTP] <-- GET /wd/hub/session/75eb1e53-146b-408e-a957-01b89d1d21de/screenshot 200 543 ms - 45118
 [HTTP] 
-[HTTP] --> GET /wd/hub/session/7b40c64c-a6ce-4721-9413-a1c55ce53251/source
+[HTTP] --> GET /wd/hub/session/75eb1e53-146b-408e-a957-01b89d1d21de/source
 [HTTP] {}
 [W3C] Driver proxy active, passing request on via HTTP proxy
-[JSONWP Proxy] Replacing sessionId 0a5ff072-f243-4274-bfa2-07c83b64bccb with 7b40c64c-a6ce-4721-9413-a1c55ce53251
-[HTTP] <-- GET /wd/hub/session/7b40c64c-a6ce-4721-9413-a1c55ce53251/source 200 282 ms - 30285
+[JSONWP Proxy] Replacing sessionId 2fde464f-adc3-4507-a7cf-4371f80841fd with 75eb1e53-146b-408e-a957-01b89d1d21de
+[HTTP] <-- GET /wd/hub/session/75eb1e53-146b-408e-a957-01b89d1d21de/source 200 251 ms - 30285
 [HTTP] 
-[HTTP] --> GET /wd/hub/session/7b40c64c-a6ce-4721-9413-a1c55ce53251/screenshot
+[HTTP] --> GET /wd/hub/session/75eb1e53-146b-408e-a957-01b89d1d21de/screenshot
 [HTTP] {}
-[HTTP] <-- GET /wd/hub/session/7b40c64c-a6ce-4721-9413-a1c55ce53251/screenshot 200 583 ms - 656132
+[HTTP] <-- GET /wd/hub/session/75eb1e53-146b-408e-a957-01b89d1d21de/screenshot 200 576 ms - 659372
 [HTTP] 
-[HTTP] --> DELETE /wd/hub/session/7b40c64c-a6ce-4721-9413-a1c55ce53251
+[HTTP] --> GET /wd/hub/session/75eb1e53-146b-408e-a957-01b89d1d21de/source
 [HTTP] {}
-[Appium] Removing session 7b40c64c-a6ce-4721-9413-a1c55ce53251 from our master session list
-[HTTP] <-- DELETE /wd/hub/session/7b40c64c-a6ce-4721-9413-a1c55ce53251 200 196 ms - 76
+[W3C] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 2fde464f-adc3-4507-a7cf-4371f80841fd with 75eb1e53-146b-408e-a957-01b89d1d21de
+[HTTP] <-- GET /wd/hub/session/75eb1e53-146b-408e-a957-01b89d1d21de/source 200 167 ms - 30285
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/75eb1e53-146b-408e-a957-01b89d1d21de/screenshot
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/session/75eb1e53-146b-408e-a957-01b89d1d21de/screenshot 200 662 ms - 659544
+[HTTP] 
+[HTTP] --> DELETE /wd/hub/session/75eb1e53-146b-408e-a957-01b89d1d21de
+[HTTP] {}
+[Appium] Removing session 75eb1e53-146b-408e-a957-01b89d1d21de from our master session list
+[HTTP] <-- DELETE /wd/hub/session/75eb1e53-146b-408e-a957-01b89d1d21de 200 177 ms - 76
+
 [HTTP] 
