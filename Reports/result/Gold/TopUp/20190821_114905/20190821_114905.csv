@@ -1,0 +1,30 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TopUp,,,2019-08-21 11:49:19,2019-08-21 11:51:14,1m - 55.174s,FAILED
+,,,,,,
+Test Cases/Login/LoginTrue,,,2019-08-21 11:49:19,2019-08-21 11:50:06,47.302s,PASSED
+"startApplication(""/Users/fundtastic/Downloads/mobile-debug (dev).apk"", true)",,,2019-08-21 11:49:19,2019-08-21 11:49:37,18.400s,PASSED
+"verifyElementText(findTestObject(""LoginTrue/Mulailah berinvestasi untuk meraih mimpimu""), ""Mulailah berinvestasi untuk meraih mimpimu"")",,,2019-08-21 11:49:37,2019-08-21 11:49:42,4.349s,PASSED
+"for ([i = 0, i < 4, (i++)])",,,2019-08-21 11:49:42,2019-08-21 11:49:58,15.981s,PASSED
+"setText(findTestObject(""LoginTrue/field_no_phone""), ""08777111777"", 0)",,,2019-08-21 11:49:58,2019-08-21 11:50:00,2.272s,PASSED
+"tap(findTestObject(""LoginTrue/button_masuk""), 0)",,,2019-08-21 11:50:00,2019-08-21 11:50:02,1.701s,PASSED
+"delay(3, STOP_ON_FAILURE)",,,2019-08-21 11:50:02,2019-08-21 11:50:05,3.034s,PASSED
+"verifyElementText(findTestObject(""ObjectOTP/TextView - Verifikasi Nomor HP""), ""Verifikasi Nomor HP"")",,,2019-08-21 11:50:05,2019-08-21 11:50:05,0.227s,PASSED
+"delay(1, STOP_ON_FAILURE)",,,2019-08-21 11:50:05,2019-08-21 11:50:06,1.006s,PASSED
+,,,,,,
+Test Cases/OTP/LoginOTP,,,2019-08-21 11:50:06,2019-08-21 11:50:15,8.986s,PASSED
+"delay(3, STOP_ON_FAILURE)",,,2019-08-21 11:50:06,2019-08-21 11:50:09,3.004s,PASSED
+"tap(findTestObject(""ObjectOTP/Field_OTP""), 0)",,,2019-08-21 11:50:09,2019-08-21 11:50:11,1.391s,PASSED
+"setText(findTestObject(""ObjectOTP/Field_OTP""), ""8888"", 0)",,,2019-08-21 11:50:11,2019-08-21 11:50:12,1.084s,PASSED
+"delay(2, STOP_ON_FAILURE)",,,2019-08-21 11:50:12,2019-08-21 11:50:14,2.006s,PASSED
+"tap(findTestObject(""ObjectOTP/Btn_Verifikasi1""), 0)",,,2019-08-21 11:50:14,2019-08-21 11:50:15,1.360s,PASSED
+,,,,,,
+Test Cases/Home/Home,,,2019-08-21 11:50:15,2019-08-21 11:50:22,7.141s,PASSED
+"delay(7, STOP_ON_FAILURE)",,,2019-08-21 11:50:15,2019-08-21 11:50:22,7.001s,PASSED
+,,,,,,
+Test Cases/Home/Gold/TopUp,,,2019-08-21 11:50:22,2019-08-21 11:51:13,50.436s,FAILED
+"delay(3, STOP_ON_FAILURE)",,,2019-08-21 11:50:22,2019-08-21 11:50:25,3.006s,PASSED
+"tap(findTestObject(""Home/Gold/TopUp/android.widget.FrameLayout10""), 0)",,,2019-08-21 11:50:25,2019-08-21 11:50:27,1.745s,PASSED
+"delay(7, STOP_ON_FAILURE)",,,2019-08-21 11:50:27,2019-08-21 11:50:34,7.003s,PASSED
+"tap(findTestObject(""Home/Gold/TopUp/android.widget.LinearLayout12""), 0)",,,2019-08-21 11:50:34,2019-08-21 11:50:38,3.542s,PASSED
+"delay(3, STOP_ON_FAILURE)",,,2019-08-21 11:50:38,2019-08-21 11:50:41,3.001s,PASSED
+"tap(findTestObject(""Home/Gold/TopUp/android.widget.LinearLayout25""), 0)",,,2019-08-21 11:50:41,2019-08-21 11:51:13,32.004s,FAILED

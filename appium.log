@@ -1,10 +1,12 @@
 [Appium] Welcome to Appium v1.8.1
 [Appium] Non-default server args:
+
 [Appium]   port: 64738
 [Appium]   loglevel: info
 [Appium]   chromeDriverPort: 64739
 [Appium]   tmpDir: /var/folders/bv/w05xlz0n7wj_gdr6vr8jz5lw0000gn/T//Katalon/Appium/Temp1566359137253
 [Appium] Appium REST http interface listener started on 0.0.0.0:64738
+
 [HTTP] --> GET /wd/hub/status
 [HTTP] {}
 [HTTP] <-- GET /wd/hub/status 200 19 ms - 83
@@ -30,7 +32,9 @@
 [Appium]   platformName: Android
 [Appium]   udid: emulator-5554
 [BaseDriver] The following capabilities were provided, but are not recognized by appium: platform.
+
 [BaseDriver] Session created with session id: 75eb1e53-146b-408e-a957-01b89d1d21de
+
 [BaseDriver] Using local app '/Users/fundtastic/Downloads/mobile-debug (dev).apk'
 [AndroidDriver] Java version is: 1.8.0_181
 [ADB] Checking whether adb is present
@@ -58,13 +62,16 @@
 [UiAutomator2] Waiting up to 20000ms for UiAutomator2 to be online...
 [AndroidDriver] Screen already unlocked, doing nothing
 [UiAutomator2] UiAutomator2 did not start the activity we were waiting for, 'id.co.fundtastic.client/id.co.fundtastic.client.splash.presentation.SplashActivity'. Starting it ourselves
+
 [Appium] New AndroidUiautomator2Driver session created successfully, session 75eb1e53-146b-408e-a957-01b89d1d21de added to master session list
 [HTTP] <-- POST /wd/hub/session 200 12881 ms - 1189
+
 [HTTP] 
 [HTTP] --> GET /wd/hub/status
 [HTTP] {}
-[HTTP] <-- GET /wd/hub/status 200 18 ms - 55
+[HTTP] <-- GET /wd/hub/status 200 20 ms - 55
 [HTTP] 
+
 [HTTP] --> POST /wd/hub/session/75eb1e53-146b-408e-a957-01b89d1d21de/timeouts
 [HTTP] {"type":"implicit","ms":60000}
 [HTTP] <-- POST /wd/hub/session/75eb1e53-146b-408e-a957-01b89d1d21de/timeouts 400 18 ms - 4196
@@ -103,4 +110,5 @@
 [HTTP] {}
 [Appium] Removing session 75eb1e53-146b-408e-a957-01b89d1d21de from our master session list
 [HTTP] <-- DELETE /wd/hub/session/75eb1e53-146b-408e-a957-01b89d1d21de 200 177 ms - 76
+
 [HTTP] 
