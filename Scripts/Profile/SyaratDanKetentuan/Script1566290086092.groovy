@@ -15,13 +15,13 @@ import internal.GlobalVariable as GlobalVariable
 
 Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
 
-//memilih icon profil pada halaman home
-Mobile.tap(findTestObject('Profile/android.widget.FrameLayout14'), 0)
+//memilih icon profil pafda halaman home
+Mobile.tap(findTestObject('Profile/android.widget.FrameLayout14 (4)'), 0)
 
 Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
 
-//memilih button nilai kami di playstore
-Mobile.tap(findTestObject('Profile/android.widget.LinearLayout6'), 0)
+//memilih button Syarat dan Ketetentuan pada halaman profil
+Mobile.tap(findTestObject('Profile/android.widget.LinearLayout12'), 0)
 
 Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
 
