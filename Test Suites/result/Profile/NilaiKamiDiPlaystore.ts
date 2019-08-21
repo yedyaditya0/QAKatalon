@@ -4,7 +4,6 @@
    <name>NilaiKamiDiPlaystore</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2019-08-20T14:00:15</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>

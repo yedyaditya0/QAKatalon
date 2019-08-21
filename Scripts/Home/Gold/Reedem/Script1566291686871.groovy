@@ -13,28 +13,3 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-Mobile.startApplication('/Users/fundtastic/Downloads/mobile-debug (dev).apk', true)
-
-Mobile.verifyElementText(findTestObject('LoginTrue/Mulailah berinvestasi untuk meraih mimpimu'), 'Mulailah berinvestasi untuk meraih mimpimu')
-
-//Mobile.tap(findTestObject('LoginTrue/DP_Rumah'), 0)
-
-for (int i = 0; i < 4; i++) {
-    //Swipe Screen
-    Mobile.tap(findTestObject('LoginTrue/screen_swipe'), 0)
-
-    Mobile.swipe(800, 1000, 10, 800)
-}
-
-// Field registered no phone in number phone
-Mobile.setText(findTestObject('LoginTrue/field_no_phone'), '08777111777', 0)
-
-// Tap button Masuk
-Mobile.tap(findTestObject('LoginTrue/button_masuk'), 0)
-
-Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
-
-// Verify element text Otp 
-Mobile.verifyElementText(findTestObject('ObjectOTP/TextView - Verifikasi Nomor HP'), 'Verifikasi Nomor HP')
-
-Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)

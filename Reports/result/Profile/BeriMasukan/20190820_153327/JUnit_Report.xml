@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="BeriMasukan" time="83" tests="3" failures="0" errors="0">
+   <testsuite name="BeriMasukan" tests="3" failures="0" errors="0" time="83" timestamp="2019-08-20 15:33:39" hostname="fundtastic - 192.168.0.110" id="Test Suites/result/Profile/BeriMasukan">
+      <properties>
+         <property name="deviceName" value="emulator-5554 (Android SDK built for x86 - Android 9)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/fundtastic/Documents/QA/QAKatalon/Reports/result/Profile/BeriMasukan/20190820_153327"/>
+         <property name="logFiles" value="/Users/fundtastic/Documents/QA/QAKatalon/Reports/result/Profile/BeriMasukan/20190820_153327/execution0.log, /Users/fundtastic/Documents/QA/QAKatalon/Reports/result/Profile/BeriMasukan/20190820_153327/appium.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="fundtastic - 192.168.0.110"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="5.10.1.1"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.8.1"/>
+         <property name="deviceModel" value="Android SDK built for x86"/>
+         <property name="hostAddress" value="192.168.0.110"/>
+         <property name="deviceManufacturer" value="Google"/>
+         <property name="deviceId" value="emulator-5554"/>
+         <property name="deviceName" value="emulator-5554 (Android SDK built for x86 - Android 9)"/>
+         <property name="deviceOSVersion" value="9"/>
+      </properties>
+      <testcase name="Test Cases/Login/LoginTrue" classname="Test Cases/Login/LoginTrue" status="PASSED">
+         <system-out><![CDATA[2019-08-20 15:33:39 - [TEST_CASE][PASSED] - Test Cases/Login/LoginTrue: Test Cases/Login/LoginTrue
+
+2019-08-20 15:33:40 - [TEST_STEP][PASSED] - startApplication("/Users/fundtastic/Downloads/mobile-debug (dev).apk", true): Started app at: '/Users/fundtastic/Downloads/mobile-debug (dev).apk'
+
+2019-08-20 15:33:43 - [MESSAGE][INFO] - Appium server started on port 56,897
+
+2019-08-20 15:33:54 - [MESSAGE][PASSED] - Started app at: '/Users/fundtastic/Downloads/mobile-debug (dev).apk'
+
+2019-08-20 15:33:54 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("LoginTrue/Mulailah berinvestasi untuk meraih mimpimu"), "Mulailah berinvestasi untuk meraih mimpimu"): Actual text and expected text of test object 'Object Repository/LoginTrue/Mulailah berinvestasi untuk meraih mimpimu' are matched.
+
+2019-08-20 15:33:59 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/LoginTrue/Mulailah berinvestasi untuk meraih mimpimu' are matched.
+
+2019-08-20 15:33:59 - [TEST_STEP][PASSED] - for ([i = 0, i < 4, (i++)]): Swiped from 800,1,000 to 10,800
+
+2019-08-20 15:33:59 - [TEST_STEP][PASSED] - tap(findTestObject("LoginTrue/screen_swipe"), 0): Tapped on element 'Object Repository/LoginTrue/screen_swipe'
+
+2019-08-20 15:33:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-08-20 15:34:01 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/LoginTrue/screen_swipe'
+
+2019-08-20 15:34:01 - [TEST_STEP][PASSED] - swipe(800, 1000, 10, 800): Swiped from 800,1,000 to 10,800
+
+2019-08-20 15:34:05 - [MESSAGE][PASSED] - Swiped from 800,1,000 to 10,800
+
+2019-08-20 15:34:05 - [TEST_STEP][PASSED] - tap(findTestObject("LoginTrue/screen_swipe"), 0): Tapped on element 'Object Repository/LoginTrue/screen_swipe'
+
+2019-08-20 15:34:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-08-20 15:34:06 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/LoginTrue/screen_swipe'
+
+2019-08-20 15:34:06 - [TEST_STEP][PASSED] - swipe(800, 1000, 10, 800): Swiped from 800,1,000 to 10,800
+
+2019-08-20 15:34:08 - [MESSAGE][PASSED] - Swiped from 800,1,000 to 10,800
+
+2019-08-20 15:34:08 - [TEST_STEP][PASSED] - tap(findTestObject("LoginTrue/screen_swipe"), 0): Tapped on element 'Object Repository/LoginTrue/screen_swipe'
+
+2019-08-20 15:34:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-08-20 15:34:10 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/LoginTrue/screen_swipe'
+
+2019-08-20 15:34:10 - [TEST_STEP][PASSED] - swipe(800, 1000, 10, 800): Swiped from 800,1,000 to 10,800
+
+2019-08-20 15:34:12 - [MESSAGE][PASSED] - Swiped from 800,1,000 to 10,800
+
+2019-08-20 15:34:12 - [TEST_STEP][PASSED] - tap(findTestObject("LoginTrue/screen_swipe"), 0): Tapped on element 'Object Repository/LoginTrue/screen_swipe'
+
+2019-08-20 15:34:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-08-20 15:34:13 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/LoginTrue/screen_swipe'
+
+2019-08-20 15:34:13 - [TEST_STEP][PASSED] - swipe(800, 1000, 10, 800): Swiped from 800,1,000 to 10,800
+
+2019-08-20 15:34:15 - [MESSAGE][PASSED] - Swiped from 800,1,000 to 10,800
+
+2019-08-20 15:34:15 - [TEST_STEP][PASSED] - setText(findTestObject("LoginTrue/field_no_phone"), "08777111777", 0): Text '08777111777' has been set to element 'Object Repository/LoginTrue/field_no_phone'
+
+2019-08-20 15:34:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-08-20 15:34:16 - [MESSAGE][PASSED] - Text '08777111777' has been set to element 'Object Repository/LoginTrue/field_no_phone'
+
+2019-08-20 15:34:16 - [TEST_STEP][PASSED] - tap(findTestObject("LoginTrue/button_masuk"), 0): Tapped on element 'Object Repository/LoginTrue/button_masuk'
+
+2019-08-20 15:34:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-08-20 15:34:18 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/LoginTrue/button_masuk'
+
+2019-08-20 15:34:18 - [TEST_STEP][PASSED] - delay(3, STOP_ON_FAILURE): Delayed 3 second(s)
+
+2019-08-20 15:34:21 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-08-20 15:34:21 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("ObjectOTP/TextView - Verifikasi Nomor HP"), "Verifikasi Nomor HP"): Actual text and expected text of test object 'Object Repository/ObjectOTP/TextView - Verifikasi Nomor HP' are matched.
+
+2019-08-20 15:34:21 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/ObjectOTP/TextView - Verifikasi Nomor HP' are matched.
+
+2019-08-20 15:34:21 - [TEST_STEP][PASSED] - delay(1, STOP_ON_FAILURE): Delayed 1 second(s)
+
+2019-08-20 15:34:22 - [MESSAGE][PASSED] - Delayed 1 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/OTP/LoginOTP" classname="Test Cases/OTP/LoginOTP" status="PASSED">
+         <system-out><![CDATA[2019-08-20 15:34:22 - [TEST_CASE][PASSED] - Test Cases/OTP/LoginOTP: Test Cases/OTP/LoginOTP
+
+2019-08-20 15:34:23 - [TEST_STEP][PASSED] - delay(3, STOP_ON_FAILURE): Delayed 3 second(s)
+
+2019-08-20 15:34:26 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-08-20 15:34:26 - [TEST_STEP][PASSED] - tap(findTestObject("ObjectOTP/Field_OTP"), 0): Tapped on element 'Object Repository/ObjectOTP/Field_OTP'
+
+2019-08-20 15:34:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-08-20 15:34:27 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/ObjectOTP/Field_OTP'
+
+2019-08-20 15:34:27 - [TEST_STEP][PASSED] - setText(findTestObject("ObjectOTP/Field_OTP"), "8888", 0): Text '8888' has been set to element 'Object Repository/ObjectOTP/Field_OTP'
+
+2019-08-20 15:34:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-08-20 15:34:28 - [MESSAGE][PASSED] - Text '8888' has been set to element 'Object Repository/ObjectOTP/Field_OTP'
+
+2019-08-20 15:34:28 - [TEST_STEP][PASSED] - delay(2, STOP_ON_FAILURE): Delayed 2 second(s)
+
+2019-08-20 15:34:30 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-20 15:34:30 - [TEST_STEP][PASSED] - tap(findTestObject("ObjectOTP/Btn_Verifikasi1"), 0): Tapped on element 'Object Repository/ObjectOTP/Btn_Verifikasi1'
+
+2019-08-20 15:34:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-08-20 15:34:32 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/ObjectOTP/Btn_Verifikasi1']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Profile/BeriMasukan" classname="Test Cases/Profile/BeriMasukan" status="PASSED">
+         <system-out><![CDATA[2019-08-20 15:34:32 - [TEST_CASE][PASSED] - Test Cases/Profile/BeriMasukan: Test Cases/Profile/BeriMasukan
+
+2019-08-20 15:34:32 - [TEST_STEP][PASSED] - delay(3, STOP_ON_FAILURE): Delayed 3 second(s)
+
+2019-08-20 15:34:35 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-08-20 15:34:35 - [TEST_STEP][PASSED] - tap(findTestObject("Profile/android.widget.FrameLayout14 (1)"), 0): Tapped on element 'Object Repository/Profile/android.widget.FrameLayout14 (1)'
+
+2019-08-20 15:34:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-08-20 15:34:37 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Profile/android.widget.FrameLayout14 (1)'
+
+2019-08-20 15:34:37 - [TEST_STEP][PASSED] - delay(3, STOP_ON_FAILURE): Delayed 3 second(s)
+
+2019-08-20 15:34:40 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-08-20 15:34:40 - [TEST_STEP][PASSED] - tap(findTestObject("Profile/android.widget.LinearLayout8"), 0): Tapped on element 'Object Repository/Profile/android.widget.LinearLayout8'
+
+2019-08-20 15:34:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-08-20 15:34:41 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Profile/android.widget.LinearLayout8'
+
+2019-08-20 15:34:41 - [TEST_STEP][PASSED] - delay(3, STOP_ON_FAILURE): Delayed 3 second(s)
+
+2019-08-20 15:34:44 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-08-20 15:34:44 - [TEST_STEP][PASSED] - setText(findTestObject("Profile/android.widget.EditText0 - Nama Lengkap (1)"), "Aji Kurnia Putra", 0): Text 'Aji Kurnia Putra' has been set to element 'Object Repository/Profile/android.widget.EditText0 - Nama Lengkap (1)'
+
+2019-08-20 15:34:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-08-20 15:34:46 - [MESSAGE][PASSED] - Text 'Aji Kurnia Putra' has been set to element 'Object Repository/Profile/android.widget.EditText0 - Nama Lengkap (1)'
+
+2019-08-20 15:34:46 - [TEST_STEP][PASSED] - delay(3, STOP_ON_FAILURE): Delayed 3 second(s)
+
+2019-08-20 15:34:49 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-08-20 15:34:49 - [TEST_STEP][PASSED] - setText(findTestObject("Profile/android.widget.EditText1 - Email (1)"), "ajikurniaputra84@gmail.com", 0): Text 'ajikurniaputra84@gmail.com' has been set to element 'Object Repository/Profile/android.widget.EditText1 - Email (1)'
+
+2019-08-20 15:34:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-08-20 15:34:50 - [MESSAGE][PASSED] - Text 'ajikurniaputra84@gmail.com' has been set to element 'Object Repository/Profile/android.widget.EditText1 - Email (1)'
+
+2019-08-20 15:34:50 - [TEST_STEP][PASSED] - delay(3, STOP_ON_FAILURE): Delayed 3 second(s)
+
+2019-08-20 15:34:53 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-08-20 15:34:53 - [TEST_STEP][PASSED] - setText(findTestObject("Profile/android.widget.EditText2 - Masukan Pesan Anda (1)"), "tes ", 0): Text 'tes ' has been set to element 'Object Repository/Profile/android.widget.EditText2 - Masukan Pesan Anda (1)'
+
+2019-08-20 15:34:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-08-20 15:34:54 - [MESSAGE][PASSED] - Text 'tes ' has been set to element 'Object Repository/Profile/android.widget.EditText2 - Masukan Pesan Anda (1)'
+
+2019-08-20 15:34:54 - [TEST_STEP][PASSED] - delay(3, STOP_ON_FAILURE): Delayed 3 second(s)
+
+2019-08-20 15:34:57 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-08-20 15:34:57 - [TEST_STEP][PASSED] - tap(findTestObject("Profile/android.widget.Button0 - KIRIM (1)"), 0): Tapped on element 'Object Repository/Profile/android.widget.Button0 - KIRIM (1)'
+
+2019-08-20 15:34:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-08-20 15:34:58 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Profile/android.widget.Button0 - KIRIM (1)'
+
+2019-08-20 15:34:58 - [TEST_STEP][PASSED] - delay(3, STOP_ON_FAILURE): Delayed 3 second(s)
+
+2019-08-20 15:35:01 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-08-20 15:35:01 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2019-08-20 15:35:03 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-08-20 15:33:39 - [TEST_SUITE][PASSED] - BeriMasukan: Test Cases/Profile/BeriMasukan]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

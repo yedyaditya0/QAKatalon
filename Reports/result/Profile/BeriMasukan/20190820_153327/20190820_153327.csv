@@ -1,0 +1,35 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+BeriMasukan,,,2019-08-20 15:33:39,2019-08-20 15:35:03,1m - 23.604s,PASSED
+,,,,,,
+Test Cases/Login/LoginTrue,,,2019-08-20 15:33:39,2019-08-20 15:34:22,43.063s,PASSED
+"startApplication(""/Users/fundtastic/Downloads/mobile-debug (dev).apk"", true)",,,2019-08-20 15:33:40,2019-08-20 15:33:54,14.751s,PASSED
+"verifyElementText(findTestObject(""LoginTrue/Mulailah berinvestasi untuk meraih mimpimu""), ""Mulailah berinvestasi untuk meraih mimpimu"")",,,2019-08-20 15:33:54,2019-08-20 15:33:59,4.447s,PASSED
+"for ([i = 0, i < 4, (i++)])",,,2019-08-20 15:33:59,2019-08-20 15:34:15,16.088s,PASSED
+"setText(findTestObject(""LoginTrue/field_no_phone""), ""08777111777"", 0)",,,2019-08-20 15:34:15,2019-08-20 15:34:16,1.326s,PASSED
+"tap(findTestObject(""LoginTrue/button_masuk""), 0)",,,2019-08-20 15:34:16,2019-08-20 15:34:18,1.916s,PASSED
+"delay(3, STOP_ON_FAILURE)",,,2019-08-20 15:34:18,2019-08-20 15:34:21,3.023s,PASSED
+"verifyElementText(findTestObject(""ObjectOTP/TextView - Verifikasi Nomor HP""), ""Verifikasi Nomor HP"")",,,2019-08-20 15:34:21,2019-08-20 15:34:21,0.147s,PASSED
+"delay(1, STOP_ON_FAILURE)",,,2019-08-20 15:34:21,2019-08-20 15:34:22,1.005s,PASSED
+,,,,,,
+Test Cases/OTP/LoginOTP,,,2019-08-20 15:34:22,2019-08-20 15:34:32,9.132s,PASSED
+"delay(3, STOP_ON_FAILURE)",,,2019-08-20 15:34:23,2019-08-20 15:34:26,3.005s,PASSED
+"tap(findTestObject(""ObjectOTP/Field_OTP""), 0)",,,2019-08-20 15:34:26,2019-08-20 15:34:27,1.530s,PASSED
+"setText(findTestObject(""ObjectOTP/Field_OTP""), ""8888"", 0)",,,2019-08-20 15:34:27,2019-08-20 15:34:28,1.046s,PASSED
+"delay(2, STOP_ON_FAILURE)",,,2019-08-20 15:34:28,2019-08-20 15:34:30,2.002s,PASSED
+"tap(findTestObject(""ObjectOTP/Btn_Verifikasi1""), 0)",,,2019-08-20 15:34:30,2019-08-20 15:34:32,1.414s,PASSED
+,,,,,,
+Test Cases/Profile/BeriMasukan,,,2019-08-20 15:34:32,2019-08-20 15:35:03,31.142s,PASSED
+"delay(3, STOP_ON_FAILURE)",,,2019-08-20 15:34:32,2019-08-20 15:34:35,3.004s,PASSED
+"tap(findTestObject(""Profile/android.widget.FrameLayout14 (1)""), 0)",,,2019-08-20 15:34:35,2019-08-20 15:34:37,2.593s,PASSED
+"delay(3, STOP_ON_FAILURE)",,,2019-08-20 15:34:37,2019-08-20 15:34:40,3.003s,PASSED
+"tap(findTestObject(""Profile/android.widget.LinearLayout8""), 0)",,,2019-08-20 15:34:40,2019-08-20 15:34:41,1.012s,PASSED
+"delay(3, STOP_ON_FAILURE)",,,2019-08-20 15:34:41,2019-08-20 15:34:44,3.004s,PASSED
+"setText(findTestObject(""Profile/android.widget.EditText0 - Nama Lengkap (1)""), ""Aji Kurnia Putra"", 0)",,,2019-08-20 15:34:44,2019-08-20 15:34:46,1.224s,PASSED
+"delay(3, STOP_ON_FAILURE)",,,2019-08-20 15:34:46,2019-08-20 15:34:49,3.005s,PASSED
+"setText(findTestObject(""Profile/android.widget.EditText1 - Email (1)""), ""ajikurniaputra84@gmail.com"", 0)",,,2019-08-20 15:34:49,2019-08-20 15:34:50,1.201s,PASSED
+"delay(3, STOP_ON_FAILURE)",,,2019-08-20 15:34:50,2019-08-20 15:34:53,3.004s,PASSED
+"setText(findTestObject(""Profile/android.widget.EditText2 - Masukan Pesan Anda (1)""), ""tes "", 0)",,,2019-08-20 15:34:53,2019-08-20 15:34:54,1.206s,PASSED
+"delay(3, STOP_ON_FAILURE)",,,2019-08-20 15:34:54,2019-08-20 15:34:57,3.004s,PASSED
+"tap(findTestObject(""Profile/android.widget.Button0 - KIRIM (1)""), 0)",,,2019-08-20 15:34:57,2019-08-20 15:34:58,0.884s,PASSED
+"delay(3, STOP_ON_FAILURE)",,,2019-08-20 15:34:58,2019-08-20 15:35:01,3.005s,PASSED
+closeApplication(),,,2019-08-20 15:35:01,2019-08-20 15:35:03,1.837s,PASSED
